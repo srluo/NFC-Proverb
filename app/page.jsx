@@ -6,6 +6,7 @@ export default function HomePage() {
   const [proverb, setProverb] = useState(null);
   const [error, setError] = useState(null);
   const [mode, setMode] = useState("daily");
+  const [randomInfo, setRandomInfo] = useState(null);
 
   useEffect(() => {
     async function fetchProverb() {
@@ -30,13 +31,17 @@ export default function HomePage() {
           return;
         }
 
-        // 📌 檢查模式
         setMode(data.mode || "daily");
 
         // 📌 一般模式要檢查 RLC，隨機模式不用
         if (ts !== "00000000" && data.signature.toLowerCase() !== rlc.toLowerCase()) {
           setError("⚠️ 重新感應 NFC TAG");
           return;
+        }
+
+        // 📌 隨機模式 → 顯示 debug 區塊
+        if (data.mode === "random" && typeof data.randomIndex !== "undefined") {
+          setRandomInfo(`隨機模式抽到第 ${data.randomIndex} 筆 (${data.date})`);
         }
 
         setProverb(data.proverb);
@@ -65,7 +70,10 @@ export default function HomePage() {
       />
 
       <h1 style={{ marginBottom: "1.5rem", color: "#4a2f00" }}>
-        📖 今日箴言 {mode === "random" && <span style={{ fontSize: "1rem", color: "#666" }}>（隨機抽取）</span>}
+        📖 今日箴言{" "}
+        {mode === "random" && (
+          <span style={{ fontSize: "1rem", color: "#666" }}>（隨機抽取）</span>
+        )}
       </h1>
 
       {error && <p style={{ color: "red", fontSize: "1.2rem" }}>{error}</p>}
@@ -99,15 +107,3 @@ export default function HomePage() {
               style={{
                 marginTop: "0.5rem",
                 fontSize: "0.9rem",
-                color: "#555",
-                fontStyle: "italic",
-              }}
-            >
-              👉 {proverb.explanation}
-            </p>
-          )}
-        </blockquote>
-      )}
-    </div>
-  );
-}
