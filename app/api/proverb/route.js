@@ -33,30 +33,32 @@ export async function GET(request) {
   }
 
   try {
-    let rlc = "";
-    let verified = true; // 預設通過
-
-    if (ts !== "00001111") {
-      // ✅ 一般模式才做 RLC 驗證
-      rlc = sign({ uid: uid.toUpperCase(), ts: ts.toUpperCase() });
-
-      if (tokenRlc && rlc.toLowerCase() !== tokenRlc.toLowerCase()) {
-        return new Response(JSON.stringify({ error: "RLC 驗證失敗，請重新感應" }), { status: 403 });
-      }
-
-      verified = !tokenRlc || rlc.toLowerCase() === tokenRlc.toLowerCase();
-    }
-
-    // 📌 判斷日期 key
-    let key;
-    if (ts === "00001111") {
+    // 📌 特殊模式：TS=00000000 → 隨機抽取，跳過 RLC
+    if (ts === "00000000") {
       const keys = Object.keys(proverbs);
       const randomIndex = Math.floor(Math.random() * keys.length);
-      key = keys[randomIndex];
-    } else {
-      key = todayKeyTaipei();
+      const key = keys[randomIndex];
+
+      return new Response(
+        JSON.stringify({
+          date: key,
+          proverb: proverbs[key],
+          signature: "RANDOMMODE",
+          verified: true,
+          mode: "random",
+        }),
+        { status: 200, headers: { "Content-Type": "application/json" } }
+      );
     }
 
+    // 📌 一般模式
+    const rlc = sign({ uid: uid.toUpperCase(), ts: ts.toUpperCase() });
+
+    if (tokenRlc && rlc.toLowerCase() !== tokenRlc.toLowerCase()) {
+      return new Response(JSON.stringify({ error: "RLC 驗證失敗，請重新感應" }), { status: 403 });
+    }
+
+    const key = todayKeyTaipei();
     const proverb = proverbs[key] || {
       zh: "沒有找到今日箴言。",
       en: "",
@@ -70,8 +72,8 @@ export async function GET(request) {
         date: key,
         proverb,
         signature: rlc,
-        verified,
-        mode: ts === "00001111" ? "random" : "daily", // 📌 新增 mode 提示
+        verified: !tokenRlc || rlc.toLowerCase() === tokenRlc.toLowerCase(),
+        mode: "daily",
       }),
       { status: 200, headers: { "Content-Type": "application/json" } }
     );
