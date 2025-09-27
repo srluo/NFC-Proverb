@@ -1,3296 +1,2930 @@
-[
-  {
-    "date": "01-01",
-    "theme_id": 1,
-    "theme_name": "開始與勇氣",
-    "quote_zh": "成為你希望在世界上看到的改變。",
-    "quote_en": "Be the change you wish to see in the world.",
+{
+  "01-01": {
+    "zh": "成為你希望在世界上看到的改變。",
+    "en": "Be the change you wish to see in the world.",
     "author": "甘地 (Mahatma Gandhi)",
-    "interpretation": "新的開始先從自己做起，勇氣會帶來影響力。"
-  },
-  {
-    "date": "01-02",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "不要等待，時機永遠不會完美。",
-    "quote_en": "Do not wait; the time will never be ‘just right’.",
+    "explanation": "新的開始先從自己做起，勇氣會帶來影響力。"
+  },
+  "01-02": {
+    "zh": "不要等待，時機永遠不會完美。",
+    "en": "Do not wait; the time will never be ‘just right’.",
     "author": "拿破崙·希爾 (Napoleon Hill)",
-    "interpretation": "行動比等待更重要，開始的那一刻就是最好的時刻。"
-  },
-  {
-    "date": "01-03",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "千里之行，始於足下。",
-    "quote_en": "A journey of a thousand miles begins with a single step.",
-    "author": "老子 (Lao Tzu)",
-    "interpretation": "再大的夢想，也需要勇敢邁出第一步。"
+    "explanation": "行動比等待更重要，開始的那一刻就是最好的時刻。"
   },
-  {
-    "date": "01-04",
-    "theme_id": 2,
-    "theme_name": "愛與關係",
-    "quote_zh": "愛不是彼此凝視，而是共同朝著同一方向看。",
-    "quote_en": "Love does not consist in gazing at each other, but in looking outward together in the same direction.",
+  "01-03": {
+    "zh": "千里之行，始於足下。",
+    "en": "A journey of a thousand miles begins with a single step.",
+    "author": "老子 (Lao Tzu)",
+    "theme_id": 1,
+    "theme_name": "開始與勇氣",
+    "explanation": "再大的夢想，也需要勇敢邁出第一步。"
+  },
+  "01-04": {
+    "zh": "愛不是彼此凝視，而是共同朝著同一方向看。",
+    "en": "Love does not consist in gazing at each other, but in looking outward together in the same direction.",
     "author": "聖修伯里 (Antoine de Saint-Exupéry)",
-    "interpretation": "真愛是攜手並肩，而不是單純依附。"
-  },
-  {
-    "date": "01-05",
     "theme_id": 2,
     "theme_name": "愛與關係",
-    "quote_zh": "被人深愛會給你力量，深愛一個人會給你勇氣。",
-    "quote_en": "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.",
+    "explanation": "真愛是攜手並肩，而不是單純依附。"
+  },
+  "01-05": {
+    "zh": "被人深愛會給你力量，深愛一個人會給你勇氣。",
+    "en": "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.",
     "author": "老子 (Lao Tzu)",
-    "interpretation": "愛既是力量，也是勇氣。"
-  },
-  {
-    "date": "01-06",
     "theme_id": 2,
     "theme_name": "愛與關係",
-    "quote_zh": "愛是唯一能將敵人變成朋友的力量。",
-    "quote_en": "Love is the only force capable of transforming an enemy into a friend.",
-    "author": "馬丁·路德·金 (Martin Luther King Jr.)",
-    "interpretation": "真正的愛能超越對立，帶來和解。"
+    "explanation": "愛既是力量，也是勇氣。"
   },
-  {
-    "date": "01-07",
-    "theme_id": 3,
-    "theme_name": "學習與成長",
-    "quote_zh": "知識就是力量。",
-    "quote_en": "Knowledge is power.",
+  "01-06": {
+    "zh": "愛是唯一能將敵人變成朋友的力量。",
+    "en": "Love is the only force capable of transforming an enemy into a friend.",
+    "author": "馬丁·路德·金 (Martin Luther King Jr.)",
+    "theme_id": 2,
+    "theme_name": "愛與關係",
+    "explanation": "真正的愛能超越對立，帶來和解。"
+  },
+  "01-07": {
+    "zh": "知識就是力量。",
+    "en": "Knowledge is power.",
     "author": "法蘭西斯·培根 (Francis Bacon)",
-    "interpretation": "學習讓你更有底氣面對挑戰。"
-  },
-  {
-    "date": "01-08",
     "theme_id": 3,
     "theme_name": "學習與成長",
-    "quote_zh": "學而不思則罔，思而不學則殆。",
-    "quote_en": "Learning without thought is labor lost; thought without learning is perilous.",
+    "explanation": "學習讓你更有底氣面對挑戰。"
+  },
+  "01-08": {
+    "zh": "學而不思則罔，思而不學則殆。",
+    "en": "Learning without thought is labor lost; thought without learning is perilous.",
     "author": "孔子 (Confucius)",
-    "interpretation": "學習需要思考，思考需要學習，兩者缺一不可。"
-  },
-  {
-    "date": "01-09",
     "theme_id": 3,
     "theme_name": "學習與成長",
-    "quote_zh": "教育的目的在於培養能夠思考的人。",
-    "quote_en": "The aim of education is the knowledge not of facts but of values.",
+    "explanation": "學習需要思考，思考需要學習，兩者缺一不可。"
+  },
+  "01-09": {
+    "zh": "教育的目的在於培養能夠思考的人。",
+    "en": "The aim of education is the knowledge not of facts but of values.",
     "author": "威廉·S·巴克利 (William S. Burroughs)",
-    "interpretation": "教育的核心在於培養判斷力與價值觀。"
+    "theme_id": 3,
+    "theme_name": "學習與成長",
+    "explanation": "教育的核心在於培養判斷力與價值觀。"
   },
-  {
-    "date": "01-10",
-    "theme_id": 4,
-    "theme_name": "信念與希望",
-    "quote_zh": "信念就是在你看不到整段樓梯時，仍然邁出第一步。",
-    "quote_en": "Faith is taking the first step even when you don’t see the whole staircase.",
+  "01-10": {
+    "zh": "信念就是在你看不到整段樓梯時，仍然邁出第一步。",
+    "en": "Faith is taking the first step even when you don’t see the whole staircase.",
     "author": "馬丁·路德·金 (Martin Luther King Jr.)",
-    "interpretation": "即使未來不明朗，也要勇敢開始。"
-  },
-  {
-    "date": "01-11",
     "theme_id": 4,
     "theme_name": "信念與希望",
-    "quote_zh": "希望是靈魂的支柱。",
-    "quote_en": "Hope is the pillar of the soul.",
+    "explanation": "即使未來不明朗，也要勇敢開始。"
+  },
+  "01-11": {
+    "zh": "希望是靈魂的支柱。",
+    "en": "Hope is the pillar of the soul.",
     "author": "普魯塔克 (Plutarch)",
-    "interpretation": "在困境中，保持希望就是力量。"
-  },
-  {
-    "date": "01-12",
     "theme_id": 4,
     "theme_name": "信念與希望",
-    "quote_zh": "不要因為一時的黑暗，忘記星辰依然存在。",
-    "quote_en": "It is often in the darkest skies that we see the brightest stars.",
+    "explanation": "在困境中，保持希望就是力量。"
+  },
+  "01-12": {
+    "zh": "不要因為一時的黑暗，忘記星辰依然存在。",
+    "en": "It is often in the darkest skies that we see the brightest stars.",
     "author": "理查德·埃文斯 (Richard Evans)",
-    "interpretation": "黑夜終將過去，星光仍會閃耀。"
+    "theme_id": 4,
+    "theme_name": "信念與希望",
+    "explanation": "黑夜終將過去，星光仍會閃耀。"
   },
-  {
-    "date": "01-13",
-    "theme_id": 5,
-    "theme_name": "行動與堅持",
-    "quote_zh": "成功不是終點，失敗也非末日，最重要的是繼續的勇氣。",
-    "quote_en": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+  "01-13": {
+    "zh": "成功不是終點，失敗也非末日，最重要的是繼續的勇氣。",
+    "en": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
     "author": "邱吉爾 (Winston Churchill)",
-    "interpretation": "關鍵不在於輸贏，而在於能否持續。"
-  },
-  {
-    "date": "01-14",
     "theme_id": 5,
     "theme_name": "行動與堅持",
-    "quote_zh": "我走得很慢，但我從不後退。",
-    "quote_en": "I am a slow walker, but I never walk back.",
+    "explanation": "關鍵不在於輸贏，而在於能否持續。"
+  },
+  "01-14": {
+    "zh": "我走得很慢，但我從不後退。",
+    "en": "I am a slow walker, but I never walk back.",
     "author": "林肯 (Abraham Lincoln)",
-    "interpretation": "再慢也要前進，堅持就是勝利。"
-  },
-  {
-    "date": "01-15",
     "theme_id": 5,
     "theme_name": "行動與堅持",
-    "quote_zh": "恆心是勝利的基石。",
-    "quote_en": "Perseverance is the hard work you do after you get tired of doing the hard work you already did.",
+    "explanation": "再慢也要前進，堅持就是勝利。"
+  },
+  "01-15": {
+    "zh": "恆心是勝利的基石。",
+    "en": "Perseverance is the hard work you do after you get tired of doing the hard work you already did.",
     "author": "紐特·金里奇 (Newt Gingrich)",
-    "interpretation": "只要堅持不懈，就能達成目標。"
+    "theme_id": 5,
+    "theme_name": "行動與堅持",
+    "explanation": "只要堅持不懈，就能達成目標。"
   },
-  {
-    "date": "01-16",
-    "theme_id": 6,
-    "theme_name": "感恩與謙卑",
-    "quote_zh": "感恩讓我們所擁有的變得足夠。",
-    "quote_en": "Gratitude turns what we have into enough.",
+  "01-16": {
+    "zh": "感恩讓我們所擁有的變得足夠。",
+    "en": "Gratitude turns what we have into enough.",
     "author": "梅洛迪·比提 (Melody Beattie)",
-    "interpretation": "懷抱感恩，生活會更豐盛。"
-  },
-  {
-    "date": "01-17",
     "theme_id": 6,
     "theme_name": "感恩與謙卑",
-    "quote_zh": "謙卑不是貶低自己，而是少想自己。",
-    "quote_en": "Humility is not thinking less of yourself, it’s thinking of yourself less.",
+    "explanation": "懷抱感恩，生活會更豐盛。"
+  },
+  "01-17": {
+    "zh": "謙卑不是貶低自己，而是少想自己。",
+    "en": "Humility is not thinking less of yourself, it’s thinking of yourself less.",
     "author": "C.S. 路易斯 (C.S. Lewis)",
-    "interpretation": "謙卑讓人看得更遠，心胸更廣。"
-  },
-  {
-    "date": "01-18",
     "theme_id": 6,
     "theme_name": "感恩與謙卑",
-    "quote_zh": "凡事感恩，心就不會貧乏。",
-    "quote_en": "In all things, give thanks.",
+    "explanation": "謙卑讓人看得更遠，心胸更廣。"
+  },
+  "01-18": {
+    "zh": "凡事感恩，心就不會貧乏。",
+    "en": "In all things, give thanks.",
     "author": "《聖經》 (The Bible)",
-    "interpretation": "用感恩取代抱怨，會更快樂。"
+    "theme_id": 6,
+    "theme_name": "感恩與謙卑",
+    "explanation": "用感恩取代抱怨，會更快樂。"
   },
-  {
-    "date": "01-19",
-    "theme_id": 7,
-    "theme_name": "創造與想像",
-    "quote_zh": "想像力比知識更重要。",
-    "quote_en": "Imagination is more important than knowledge.",
+  "01-19": {
+    "zh": "想像力比知識更重要。",
+    "en": "Imagination is more important than knowledge.",
     "author": "愛因斯坦 (Albert Einstein)",
-    "interpretation": "創造力是推動未來的核心。"
-  },
-  {
-    "date": "01-20",
     "theme_id": 7,
     "theme_name": "創造與想像",
-    "quote_zh": "創造力需要勇氣。",
-    "quote_en": "Creativity takes courage.",
+    "explanation": "創造力是推動未來的核心。"
+  },
+  "01-20": {
+    "zh": "創造力需要勇氣。",
+    "en": "Creativity takes courage.",
     "author": "亨利·馬蒂斯 (Henri Matisse)",
-    "interpretation": "勇於嘗試，才有創造的可能。"
-  },
-  {
-    "date": "01-21",
     "theme_id": 7,
     "theme_name": "創造與想像",
-    "quote_zh": "藝術是讓人看見世界的另一種方式。",
-    "quote_en": "Art is the lie that enables us to realize the truth.",
-    "author": "畢卡索 (Pablo Picasso)",
-    "interpretation": "創造力打開理解世界的窗口。"
+    "explanation": "勇於嘗試，才有創造的可能。"
   },
-  {
-    "date": "01-22",
-    "theme_id": 8,
-    "theme_name": "自由與夢想",
-    "quote_zh": "自由不是沒有約束，而是選擇的能力。",
-    "quote_en": "Freedom is nothing else but a chance to be better.",
+  "01-21": {
+    "zh": "藝術是讓人看見世界的另一種方式。",
+    "en": "Art is the lie that enables us to realize the truth.",
+    "author": "畢卡索 (Pablo Picasso)",
+    "theme_id": 7,
+    "theme_name": "創造與想像",
+    "explanation": "創造力打開理解世界的窗口。"
+  },
+  "01-22": {
+    "zh": "自由不是沒有約束，而是選擇的能力。",
+    "en": "Freedom is nothing else but a chance to be better.",
     "author": "加繆 (Albert Camus)",
-    "interpretation": "真正的自由來自於負責任的選擇。"
-  },
-  {
-    "date": "01-23",
     "theme_id": 8,
     "theme_name": "自由與夢想",
-    "quote_zh": "夢想不會逃跑，逃跑的只有自己。",
-    "quote_en": "Dreams don’t work unless you do.",
+    "explanation": "真正的自由來自於負責任的選擇。"
+  },
+  "01-23": {
+    "zh": "夢想不會逃跑，逃跑的只有自己。",
+    "en": "Dreams don’t work unless you do.",
     "author": "約翰·C·麥斯威爾 (John C. Maxwell)",
-    "interpretation": "只要不放棄，夢想永遠在等你。"
-  },
-  {
-    "date": "01-24",
     "theme_id": 8,
     "theme_name": "自由與夢想",
-    "quote_zh": "未來屬於那些相信夢想之美的人。",
-    "quote_en": "The future belongs to those who believe in the beauty of their dreams.",
+    "explanation": "只要不放棄，夢想永遠在等你。"
+  },
+  "01-24": {
+    "zh": "未來屬於那些相信夢想之美的人。",
+    "en": "The future belongs to those who believe in the beauty of their dreams.",
     "author": "艾莉諾·羅斯福 (Eleanor Roosevelt)",
-    "interpretation": "夢想會為你指引方向。"
+    "theme_id": 8,
+    "theme_name": "自由與夢想",
+    "explanation": "夢想會為你指引方向。"
   },
-  {
-    "date": "01-25",
-    "theme_id": 9,
-    "theme_name": "平靜與智慧",
-    "quote_zh": "平靜不是避開風暴，而是在風暴中保持安寧。",
-    "quote_en": "Peace is not the absence of storm, but the presence of calm within.",
+  "01-25": {
+    "zh": "平靜不是避開風暴，而是在風暴中保持安寧。",
+    "en": "Peace is not the absence of storm, but the presence of calm within.",
     "author": "托馬斯·富勒 (Thomas Fuller)",
-    "interpretation": "面對困境時，選擇冷靜就是智慧。"
-  },
-  {
-    "date": "01-26",
     "theme_id": 9,
     "theme_name": "平靜與智慧",
-    "quote_zh": "認識自己是所有智慧的開端。",
-    "quote_en": "Knowing yourself is the beginning of all wisdom.",
+    "explanation": "面對困境時，選擇冷靜就是智慧。"
+  },
+  "01-26": {
+    "zh": "認識自己是所有智慧的開端。",
+    "en": "Knowing yourself is the beginning of all wisdom.",
     "author": "亞里斯多德 (Aristotle)",
-    "interpretation": "自我覺察是智慧的第一步。"
-  },
-  {
-    "date": "01-27",
     "theme_id": 9,
     "theme_name": "平靜與智慧",
-    "quote_zh": "真正的智慧，是懂得什麼時候該放下。",
-    "quote_en": "The art of being wise is the art of knowing what to overlook.",
+    "explanation": "自我覺察是智慧的第一步。"
+  },
+  "01-27": {
+    "zh": "真正的智慧，是懂得什麼時候該放下。",
+    "en": "The art of being wise is the art of knowing what to overlook.",
     "author": "威廉·詹姆士 (William James)",
-    "interpretation": "有選擇地專注，才能走得更遠。"
+    "theme_id": 9,
+    "theme_name": "平靜與智慧",
+    "explanation": "有選擇地專注，才能走得更遠。"
   },
-  {
-    "date": "01-28",
-    "theme_id": 10,
-    "theme_name": "服務與影響",
-    "quote_zh": "人生最持久且緊迫的問題是：你為他人做了什麼？",
-    "quote_en": "Life’s most persistent and urgent question is: What are you doing for others?",
+  "01-28": {
+    "zh": "人生最持久且緊迫的問題是：你為他人做了什麼？",
+    "en": "Life’s most persistent and urgent question is: What are you doing for others?",
     "author": "馬丁·路德·金 (Martin Luther King Jr.)",
-    "interpretation": "真正的價值在於能否帶來幫助。"
-  },
-  {
-    "date": "01-29",
     "theme_id": 10,
     "theme_name": "服務與影響",
-    "quote_zh": "找到自己最好的方式是投身於服務他人。",
-    "quote_en": "The best way to find yourself is to lose yourself in the service of others.",
+    "explanation": "真正的價值在於能否帶來幫助。"
+  },
+  "01-29": {
+    "zh": "找到自己最好的方式是投身於服務他人。",
+    "en": "The best way to find yourself is to lose yourself in the service of others.",
     "author": "甘地 (Mahatma Gandhi)",
-    "interpretation": "服務他人能讓自己更完整。"
-  },
-  {
-    "date": "01-30",
     "theme_id": 10,
     "theme_name": "服務與影響",
-    "quote_zh": "一個人的價值，在於他能貢獻什麼，而不是他能獲得什麼。",
-    "quote_en": "The value of a man resides in what he gives, not in what he is capable of receiving.",
+    "explanation": "服務他人能讓自己更完整。"
+  },
+  "01-30": {
+    "zh": "一個人的價值，在於他能貢獻什麼，而不是他能獲得什麼。",
+    "en": "The value of a man resides in what he gives, not in what he is capable of receiving.",
     "author": "愛因斯坦 (Albert Einstein)",
-    "interpretation": "真正的影響力來自於分享與貢獻。"
+    "theme_id": 10,
+    "theme_name": "服務與影響",
+    "explanation": "真正的影響力來自於分享與貢獻。"
   },
-  {
-    "date": "01-31",
-    "theme_id": 1,
-    "theme_name": "開始與勇氣",
-    "quote_zh": "真正的勇氣不是沒有恐懼，而是帶著恐懼仍然前進。",
-    "quote_en": "Courage is not the absence of fear, but the triumph over it.",
+  "01-31": {
+    "zh": "真正的勇氣不是沒有恐懼，而是帶著恐懼仍然前進。",
+    "en": "Courage is not the absence of fear, but the triumph over it.",
     "author": "納爾遜·曼德拉 (Nelson Mandela)",
-    "interpretation": "害怕沒關係，重點是不要被恐懼綁住。"
-  },
-  {
-    "date": "02-01",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "勇氣並非沒有恐懼，而是決定恐懼不會阻止你。",
-    "quote_en": "Courage is not the absence of fear, but rather the judgment that something else is more important than fear.",
+    "explanation": "害怕沒關係，重點是不要被恐懼綁住。"
+  },
+  "02-01": {
+    "zh": "勇氣並非沒有恐懼，而是決定恐懼不會阻止你。",
+    "en": "Courage is not the absence of fear, but rather the judgment that something else is more important than fear.",
     "author": "安布羅斯·雷德蒙 (Ambrose Redmoon)",
-    "interpretation": "勇氣不是不害怕，而是帶著害怕仍然行動。"
-  },
-  {
-    "date": "02-02",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "每一個新的開始，來自另一個開始的結束。",
-    "quote_en": "Every new beginning comes from some other beginning’s end.",
+    "explanation": "勇氣不是不害怕，而是帶著害怕仍然行動。"
+  },
+  "02-02": {
+    "zh": "每一個新的開始，來自另一個開始的結束。",
+    "en": "Every new beginning comes from some other beginning’s end.",
     "author": "塞內卡 (Seneca)",
-    "interpretation": "結束不是終點，而是新的起點。"
-  },
-  {
-    "date": "02-03",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "開始就是成功的一半。",
-    "quote_en": "Well begun is half done.",
+    "explanation": "結束不是終點，而是新的起點。"
+  },
+  "02-03": {
+    "zh": "開始就是成功的一半。",
+    "en": "Well begun is half done.",
     "author": "亞里斯多德 (Aristotle)",
-    "interpretation": "有勇氣開始，就已經贏了一半。"
+    "theme_id": 1,
+    "theme_name": "開始與勇氣",
+    "explanation": "有勇氣開始，就已經贏了一半。"
   },
-  {
-    "date": "02-04",
-    "theme_id": 2,
-    "theme_name": "愛與關係",
-    "quote_zh": "愛是理解與接納的藝術。",
-    "quote_en": "Love is the art of understanding and acceptance.",
+  "02-04": {
+    "zh": "愛是理解與接納的藝術。",
+    "en": "Love is the art of understanding and acceptance.",
     "author": "不詳 (Anonymous)",
-    "interpretation": "愛需要包容彼此的不完美。"
-  },
-  {
-    "date": "02-05",
     "theme_id": 2,
     "theme_name": "愛與關係",
-    "quote_zh": "最好的關係是彼此成就，而不是彼此消耗。",
-    "quote_en": "The best relationships are those where both people bring out the best in each other.",
+    "explanation": "愛需要包容彼此的不完美。"
+  },
+  "02-05": {
+    "zh": "最好的關係是彼此成就，而不是彼此消耗。",
+    "en": "The best relationships are those where both people bring out the best in each other.",
     "author": "不詳 (Anonymous)",
-    "interpretation": "健康的愛情是相互滋養。"
-  },
-  {
-    "date": "02-06",
     "theme_id": 2,
     "theme_name": "愛與關係",
-    "quote_zh": "愛是唯一能將敵人變成朋友的力量。",
-    "quote_en": "Love is the only force capable of transforming an enemy into a friend.",
+    "explanation": "健康的愛情是相互滋養。"
+  },
+  "02-06": {
+    "zh": "愛是唯一能將敵人變成朋友的力量。",
+    "en": "Love is the only force capable of transforming an enemy into a friend.",
     "author": "馬丁·路德·金 (Martin Luther King Jr.)",
-    "interpretation": "真正的愛能超越對立，帶來和解。"
+    "theme_id": 2,
+    "theme_name": "愛與關係",
+    "explanation": "真正的愛能超越對立，帶來和解。"
   },
-  {
-    "date": "02-07",
-    "theme_id": 3,
-    "theme_name": "學習與成長",
-    "quote_zh": "學習永遠不嫌晚。",
-    "quote_en": "It is never too late to learn.",
+  "02-07": {
+    "zh": "學習永遠不嫌晚。",
+    "en": "It is never too late to learn.",
     "author": "不詳 (Anonymous)",
-    "interpretation": "成長是一生的旅程，隨時都能開始。"
-  },
-  {
-    "date": "02-08",
     "theme_id": 3,
     "theme_name": "學習與成長",
-    "quote_zh": "犯錯是學習的一部分。",
-    "quote_en": "Mistakes are proof that you are trying.",
+    "explanation": "成長是一生的旅程，隨時都能開始。"
+  },
+  "02-08": {
+    "zh": "犯錯是學習的一部分。",
+    "en": "Mistakes are proof that you are trying.",
     "author": "詹姆斯·喬伊斯 (James Joyce)",
-    "interpretation": "錯誤是前進的證明，不必害怕。"
-  },
-  {
-    "date": "02-09",
     "theme_id": 3,
     "theme_name": "學習與成長",
-    "quote_zh": "教育的根是苦的，但果實是甜的。",
-    "quote_en": "The roots of education are bitter, but the fruit is sweet.",
+    "explanation": "錯誤是前進的證明，不必害怕。"
+  },
+  "02-09": {
+    "zh": "教育的根是苦的，但果實是甜的。",
+    "en": "The roots of education are bitter, but the fruit is sweet.",
     "author": "亞里斯多德 (Aristotle)",
-    "interpretation": "學習過程艱辛，但成果值得期待。"
+    "theme_id": 3,
+    "theme_name": "學習與成長",
+    "explanation": "學習過程艱辛，但成果值得期待。"
   },
-  {
-    "date": "02-10",
-    "theme_id": 4,
-    "theme_name": "信念與希望",
-    "quote_zh": "知之者不如好之者，好之者不如樂之者。",
-    "quote_en": "The man who moves a mountain begins by carrying away small stones.",
+  "02-10": {
+    "zh": "知之者不如好之者，好之者不如樂之者。",
+    "en": "The man who moves a mountain begins by carrying away small stones.",
     "author": "孔子 (Confucius)",
-    "interpretation": "真正的學習來自於熱愛與持續。"
-  },
-  {
-    "date": "02-11",
     "theme_id": 4,
     "theme_name": "信念與希望",
-    "quote_zh": "信念能移山。",
-    "quote_en": "Faith can move mountains.",
+    "explanation": "真正的學習來自於熱愛與持續。"
+  },
+  "02-11": {
+    "zh": "信念能移山。",
+    "en": "Faith can move mountains.",
     "author": "《聖經》 (The Bible)",
-    "interpretation": "相信的力量能突破一切障礙。"
-  },
-  {
-    "date": "02-12",
     "theme_id": 4,
     "theme_name": "信念與希望",
-    "quote_zh": "希望讓我們在困難中堅持下去。",
-    "quote_en": "Hope keeps us going in tough times.",
+    "explanation": "相信的力量能突破一切障礙。"
+  },
+  "02-12": {
+    "zh": "希望讓我們在困難中堅持下去。",
+    "en": "Hope keeps us going in tough times.",
     "author": "托馬斯·富勒 (Thomas Fuller)",
-    "interpretation": "懷抱希望，才能走過艱難。"
+    "theme_id": 4,
+    "theme_name": "信念與希望",
+    "explanation": "懷抱希望，才能走過艱難。"
   },
-  {
-    "date": "02-13",
-    "theme_id": 5,
-    "theme_name": "行動與堅持",
-    "quote_zh": "行動是成功的基礎。",
-    "quote_en": "Action is the foundational key to all success.",
+  "02-13": {
+    "zh": "行動是成功的基礎。",
+    "en": "Action is the foundational key to all success.",
     "author": "畢卡索 (Pablo Picasso)",
-    "interpretation": "沒有行動，再多想法也只是空想。"
-  },
-  {
-    "date": "02-14",
     "theme_id": 5,
     "theme_name": "行動與堅持",
-    "quote_zh": "持之以恆，比一時的努力更有力量。",
-    "quote_en": "Energy and persistence conquer all things.",
+    "explanation": "沒有行動，再多想法也只是空想。"
+  },
+  "02-14": {
+    "zh": "持之以恆，比一時的努力更有力量。",
+    "en": "Energy and persistence conquer all things.",
     "author": "富蘭克林 (Benjamin Franklin)",
-    "interpretation": "長久的堅持才能帶來改變。"
-  },
-  {
-    "date": "02-15",
     "theme_id": 5,
     "theme_name": "行動與堅持",
-    "quote_zh": "知之者不如好之者，好之者不如樂之者。",
-    "quote_en": "The man who moves a mountain begins by carrying away small stones.",
-    "author": "孔子 (Confucius)",
-    "interpretation": "真正的學習來自於熱愛與持續。"
+    "explanation": "長久的堅持才能帶來改變。"
   },
-  {
-    "date": "02-16",
+  "02-15": {
+    "zh": "知之者不如好之者，好之者不如樂之者。",
+    "en": "The man who moves a mountain begins by carrying away small stones.",
+    "author": "孔子 (Confucius)",
+    "theme_id": 5,
+    "theme_name": "行動與堅持",
+    "explanation": "真正的學習來自於熱愛與持續。"
+  },
+  "02-16": {
+    "zh": "知之者不如好之者，好之者不如樂之者。",
+    "en": "The man who moves a mountain begins by carrying away small stones.",
+    "author": "孔子 (Confucius)",
     "theme_id": 6,
     "theme_name": "感恩與謙卑",
-    "quote_zh": "知之者不如好之者，好之者不如樂之者。",
-    "quote_en": "The man who moves a mountain begins by carrying away small stones.",
-    "author": "孔子 (Confucius)",
-    "interpretation": "真正的學習來自於熱愛與持續。"
+    "explanation": "真正的學習來自於熱愛與持續。"
   },
-  {
-    "date": "02-17",
-    "theme_id": 6,
-    "theme_name": "感恩與謙卑",
-    "quote_zh": "謙卑使人成長。",
-    "quote_en": "Humility makes one grow.",
+  "02-17": {
+    "zh": "謙卑使人成長。",
+    "en": "Humility makes one grow.",
     "author": "馬克·吐溫 (Mark Twain)",
-    "interpretation": "謙卑是進步的基礎。"
-  },
-  {
-    "date": "02-18",
     "theme_id": 6,
     "theme_name": "感恩與謙卑",
-    "quote_zh": "感謝過去，它讓你成為今天的你。",
-    "quote_en": "Be thankful for the past, it made you who you are today.",
+    "explanation": "謙卑是進步的基礎。"
+  },
+  "02-18": {
+    "zh": "感謝過去，它讓你成為今天的你。",
+    "en": "Be thankful for the past, it made you who you are today.",
     "author": "歌德 (Johann Wolfgang von Goethe)",
-    "interpretation": "過去的經驗是最好的養分。"
+    "theme_id": 6,
+    "theme_name": "感恩與謙卑",
+    "explanation": "過去的經驗是最好的養分。"
   },
-  {
-    "date": "02-19",
-    "theme_id": 7,
-    "theme_name": "創造與想像",
-    "quote_zh": "創意是智慧在玩樂。",
-    "quote_en": "Creativity is intelligence having fun.",
+  "02-19": {
+    "zh": "創意是智慧在玩樂。",
+    "en": "Creativity is intelligence having fun.",
     "author": "愛因斯坦 (Albert Einstein)",
-    "interpretation": "創造力就是帶著快樂去思考。"
-  },
-  {
-    "date": "02-20",
     "theme_id": 7,
     "theme_name": "創造與想像",
-    "quote_zh": "一個想法可以改變世界。",
-    "quote_en": "One idea can change the world.",
+    "explanation": "創造力就是帶著快樂去思考。"
+  },
+  "02-20": {
+    "zh": "一個想法可以改變世界。",
+    "en": "One idea can change the world.",
     "author": "維克多·雨果 (Victor Hugo)",
-    "interpretation": "不要小看靈感，它能翻轉未來。"
-  },
-  {
-    "date": "02-21",
     "theme_id": 7,
     "theme_name": "創造與想像",
-    "quote_zh": "想像力帶你去任何地方。",
-    "quote_en": "Imagination will take you everywhere.",
+    "explanation": "不要小看靈感，它能翻轉未來。"
+  },
+  "02-21": {
+    "zh": "想像力帶你去任何地方。",
+    "en": "Imagination will take you everywhere.",
     "author": "愛因斯坦 (Albert Einstein)",
-    "interpretation": "想像力是通往無限可能的大門。"
+    "theme_id": 7,
+    "theme_name": "創造與想像",
+    "explanation": "想像力是通往無限可能的大門。"
   },
-  {
-    "date": "02-22",
-    "theme_id": 8,
-    "theme_name": "自由與夢想",
-    "quote_zh": "知之者不如好之者，好之者不如樂之者。",
-    "quote_en": "The man who moves a mountain begins by carrying away small stones.",
+  "02-22": {
+    "zh": "知之者不如好之者，好之者不如樂之者。",
+    "en": "The man who moves a mountain begins by carrying away small stones.",
     "author": "孔子 (Confucius)",
-    "interpretation": "真正的學習來自於熱愛與持續。"
-  },
-  {
-    "date": "02-23",
     "theme_id": 8,
     "theme_name": "自由與夢想",
-    "quote_zh": "夢想是心靈的翅膀。",
-    "quote_en": "Dreams are the wings of the soul.",
+    "explanation": "真正的學習來自於熱愛與持續。"
+  },
+  "02-23": {
+    "zh": "夢想是心靈的翅膀。",
+    "en": "Dreams are the wings of the soul.",
     "author": "卡爾·榮格 (Carl Jung)",
-    "interpretation": "夢想帶領我們飛得更高。"
-  },
-  {
-    "date": "02-24",
     "theme_id": 8,
     "theme_name": "自由與夢想",
-    "quote_zh": "追逐夢想的人，永遠年輕。",
-    "quote_en": "Those who chase dreams stay forever young.",
+    "explanation": "夢想帶領我們飛得更高。"
+  },
+  "02-24": {
+    "zh": "追逐夢想的人，永遠年輕。",
+    "en": "Those who chase dreams stay forever young.",
     "author": "亨利·戴維·梭羅 (Henry David Thoreau)",
-    "interpretation": "夢想讓你保持熱情與活力。"
+    "theme_id": 8,
+    "theme_name": "自由與夢想",
+    "explanation": "夢想讓你保持熱情與活力。"
   },
-  {
-    "date": "02-25",
-    "theme_id": 9,
-    "theme_name": "平靜與智慧",
-    "quote_zh": "智慧始於驚奇。",
-    "quote_en": "Wisdom begins in wonder.",
+  "02-25": {
+    "zh": "智慧始於驚奇。",
+    "en": "Wisdom begins in wonder.",
     "author": "蘇格拉底 (Socrates)",
-    "interpretation": "保持好奇，就是智慧的開始。"
-  },
-  {
-    "date": "02-26",
     "theme_id": 9,
     "theme_name": "平靜與智慧",
-    "quote_zh": "平靜來自內心，而不是外在環境。",
-    "quote_en": "Peace comes from within, not from the outside.",
+    "explanation": "保持好奇，就是智慧的開始。"
+  },
+  "02-26": {
+    "zh": "平靜來自內心，而不是外在環境。",
+    "en": "Peace comes from within, not from the outside.",
     "author": "佛陀 (Buddha)",
-    "interpretation": "內心安定，才不會被外界左右。"
-  },
-  {
-    "date": "02-27",
     "theme_id": 9,
     "theme_name": "平靜與智慧",
-    "quote_zh": "真正的智慧，是懂得分辨什麼重要。",
-    "quote_en": "True wisdom is knowing what really matters.",
+    "explanation": "內心安定，才不會被外界左右。"
+  },
+  "02-27": {
+    "zh": "真正的智慧，是懂得分辨什麼重要。",
+    "en": "True wisdom is knowing what really matters.",
     "author": "柏拉圖 (Plato)",
-    "interpretation": "懂得取捨，才是智慧的成熟。"
+    "theme_id": 9,
+    "theme_name": "平靜與智慧",
+    "explanation": "懂得取捨，才是智慧的成熟。"
   },
-  {
-    "date": "02-28",
-    "theme_id": 10,
-    "theme_name": "服務與影響",
-    "quote_zh": "服務是愛的實踐。",
-    "quote_en": "Service is love in action.",
+  "02-28": {
+    "zh": "服務是愛的實踐。",
+    "en": "Service is love in action.",
     "author": "特蕾莎修女 (Mother Teresa)",
-    "interpretation": "服務他人就是表達愛。"
-  },
-  {
-    "date": "02-29",
     "theme_id": 10,
     "theme_name": "服務與影響",
-    "quote_zh": "一個小小的善舉，也能帶來巨大的改變。",
-    "quote_en": "A small act of kindness can bring a big change.",
-    "author": "伊索 (Aesop)",
-    "interpretation": "微小的善意會產生巨大的影響。"
+    "explanation": "服務他人就是表達愛。"
   },
-  {
-    "date": "03-01",
-    "theme_id": 1,
-    "theme_name": "開始與勇氣",
-    "quote_zh": "不要害怕慢，只要害怕停。",
-    "quote_en": "Do not fear going slowly, fear only standing still.",
+  "02-29": {
+    "zh": "一個小小的善舉，也能帶來巨大的改變。",
+    "en": "A small act of kindness can bring a big change.",
+    "author": "伊索 (Aesop)",
+    "theme_id": 10,
+    "theme_name": "服務與影響",
+    "explanation": "微小的善意會產生巨大的影響。"
+  },
+  "03-01": {
+    "zh": "不要害怕慢，只要害怕停。",
+    "en": "Do not fear going slowly, fear only standing still.",
     "author": "中國諺語 (Chinese Proverb)",
-    "interpretation": "持續前進比速度快慢更重要。"
-  },
-  {
-    "date": "03-02",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "勇氣是成功的第一步。",
-    "quote_en": "Courage is the first step to success.",
+    "explanation": "持續前進比速度快慢更重要。"
+  },
+  "03-02": {
+    "zh": "勇氣是成功的第一步。",
+    "en": "Courage is the first step to success.",
     "author": "柏拉圖 (Plato)",
-    "interpretation": "沒有勇氣，就沒有開始。"
-  },
-  {
-    "date": "03-03",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "每一個挑戰，都是新開始的契機。",
-    "quote_en": "Every challenge is an opportunity for a new beginning.",
-    "author": "不詳 (Anonymous)",
-    "interpretation": "困難往往是成長的入口。"
+    "explanation": "沒有勇氣，就沒有開始。"
   },
-  {
-    "date": "03-04",
+  "03-03": {
+    "zh": "每一個挑戰，都是新開始的契機。",
+    "en": "Every challenge is an opportunity for a new beginning.",
+    "author": "不詳 (Anonymous)",
+    "theme_id": 1,
+    "theme_name": "開始與勇氣",
+    "explanation": "困難往往是成長的入口。"
+  },
+  "03-04": {
+    "zh": "愛是理解與接納的藝術。",
+    "en": "Love is the art of understanding and acceptance.",
+    "author": "不詳 (Anonymous)",
     "theme_id": 2,
     "theme_name": "愛與關係",
-    "quote_zh": "愛是理解與接納的藝術。",
-    "quote_en": "Love is the art of understanding and acceptance.",
-    "author": "不詳 (Anonymous)",
-    "interpretation": "愛需要包容彼此的不完美。"
+    "explanation": "愛需要包容彼此的不完美。"
   },
-  {
-    "date": "03-05",
-    "theme_id": 2,
-    "theme_name": "愛與關係",
-    "quote_zh": "真正的朋友在逆境中才看得清。",
-    "quote_en": "A friend in need is a friend indeed.",
+  "03-05": {
+    "zh": "真正的朋友在逆境中才看得清。",
+    "en": "A friend in need is a friend indeed.",
     "author": "拉丁諺語 (Latin Proverb)",
-    "interpretation": "困難時刻才能看清誰是真正的朋友。"
-  },
-  {
-    "date": "03-06",
     "theme_id": 2,
     "theme_name": "愛與關係",
-    "quote_zh": "愛是靈魂的陽光。",
-    "quote_en": "Love is the sunshine of the soul.",
+    "explanation": "困難時刻才能看清誰是真正的朋友。"
+  },
+  "03-06": {
+    "zh": "愛是靈魂的陽光。",
+    "en": "Love is the sunshine of the soul.",
     "author": "托爾斯泰 (Leo Tolstoy)",
-    "interpretation": "愛讓心靈溫暖、豐盛。"
+    "theme_id": 2,
+    "theme_name": "愛與關係",
+    "explanation": "愛讓心靈溫暖、豐盛。"
   },
-  {
-    "date": "03-07",
-    "theme_id": 3,
-    "theme_name": "學習與成長",
-    "quote_zh": "活到老，學到老。",
-    "quote_en": "Live as if you were to learn forever.",
+  "03-07": {
+    "zh": "活到老，學到老。",
+    "en": "Live as if you were to learn forever.",
     "author": "甘地 (Mahatma Gandhi)",
-    "interpretation": "學習是一生的追求。"
-  },
-  {
-    "date": "03-08",
     "theme_id": 3,
     "theme_name": "學習與成長",
-    "quote_zh": "真正的學習是從問題開始的。",
-    "quote_en": "Real learning begins with questions.",
+    "explanation": "學習是一生的追求。"
+  },
+  "03-08": {
+    "zh": "真正的學習是從問題開始的。",
+    "en": "Real learning begins with questions.",
     "author": "尼爾·波茲曼 (Neil Postman)",
-    "interpretation": "好奇心是學習最好的起點。"
-  },
-  {
-    "date": "03-09",
     "theme_id": 3,
     "theme_name": "學習與成長",
-    "quote_zh": "經驗是最嚴格的老師。",
-    "quote_en": "Experience is the most strict teacher.",
+    "explanation": "好奇心是學習最好的起點。"
+  },
+  "03-09": {
+    "zh": "經驗是最嚴格的老師。",
+    "en": "Experience is the most strict teacher.",
     "author": "托馬斯·卡萊爾 (Thomas Carlyle)",
-    "interpretation": "親身經歷的教訓最能讓人記住。"
+    "theme_id": 3,
+    "theme_name": "學習與成長",
+    "explanation": "親身經歷的教訓最能讓人記住。"
   },
-  {
-    "date": "03-10",
-    "theme_id": 4,
-    "theme_name": "信念與希望",
-    "quote_zh": "信念是一種力量，它能在黑暗中照亮前路。",
-    "quote_en": "Faith is a force that lights the way in the dark.",
+  "03-10": {
+    "zh": "信念是一種力量，它能在黑暗中照亮前路。",
+    "en": "Faith is a force that lights the way in the dark.",
     "author": "海倫·凱勒 (Helen Keller)",
-    "interpretation": "在不確定中，信念是最可靠的支柱。"
-  },
-  {
-    "date": "03-11",
     "theme_id": 4,
     "theme_name": "信念與希望",
-    "quote_zh": "希望是靈魂的呼吸。",
-    "quote_en": "Hope is the breath of the soul.",
+    "explanation": "在不確定中，信念是最可靠的支柱。"
+  },
+  "03-11": {
+    "zh": "希望是靈魂的呼吸。",
+    "en": "Hope is the breath of the soul.",
     "author": "但丁 (Dante Alighieri)",
-    "interpretation": "沒有希望，生命就會窒息。"
-  },
-  {
-    "date": "03-12",
     "theme_id": 4,
     "theme_name": "信念與希望",
-    "quote_zh": "永遠不要熄滅心中的希望。",
-    "quote_en": "Never extinguish the hope in your heart.",
+    "explanation": "沒有希望，生命就會窒息。"
+  },
+  "03-12": {
+    "zh": "永遠不要熄滅心中的希望。",
+    "en": "Never extinguish the hope in your heart.",
     "author": "莎士比亞 (William Shakespeare)",
-    "interpretation": "希望能帶領你走過困境。"
+    "theme_id": 4,
+    "theme_name": "信念與希望",
+    "explanation": "希望能帶領你走過困境。"
   },
-  {
-    "date": "03-13",
-    "theme_id": 5,
-    "theme_name": "行動與堅持",
-    "quote_zh": "一分耕耘，一分收穫。",
-    "quote_en": "You reap what you sow.",
+  "03-13": {
+    "zh": "一分耕耘，一分收穫。",
+    "en": "You reap what you sow.",
     "author": "《聖經》 (The Bible)",
-    "interpretation": "付出多少，收穫多少。"
-  },
-  {
-    "date": "03-14",
     "theme_id": 5,
     "theme_name": "行動與堅持",
-    "quote_zh": "行動比空想更有價值。",
-    "quote_en": "Action is more valuable than mere ideas.",
+    "explanation": "付出多少，收穫多少。"
+  },
+  "03-14": {
+    "zh": "行動比空想更有價值。",
+    "en": "Action is more valuable than mere ideas.",
     "author": "喬治·萊斯特 (George Eastman)",
-    "interpretation": "不付諸行動，再好的想法也無用。"
-  },
-  {
-    "date": "03-15",
     "theme_id": 5,
     "theme_name": "行動與堅持",
-    "quote_zh": "堅持就是力量。",
-    "quote_en": "Persistence is power.",
+    "explanation": "不付諸行動，再好的想法也無用。"
+  },
+  "03-15": {
+    "zh": "堅持就是力量。",
+    "en": "Persistence is power.",
     "author": "愛迪生 (Thomas Edison)",
-    "interpretation": "只要持續努力，總會見到成果。"
+    "theme_id": 5,
+    "theme_name": "行動與堅持",
+    "explanation": "只要持續努力，總會見到成果。"
   },
-  {
-    "date": "03-16",
-    "theme_id": 6,
-    "theme_name": "感恩與謙卑",
-    "quote_zh": "感恩使快樂倍增。",
-    "quote_en": "Gratitude multiplies joy.",
+  "03-16": {
+    "zh": "感恩使快樂倍增。",
+    "en": "Gratitude multiplies joy.",
     "author": "愛比克泰德 (Epictetus)",
-    "interpretation": "感恩能讓幸福加倍。"
-  },
-  {
-    "date": "03-17",
     "theme_id": 6,
     "theme_name": "感恩與謙卑",
-    "quote_zh": "謙卑的人最能成長。",
-    "quote_en": "The humble grow the most.",
+    "explanation": "感恩能讓幸福加倍。"
+  },
+  "03-17": {
+    "zh": "謙卑的人最能成長。",
+    "en": "The humble grow the most.",
     "author": "蘇格拉底 (Socrates)",
-    "interpretation": "謙遜使人有空間進步。"
-  },
-  {
-    "date": "03-18",
     "theme_id": 6,
     "theme_name": "感恩與謙卑",
-    "quote_zh": "心懷感激，天地寬廣。",
-    "quote_en": "With gratitude, the world becomes wider.",
+    "explanation": "謙遜使人有空間進步。"
+  },
+  "03-18": {
+    "zh": "心懷感激，天地寬廣。",
+    "en": "With gratitude, the world becomes wider.",
     "author": "馬可·奧理略 (Marcus Aurelius)",
-    "interpretation": "感恩讓人看見更多可能。"
+    "theme_id": 6,
+    "theme_name": "感恩與謙卑",
+    "explanation": "感恩讓人看見更多可能。"
   },
-  {
-    "date": "03-19",
-    "theme_id": 7,
-    "theme_name": "創造與想像",
-    "quote_zh": "創意來自於打破常規。",
-    "quote_en": "Creativity comes from breaking conventions.",
+  "03-19": {
+    "zh": "創意來自於打破常規。",
+    "en": "Creativity comes from breaking conventions.",
     "author": "史蒂夫·喬布斯 (Steve Jobs)",
-    "interpretation": "突破框架，才能創造新局。"
-  },
-  {
-    "date": "03-20",
     "theme_id": 7,
     "theme_name": "創造與想像",
-    "quote_zh": "一切偉大的發明都始於想像。",
-    "quote_en": "All great inventions begin with imagination.",
+    "explanation": "突破框架，才能創造新局。"
+  },
+  "03-20": {
+    "zh": "一切偉大的發明都始於想像。",
+    "en": "All great inventions begin with imagination.",
     "author": "尼古拉·特斯拉 (Nikola Tesla)",
-    "interpretation": "想像力是創新的核心。"
-  },
-  {
-    "date": "03-21",
     "theme_id": 7,
     "theme_name": "創造與想像",
-    "quote_zh": "藝術讓我們看見不一樣的世界。",
-    "quote_en": "Art allows us to see a different world.",
+    "explanation": "想像力是創新的核心。"
+  },
+  "03-21": {
+    "zh": "藝術讓我們看見不一樣的世界。",
+    "en": "Art allows us to see a different world.",
     "author": "羅丹 (Auguste Rodin)",
-    "interpretation": "創作是認識世界的另一種方式。"
+    "theme_id": 7,
+    "theme_name": "創造與想像",
+    "explanation": "創作是認識世界的另一種方式。"
   },
-  {
-    "date": "03-22",
-    "theme_id": 8,
-    "theme_name": "自由與夢想",
-    "quote_zh": "自由的靈魂最能飛翔。",
-    "quote_en": "The free soul flies the highest.",
+  "03-22": {
+    "zh": "自由的靈魂最能飛翔。",
+    "en": "The free soul flies the highest.",
     "author": "亨利·戴維·梭羅 (Henry David Thoreau)",
-    "interpretation": "自由能釋放最大的潛力。"
-  },
-  {
-    "date": "03-23",
     "theme_id": 8,
     "theme_name": "自由與夢想",
-    "quote_zh": "夢想是人生的羅盤。",
-    "quote_en": "Dreams are the compass of life.",
+    "explanation": "自由能釋放最大的潛力。"
+  },
+  "03-23": {
+    "zh": "夢想是人生的羅盤。",
+    "en": "Dreams are the compass of life.",
     "author": "卡內基 (Andrew Carnegie)",
-    "interpretation": "夢想為人生指引方向。"
-  },
-  {
-    "date": "03-24",
     "theme_id": 8,
     "theme_name": "自由與夢想",
-    "quote_zh": "堅持夢想，未來會為你讓路。",
-    "quote_en": "Persist in your dreams, and the future will make way for you.",
-    "author": "維克多·雨果 (Victor Hugo)",
-    "interpretation": "夢想會因堅持而成真。"
+    "explanation": "夢想為人生指引方向。"
   },
-  {
-    "date": "03-25",
-    "theme_id": 9,
-    "theme_name": "平靜與智慧",
-    "quote_zh": "安靜能帶來力量。",
-    "quote_en": "Silence brings strength.",
+  "03-24": {
+    "zh": "堅持夢想，未來會為你讓路。",
+    "en": "Persist in your dreams, and the future will make way for you.",
+    "author": "維克多·雨果 (Victor Hugo)",
+    "theme_id": 8,
+    "theme_name": "自由與夢想",
+    "explanation": "夢想會因堅持而成真。"
+  },
+  "03-25": {
+    "zh": "安靜能帶來力量。",
+    "en": "Silence brings strength.",
     "author": "拉爾夫·愛默生 (Ralph Waldo Emerson)",
-    "interpretation": "內心平靜能讓人更堅強。"
-  },
-  {
-    "date": "03-26",
     "theme_id": 9,
     "theme_name": "平靜與智慧",
-    "quote_zh": "智慧來自於反思。",
-    "quote_en": "Wisdom comes from reflection.",
+    "explanation": "內心平靜能讓人更堅強。"
+  },
+  "03-26": {
+    "zh": "智慧來自於反思。",
+    "en": "Wisdom comes from reflection.",
     "author": "佛陀 (Buddha)",
-    "interpretation": "反思是成長的重要來源。"
-  },
-  {
-    "date": "03-27",
     "theme_id": 9,
     "theme_name": "平靜與智慧",
-    "quote_zh": "平靜是一種選擇。",
-    "quote_en": "Calmness is a choice.",
+    "explanation": "反思是成長的重要來源。"
+  },
+  "03-27": {
+    "zh": "平靜是一種選擇。",
+    "en": "Calmness is a choice.",
     "author": "詹姆斯·艾倫 (James Allen)",
-    "interpretation": "選擇冷靜面對，就能化解難題。"
+    "theme_id": 9,
+    "theme_name": "平靜與智慧",
+    "explanation": "選擇冷靜面對，就能化解難題。"
   },
-  {
-    "date": "03-28",
-    "theme_id": 10,
-    "theme_name": "服務與影響",
-    "quote_zh": "幫助別人，就是幫助自己。",
-    "quote_en": "Helping others is helping yourself.",
+  "03-28": {
+    "zh": "幫助別人，就是幫助自己。",
+    "en": "Helping others is helping yourself.",
     "author": "孔子 (Confucius)",
-    "interpretation": "助人是最大的福報。"
-  },
-  {
-    "date": "03-29",
     "theme_id": 10,
     "theme_name": "服務與影響",
-    "quote_zh": "影響力來自於服務精神。",
-    "quote_en": "Influence comes from the spirit of service.",
+    "explanation": "助人是最大的福報。"
+  },
+  "03-29": {
+    "zh": "影響力來自於服務精神。",
+    "en": "Influence comes from the spirit of service.",
     "author": "羅伯特·K·格林里夫 (Robert K. Greenleaf)",
-    "interpretation": "真正的影響力是建立在服務之上。"
-  },
-  {
-    "date": "03-30",
     "theme_id": 10,
     "theme_name": "服務與影響",
-    "quote_zh": "善舉永遠不會白費。",
-    "quote_en": "No act of kindness is ever wasted.",
-    "author": "伊索 (Aesop)",
-    "interpretation": "任何小小的善意都能產生迴響。"
+    "explanation": "真正的影響力是建立在服務之上。"
   },
-  {
-    "date": "03-31",
-    "theme_id": 1,
-    "theme_name": "開始與勇氣",
-    "quote_zh": "開始的勇氣比完美更重要。",
-    "quote_en": "The courage to begin is more important than perfection.",
+  "03-30": {
+    "zh": "善舉永遠不會白費。",
+    "en": "No act of kindness is ever wasted.",
+    "author": "伊索 (Aesop)",
+    "theme_id": 10,
+    "theme_name": "服務與影響",
+    "explanation": "任何小小的善意都能產生迴響。"
+  },
+  "03-31": {
+    "zh": "開始的勇氣比完美更重要。",
+    "en": "The courage to begin is more important than perfection.",
     "author": "溫斯頓·邱吉爾 (Winston Churchill)",
-    "interpretation": "行動比等待完美更關鍵。"
-  },
-  {
-    "date": "04-01",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "勇氣是在壓力下依然前進的力量。",
-    "quote_en": "Courage is grace under pressure.",
+    "explanation": "行動比等待完美更關鍵。"
+  },
+  "04-01": {
+    "zh": "勇氣是在壓力下依然前進的力量。",
+    "en": "Courage is grace under pressure.",
     "author": "海明威 (Ernest Hemingway)",
-    "interpretation": "勇氣不是沒有壓力，而是能在壓力下依舊前進。"
-  },
-  {
-    "date": "04-02",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "邁出第一步，就已經走出恐懼。",
-    "quote_en": "Take the first step, and you’ve already stepped out of fear.",
+    "explanation": "勇氣不是沒有壓力，而是能在壓力下依舊前進。"
+  },
+  "04-02": {
+    "zh": "邁出第一步，就已經走出恐懼。",
+    "en": "Take the first step, and you’ve already stepped out of fear.",
     "author": "不詳 (Anonymous)",
-    "interpretation": "開始比等待更有力量。"
-  },
-  {
-    "date": "04-03",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "最困難的是決定去做，其餘的只是堅持。",
-    "quote_en": "The hardest part is making the decision to act, the rest is merely tenacity.",
+    "explanation": "開始比等待更有力量。"
+  },
+  "04-03": {
+    "zh": "最困難的是決定去做，其餘的只是堅持。",
+    "en": "The hardest part is making the decision to act, the rest is merely tenacity.",
     "author": "阿梅莉亞·埃爾哈特 (Amelia Earhart)",
-    "interpretation": "一旦開始，後續就是持續下去。"
+    "theme_id": 1,
+    "theme_name": "開始與勇氣",
+    "explanation": "一旦開始，後續就是持續下去。"
   },
-  {
-    "date": "04-04",
-    "theme_id": 2,
-    "theme_name": "愛與關係",
-    "quote_zh": "友誼是靈魂的契約。",
-    "quote_en": "Friendship is a contract between souls.",
+  "04-04": {
+    "zh": "友誼是靈魂的契約。",
+    "en": "Friendship is a contract between souls.",
     "author": "伏爾泰 (Voltaire)",
-    "interpretation": "朋友是心靈的共鳴。"
-  },
-  {
-    "date": "04-05",
     "theme_id": 2,
     "theme_name": "愛與關係",
-    "quote_zh": "愛能療癒一切傷口。",
-    "quote_en": "Love can heal all wounds.",
+    "explanation": "朋友是心靈的共鳴。"
+  },
+  "04-05": {
+    "zh": "愛能療癒一切傷口。",
+    "en": "Love can heal all wounds.",
     "author": "不詳 (Anonymous)",
-    "interpretation": "愛的力量能撫平心靈的創傷。"
-  },
-  {
-    "date": "04-06",
     "theme_id": 2,
     "theme_name": "愛與關係",
-    "quote_zh": "真正的愛是無條件的。",
-    "quote_en": "True love is unconditional.",
+    "explanation": "愛的力量能撫平心靈的創傷。"
+  },
+  "04-06": {
+    "zh": "真正的愛是無條件的。",
+    "en": "True love is unconditional.",
     "author": "達賴喇嘛 (Dalai Lama)",
-    "interpretation": "不計代價的愛才最真實。"
+    "theme_id": 2,
+    "theme_name": "愛與關係",
+    "explanation": "不計代價的愛才最真實。"
   },
-  {
-    "date": "04-07",
-    "theme_id": 3,
-    "theme_name": "學習與成長",
-    "quote_zh": "學習的目標不是記憶，而是思考。",
-    "quote_en": "The goal of learning is not memorization, but thinking.",
+  "04-07": {
+    "zh": "學習的目標不是記憶，而是思考。",
+    "en": "The goal of learning is not memorization, but thinking.",
     "author": "蘇格拉底 (Socrates)",
-    "interpretation": "學習的重點在於培養思考能力。"
-  },
-  {
-    "date": "04-08",
     "theme_id": 3,
     "theme_name": "學習與成長",
-    "quote_zh": "教育的最高目標是培養獨立思考的人。",
-    "quote_en": "The highest result of education is tolerance.",
+    "explanation": "學習的重點在於培養思考能力。"
+  },
+  "04-08": {
+    "zh": "教育的最高目標是培養獨立思考的人。",
+    "en": "The highest result of education is tolerance.",
     "author": "愛默生 (Ralph Waldo Emerson)",
-    "interpretation": "教育的核心在於獨立與包容。"
-  },
-  {
-    "date": "04-09",
     "theme_id": 3,
     "theme_name": "學習與成長",
-    "quote_zh": "知識使人謙遜，無知使人驕傲。",
-    "quote_en": "Knowledge makes a man unfit to be arrogant; ignorance makes him proud.",
+    "explanation": "教育的核心在於獨立與包容。"
+  },
+  "04-09": {
+    "zh": "知識使人謙遜，無知使人驕傲。",
+    "en": "Knowledge makes a man unfit to be arrogant; ignorance makes him proud.",
     "author": "斯賓諾莎 (Baruch Spinoza)",
-    "interpretation": "越懂得多，越知道謙卑的重要。"
+    "theme_id": 3,
+    "theme_name": "學習與成長",
+    "explanation": "越懂得多，越知道謙卑的重要。"
   },
-  {
-    "date": "04-10",
-    "theme_id": 4,
-    "theme_name": "信念與希望",
-    "quote_zh": "信仰就是在看不見時仍然相信。",
-    "quote_en": "Faith is believing when you don’t see.",
+  "04-10": {
+    "zh": "信仰就是在看不見時仍然相信。",
+    "en": "Faith is believing when you don’t see.",
     "author": "《聖經》 (The Bible)",
-    "interpretation": "信仰的力量在於超越眼前的限制。"
-  },
-  {
-    "date": "04-11",
     "theme_id": 4,
     "theme_name": "信念與希望",
-    "quote_zh": "希望是人生的導航。",
-    "quote_en": "Hope is the navigator of life.",
+    "explanation": "信仰的力量在於超越眼前的限制。"
+  },
+  "04-11": {
+    "zh": "希望是人生的導航。",
+    "en": "Hope is the navigator of life.",
     "author": "不詳 (Anonymous)",
-    "interpretation": "希望能帶領我們走過黑暗。"
-  },
-  {
-    "date": "04-12",
     "theme_id": 4,
     "theme_name": "信念與希望",
-    "quote_zh": "保持希望，奇蹟就會出現。",
-    "quote_en": "Keep hope alive, and miracles will happen.",
+    "explanation": "希望能帶領我們走過黑暗。"
+  },
+  "04-12": {
+    "zh": "保持希望，奇蹟就會出現。",
+    "en": "Keep hope alive, and miracles will happen.",
     "author": "傑西·傑克森 (Jesse Jackson)",
-    "interpretation": "希望本身就是一種力量。"
+    "theme_id": 4,
+    "theme_name": "信念與希望",
+    "explanation": "希望本身就是一種力量。"
   },
-  {
-    "date": "04-13",
-    "theme_id": 5,
-    "theme_name": "行動與堅持",
-    "quote_zh": "教育是點燃火焰，而不是灌滿容器。",
-    "quote_en": "Education is not the filling of a pail, but the lighting of a fire.",
+  "04-13": {
+    "zh": "教育是點燃火焰，而不是灌滿容器。",
+    "en": "Education is not the filling of a pail, but the lighting of a fire.",
     "author": "葉芝 (W.B. Yeats)",
-    "interpretation": "教育的真正目的在於激發熱情與創造力。"
-  },
-  {
-    "date": "04-14",
     "theme_id": 5,
     "theme_name": "行動與堅持",
-    "quote_zh": "不要等待機會，而要創造機會。",
-    "quote_en": "Do not wait for opportunity. Create it.",
+    "explanation": "教育的真正目的在於激發熱情與創造力。"
+  },
+  "04-14": {
+    "zh": "不要等待機會，而要創造機會。",
+    "en": "Do not wait for opportunity. Create it.",
     "author": "喬治·萊斯特 (George Bernard Shaw)",
-    "interpretation": "成功屬於主動的人。"
-  },
-  {
-    "date": "04-15",
     "theme_id": 5,
     "theme_name": "行動與堅持",
-    "quote_zh": "耐心和毅力能戰勝一切困難。",
-    "quote_en": "Patience and perseverance conquer all difficulties.",
-    "author": "本傑明·富蘭克林 (Benjamin Franklin)",
-    "interpretation": "持續努力是通往成功的關鍵。"
+    "explanation": "成功屬於主動的人。"
   },
-  {
-    "date": "04-16",
-    "theme_id": 6,
-    "theme_name": "感恩與謙卑",
-    "quote_zh": "謙遜是智慧的開始。",
-    "quote_en": "Humility is the beginning of wisdom.",
+  "04-15": {
+    "zh": "耐心和毅力能戰勝一切困難。",
+    "en": "Patience and perseverance conquer all difficulties.",
+    "author": "本傑明·富蘭克林 (Benjamin Franklin)",
+    "theme_id": 5,
+    "theme_name": "行動與堅持",
+    "explanation": "持續努力是通往成功的關鍵。"
+  },
+  "04-16": {
+    "zh": "謙遜是智慧的開始。",
+    "en": "Humility is the beginning of wisdom.",
     "author": "托馬斯·摩爾 (Thomas More)",
-    "interpretation": "謙卑讓人能學習更多。"
-  },
-  {
-    "date": "04-17",
     "theme_id": 6,
     "theme_name": "感恩與謙卑",
-    "quote_zh": "感恩讓生活更豐富。",
-    "quote_en": "Gratitude makes life richer.",
+    "explanation": "謙卑讓人能學習更多。"
+  },
+  "04-17": {
+    "zh": "感恩讓生活更豐富。",
+    "en": "Gratitude makes life richer.",
     "author": "愛比克泰德 (Epictetus)",
-    "interpretation": "感恩能帶來心靈的滿足。"
-  },
-  {
-    "date": "04-18",
     "theme_id": 6,
     "theme_name": "感恩與謙卑",
-    "quote_zh": "常懷謙卑之心，方能走得長遠。",
-    "quote_en": "A humble heart brings a long journey.",
+    "explanation": "感恩能帶來心靈的滿足。"
+  },
+  "04-18": {
+    "zh": "常懷謙卑之心，方能走得長遠。",
+    "en": "A humble heart brings a long journey.",
     "author": "孔子 (Confucius)",
-    "interpretation": "謙卑是人生最重要的態度之一。"
+    "theme_id": 6,
+    "theme_name": "感恩與謙卑",
+    "explanation": "謙卑是人生最重要的態度之一。"
   },
-  {
-    "date": "04-19",
-    "theme_id": 7,
-    "theme_name": "創造與想像",
-    "quote_zh": "想像力開啟無限可能。",
-    "quote_en": "Imagination opens infinite possibilities.",
+  "04-19": {
+    "zh": "想像力開啟無限可能。",
+    "en": "Imagination opens infinite possibilities.",
     "author": "愛因斯坦 (Albert Einstein)",
-    "interpretation": "創造力是推動世界的引擎。"
-  },
-  {
-    "date": "04-20",
     "theme_id": 7,
     "theme_name": "創造與想像",
-    "quote_zh": "教育是點燃火焰，而不是灌滿容器。",
-    "quote_en": "Education is not the filling of a pail, but the lighting of a fire.",
+    "explanation": "創造力是推動世界的引擎。"
+  },
+  "04-20": {
+    "zh": "教育是點燃火焰，而不是灌滿容器。",
+    "en": "Education is not the filling of a pail, but the lighting of a fire.",
     "author": "葉芝 (W.B. Yeats)",
-    "interpretation": "教育的真正目的在於激發熱情與創造力。"
-  },
-  {
-    "date": "04-21",
     "theme_id": 7,
     "theme_name": "創造與想像",
-    "quote_zh": "藝術洗滌心靈的塵埃。",
-    "quote_en": "Art washes away from the soul the dust of everyday life.",
+    "explanation": "教育的真正目的在於激發熱情與創造力。"
+  },
+  "04-21": {
+    "zh": "藝術洗滌心靈的塵埃。",
+    "en": "Art washes away from the soul the dust of everyday life.",
     "author": "畢卡索 (Pablo Picasso)",
-    "interpretation": "藝術能淨化我們的靈魂。"
+    "theme_id": 7,
+    "theme_name": "創造與想像",
+    "explanation": "藝術能淨化我們的靈魂。"
   },
-  {
-    "date": "04-22",
-    "theme_id": 8,
-    "theme_name": "自由與夢想",
-    "quote_zh": "教育是點燃火焰，而不是灌滿容器。",
-    "quote_en": "Education is not the filling of a pail, but the lighting of a fire.",
+  "04-22": {
+    "zh": "教育是點燃火焰，而不是灌滿容器。",
+    "en": "Education is not the filling of a pail, but the lighting of a fire.",
     "author": "葉芝 (W.B. Yeats)",
-    "interpretation": "教育的真正目的在於激發熱情與創造力。"
-  },
-  {
-    "date": "04-23",
     "theme_id": 8,
     "theme_name": "自由與夢想",
-    "quote_zh": "夢想讓生活有意義。",
-    "quote_en": "Dreams give meaning to life.",
+    "explanation": "教育的真正目的在於激發熱情與創造力。"
+  },
+  "04-23": {
+    "zh": "夢想讓生活有意義。",
+    "en": "Dreams give meaning to life.",
     "author": "保羅·科爾賀 (Paulo Coelho)",
-    "interpretation": "夢想賦予人生方向與目標。"
-  },
-  {
-    "date": "04-24",
     "theme_id": 8,
     "theme_name": "自由與夢想",
-    "quote_zh": "追夢的人永遠年輕。",
-    "quote_en": "Those who pursue dreams remain forever young.",
+    "explanation": "夢想賦予人生方向與目標。"
+  },
+  "04-24": {
+    "zh": "追夢的人永遠年輕。",
+    "en": "Those who pursue dreams remain forever young.",
     "author": "亨利·戴維·梭羅 (Henry David Thoreau)",
-    "interpretation": "夢想讓人保持活力與熱情。"
+    "theme_id": 8,
+    "theme_name": "自由與夢想",
+    "explanation": "夢想讓人保持活力與熱情。"
   },
-  {
-    "date": "04-25",
-    "theme_id": 9,
-    "theme_name": "平靜與智慧",
-    "quote_zh": "教育是點燃火焰，而不是灌滿容器。",
-    "quote_en": "Education is not the filling of a pail, but the lighting of a fire.",
+  "04-25": {
+    "zh": "教育是點燃火焰，而不是灌滿容器。",
+    "en": "Education is not the filling of a pail, but the lighting of a fire.",
     "author": "葉芝 (W.B. Yeats)",
-    "interpretation": "教育的真正目的在於激發熱情與創造力。"
-  },
-  {
-    "date": "04-26",
     "theme_id": 9,
     "theme_name": "平靜與智慧",
-    "quote_zh": "平靜是一種力量。",
-    "quote_en": "Calmness is a kind of power.",
+    "explanation": "教育的真正目的在於激發熱情與創造力。"
+  },
+  "04-26": {
+    "zh": "平靜是一種力量。",
+    "en": "Calmness is a kind of power.",
     "author": "馬可·奧理略 (Marcus Aurelius)",
-    "interpretation": "平靜能讓人冷靜做出正確判斷。"
-  },
-  {
-    "date": "04-27",
     "theme_id": 9,
     "theme_name": "平靜與智慧",
-    "quote_zh": "心安是最大的財富。",
-    "quote_en": "Peace of mind is the greatest wealth.",
+    "explanation": "平靜能讓人冷靜做出正確判斷。"
+  },
+  "04-27": {
+    "zh": "心安是最大的財富。",
+    "en": "Peace of mind is the greatest wealth.",
     "author": "佛陀 (Buddha)",
-    "interpretation": "真正的財富在於內心的安寧。"
+    "theme_id": 9,
+    "theme_name": "平靜與智慧",
+    "explanation": "真正的財富在於內心的安寧。"
   },
-  {
-    "date": "04-28",
-    "theme_id": 10,
-    "theme_name": "服務與影響",
-    "quote_zh": "服務他人就是最崇高的使命。",
-    "quote_en": "To serve others is the highest calling.",
+  "04-28": {
+    "zh": "服務他人就是最崇高的使命。",
+    "en": "To serve others is the highest calling.",
     "author": "特蕾莎修女 (Mother Teresa)",
-    "interpretation": "助人是最偉大的奉獻。"
-  },
-  {
-    "date": "04-29",
     "theme_id": 10,
     "theme_name": "服務與影響",
-    "quote_zh": "影響世界從一個善舉開始。",
-    "quote_en": "To influence the world starts with a single good deed.",
+    "explanation": "助人是最偉大的奉獻。"
+  },
+  "04-29": {
+    "zh": "影響世界從一個善舉開始。",
+    "en": "To influence the world starts with a single good deed.",
     "author": "馬克·吐溫 (Mark Twain)",
-    "interpretation": "一個小小的善行能產生巨大的力量。"
-  },
-  {
-    "date": "04-30",
     "theme_id": 10,
     "theme_name": "服務與影響",
-    "quote_zh": "人類的價值在於彼此的付出。",
-    "quote_en": "The value of man resides in mutual contribution.",
+    "explanation": "一個小小的善行能產生巨大的力量。"
+  },
+  "04-30": {
+    "zh": "人類的價值在於彼此的付出。",
+    "en": "The value of man resides in mutual contribution.",
     "author": "愛因斯坦 (Albert Einstein)",
-    "interpretation": "付出與分享讓人更有價值。"
+    "theme_id": 10,
+    "theme_name": "服務與影響",
+    "explanation": "付出與分享讓人更有價值。"
   },
-  {
-    "date": "05-01",
-    "theme_id": 1,
-    "theme_name": "開始與勇氣",
-    "quote_zh": "凡事起頭難。",
-    "quote_en": "The first step is always the hardest.",
+  "05-01": {
+    "zh": "凡事起頭難。",
+    "en": "The first step is always the hardest.",
     "author": "不詳 (Anonymous)",
-    "interpretation": "開始往往最困難，但一旦踏出就會順利許多。"
-  },
-  {
-    "date": "05-02",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "勇氣是面對恐懼仍然前進。",
-    "quote_en": "Courage is moving forward despite fear.",
+    "explanation": "開始往往最困難，但一旦踏出就會順利許多。"
+  },
+  "05-02": {
+    "zh": "勇氣是面對恐懼仍然前進。",
+    "en": "Courage is moving forward despite fear.",
     "author": "納爾遜·曼德拉 (Nelson Mandela)",
-    "interpretation": "恐懼是自然的，但不能成為阻礙。"
-  },
-  {
-    "date": "05-03",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "開始的最好時機就是現在。",
-    "quote_en": "The best time to start is now.",
+    "explanation": "恐懼是自然的，但不能成為阻礙。"
+  },
+  "05-03": {
+    "zh": "開始的最好時機就是現在。",
+    "en": "The best time to start is now.",
     "author": "不詳 (Anonymous)",
-    "interpretation": "不要等待完美的時刻，立刻行動。"
+    "theme_id": 1,
+    "theme_name": "開始與勇氣",
+    "explanation": "不要等待完美的時刻，立刻行動。"
   },
-  {
-    "date": "05-04",
-    "theme_id": 2,
-    "theme_name": "愛與關係",
-    "quote_zh": "愛是宇宙中最偉大的力量。",
-    "quote_en": "Love is the greatest force in the universe.",
+  "05-04": {
+    "zh": "愛是宇宙中最偉大的力量。",
+    "en": "Love is the greatest force in the universe.",
     "author": "馬丁·路德·金 (Martin Luther King Jr.)",
-    "interpretation": "愛能化解仇恨，帶來和平。"
-  },
-  {
-    "date": "05-05",
     "theme_id": 2,
     "theme_name": "愛與關係",
-    "quote_zh": "友誼是靈魂的良藥。",
-    "quote_en": "Friendship is the medicine of the soul.",
+    "explanation": "愛能化解仇恨，帶來和平。"
+  },
+  "05-05": {
+    "zh": "友誼是靈魂的良藥。",
+    "en": "Friendship is the medicine of the soul.",
     "author": "亞里斯多德 (Aristotle)",
-    "interpretation": "真正的友情能撫慰心靈。"
-  },
-  {
-    "date": "05-06",
     "theme_id": 2,
     "theme_name": "愛與關係",
-    "quote_zh": "愛是行動，而不是言語。",
-    "quote_en": "Love is shown in actions, not words.",
+    "explanation": "真正的友情能撫慰心靈。"
+  },
+  "05-06": {
+    "zh": "愛是行動，而不是言語。",
+    "en": "Love is shown in actions, not words.",
     "author": "聖方濟各 (St. Francis of Assisi)",
-    "interpretation": "愛需要具體的行動來表達。"
+    "theme_id": 2,
+    "theme_name": "愛與關係",
+    "explanation": "愛需要具體的行動來表達。"
   },
-  {
-    "date": "05-07",
-    "theme_id": 3,
-    "theme_name": "學習與成長",
-    "quote_zh": "知識是智慧的種子。",
-    "quote_en": "Knowledge is the seed of wisdom.",
+  "05-07": {
+    "zh": "知識是智慧的種子。",
+    "en": "Knowledge is the seed of wisdom.",
     "author": "不詳 (Anonymous)",
-    "interpretation": "學習能培養智慧，帶來改變。"
-  },
-  {
-    "date": "05-08",
     "theme_id": 3,
     "theme_name": "學習與成長",
-    "quote_zh": "學習使人心靈自由。",
-    "quote_en": "Learning makes the mind free.",
+    "explanation": "學習能培養智慧，帶來改變。"
+  },
+  "05-08": {
+    "zh": "學習使人心靈自由。",
+    "en": "Learning makes the mind free.",
     "author": "愛比克泰德 (Epictetus)",
-    "interpretation": "知識讓人不受侷限。"
-  },
-  {
-    "date": "05-09",
     "theme_id": 3,
     "theme_name": "學習與成長",
-    "quote_zh": "知識就是力量。",
-    "quote_en": "Knowledge is power.",
+    "explanation": "知識讓人不受侷限。"
+  },
+  "05-09": {
+    "zh": "知識就是力量。",
+    "en": "Knowledge is power.",
     "author": "法蘭西斯·培根 (Francis Bacon)",
-    "interpretation": "知識能改變命運，帶來力量。"
+    "theme_id": 3,
+    "theme_name": "學習與成長",
+    "explanation": "知識能改變命運，帶來力量。"
   },
-  {
-    "date": "05-10",
-    "theme_id": 4,
-    "theme_name": "信念與希望",
-    "quote_zh": "沒有信念，人生就失去方向。",
-    "quote_en": "Without faith, life loses direction.",
+  "05-10": {
+    "zh": "沒有信念，人生就失去方向。",
+    "en": "Without faith, life loses direction.",
     "author": "甘地 (Mahatma Gandhi)",
-    "interpretation": "信念能給人力量與目標。"
-  },
-  {
-    "date": "05-11",
     "theme_id": 4,
     "theme_name": "信念與希望",
-    "quote_zh": "希望讓我們在黑夜中繼續前行。",
-    "quote_en": "Hope keeps us going through the night.",
+    "explanation": "信念能給人力量與目標。"
+  },
+  "05-11": {
+    "zh": "希望讓我們在黑夜中繼續前行。",
+    "en": "Hope keeps us going through the night.",
     "author": "維克多·雨果 (Victor Hugo)",
-    "interpretation": "希望是最黑暗時刻的燈塔。"
-  },
-  {
-    "date": "05-12",
     "theme_id": 4,
     "theme_name": "信念與希望",
-    "quote_zh": "信念是靈魂的力量。",
-    "quote_en": "Faith is the strength of the soul.",
-    "author": "托爾斯泰 (Leo Tolstoy)",
-    "interpretation": "信念支撐著人心的堅定。"
+    "explanation": "希望是最黑暗時刻的燈塔。"
   },
-  {
-    "date": "05-13",
-    "theme_id": 5,
-    "theme_name": "行動與堅持",
-    "quote_zh": "成功屬於永不放棄的人。",
-    "quote_en": "Success belongs to those who never give up.",
+  "05-12": {
+    "zh": "信念是靈魂的力量。",
+    "en": "Faith is the strength of the soul.",
+    "author": "托爾斯泰 (Leo Tolstoy)",
+    "theme_id": 4,
+    "theme_name": "信念與希望",
+    "explanation": "信念支撐著人心的堅定。"
+  },
+  "05-13": {
+    "zh": "成功屬於永不放棄的人。",
+    "en": "Success belongs to those who never give up.",
     "author": "拿破崙·希爾 (Napoleon Hill)",
-    "interpretation": "不放棄是最重要的成功要素。"
-  },
-  {
-    "date": "05-14",
     "theme_id": 5,
     "theme_name": "行動與堅持",
-    "quote_zh": "知識就是力量。",
-    "quote_en": "Knowledge is power.",
+    "explanation": "不放棄是最重要的成功要素。"
+  },
+  "05-14": {
+    "zh": "知識就是力量。",
+    "en": "Knowledge is power.",
     "author": "法蘭西斯·培根 (Francis Bacon)",
-    "interpretation": "知識能改變命運，帶來力量。"
-  },
-  {
-    "date": "05-15",
     "theme_id": 5,
     "theme_name": "行動與堅持",
-    "quote_zh": "堅持是力量的源泉。",
-    "quote_en": "Perseverance is the source of strength.",
+    "explanation": "知識能改變命運，帶來力量。"
+  },
+  "05-15": {
+    "zh": "堅持是力量的源泉。",
+    "en": "Perseverance is the source of strength.",
     "author": "愛迪生 (Thomas Edison)",
-    "interpretation": "長久的努力才能帶來成果。"
+    "theme_id": 5,
+    "theme_name": "行動與堅持",
+    "explanation": "長久的努力才能帶來成果。"
   },
-  {
-    "date": "05-16",
-    "theme_id": 6,
-    "theme_name": "感恩與謙卑",
-    "quote_zh": "知識就是力量。",
-    "quote_en": "Knowledge is power.",
+  "05-16": {
+    "zh": "知識就是力量。",
+    "en": "Knowledge is power.",
     "author": "法蘭西斯·培根 (Francis Bacon)",
-    "interpretation": "知識能改變命運，帶來力量。"
-  },
-  {
-    "date": "05-17",
     "theme_id": 6,
     "theme_name": "感恩與謙卑",
-    "quote_zh": "謙遜的人最受尊敬。",
-    "quote_en": "The humble are the most respected.",
+    "explanation": "知識能改變命運，帶來力量。"
+  },
+  "05-17": {
+    "zh": "謙遜的人最受尊敬。",
+    "en": "The humble are the most respected.",
     "author": "孔子 (Confucius)",
-    "interpretation": "謙卑是做人最重要的美德之一。"
-  },
-  {
-    "date": "05-18",
     "theme_id": 6,
     "theme_name": "感恩與謙卑",
-    "quote_zh": "感謝是一種力量。",
-    "quote_en": "Gratitude is a power.",
+    "explanation": "謙卑是做人最重要的美德之一。"
+  },
+  "05-18": {
+    "zh": "感謝是一種力量。",
+    "en": "Gratitude is a power.",
     "author": "愛比克泰德 (Epictetus)",
-    "interpretation": "感恩讓生活更充實。"
+    "theme_id": 6,
+    "theme_name": "感恩與謙卑",
+    "explanation": "感恩讓生活更充實。"
   },
-  {
-    "date": "05-19",
-    "theme_id": 7,
-    "theme_name": "創造與想像",
-    "quote_zh": "創意改變世界。",
-    "quote_en": "Creativity changes the world.",
+  "05-19": {
+    "zh": "創意改變世界。",
+    "en": "Creativity changes the world.",
     "author": "史蒂夫·喬布斯 (Steve Jobs)",
-    "interpretation": "創新才能引領潮流。"
-  },
-  {
-    "date": "05-20",
     "theme_id": 7,
     "theme_name": "創造與想像",
-    "quote_zh": "知識就是力量。",
-    "quote_en": "Knowledge is power.",
+    "explanation": "創新才能引領潮流。"
+  },
+  "05-20": {
+    "zh": "知識就是力量。",
+    "en": "Knowledge is power.",
     "author": "法蘭西斯·培根 (Francis Bacon)",
-    "interpretation": "知識能改變命運，帶來力量。"
-  },
-  {
-    "date": "05-21",
     "theme_id": 7,
     "theme_name": "創造與想像",
-    "quote_zh": "創造力需要自由。",
-    "quote_en": "Creativity requires freedom.",
-    "author": "馬克·吐溫 (Mark Twain)",
-    "interpretation": "自由的心靈才能創造出偉大的作品。"
+    "explanation": "知識能改變命運，帶來力量。"
   },
-  {
-    "date": "05-22",
-    "theme_id": 8,
-    "theme_name": "自由與夢想",
-    "quote_zh": "自由是靈魂的氧氣。",
-    "quote_en": "Freedom is the oxygen of the soul.",
+  "05-21": {
+    "zh": "創造力需要自由。",
+    "en": "Creativity requires freedom.",
+    "author": "馬克·吐溫 (Mark Twain)",
+    "theme_id": 7,
+    "theme_name": "創造與想像",
+    "explanation": "自由的心靈才能創造出偉大的作品。"
+  },
+  "05-22": {
+    "zh": "自由是靈魂的氧氣。",
+    "en": "Freedom is the oxygen of the soul.",
     "author": "莫什·達揚 (Moshe Dayan)",
-    "interpretation": "自由是不可或缺的。"
-  },
-  {
-    "date": "05-23",
     "theme_id": 8,
     "theme_name": "自由與夢想",
-    "quote_zh": "夢想是心靈的燃料。",
-    "quote_en": "Dreams are the fuel of the soul.",
+    "explanation": "自由是不可或缺的。"
+  },
+  "05-23": {
+    "zh": "夢想是心靈的燃料。",
+    "en": "Dreams are the fuel of the soul.",
     "author": "保羅·科爾賀 (Paulo Coelho)",
-    "interpretation": "夢想讓人生充滿能量。"
-  },
-  {
-    "date": "05-24",
     "theme_id": 8,
     "theme_name": "自由與夢想",
-    "quote_zh": "未來屬於有夢想的人。",
-    "quote_en": "The future belongs to those who have dreams.",
+    "explanation": "夢想讓人生充滿能量。"
+  },
+  "05-24": {
+    "zh": "未來屬於有夢想的人。",
+    "en": "The future belongs to those who have dreams.",
     "author": "艾莉諾·羅斯福 (Eleanor Roosevelt)",
-    "interpretation": "夢想指引未來。"
+    "theme_id": 8,
+    "theme_name": "自由與夢想",
+    "explanation": "夢想指引未來。"
   },
-  {
-    "date": "05-25",
-    "theme_id": 9,
-    "theme_name": "平靜與智慧",
-    "quote_zh": "知識就是力量。",
-    "quote_en": "Knowledge is power.",
+  "05-25": {
+    "zh": "知識就是力量。",
+    "en": "Knowledge is power.",
     "author": "法蘭西斯·培根 (Francis Bacon)",
-    "interpretation": "知識能改變命運，帶來力量。"
-  },
-  {
-    "date": "05-26",
     "theme_id": 9,
     "theme_name": "平靜與智慧",
-    "quote_zh": "內心的平靜是一種力量。",
-    "quote_en": "Inner peace is a strength.",
+    "explanation": "知識能改變命運，帶來力量。"
+  },
+  "05-26": {
+    "zh": "內心的平靜是一種力量。",
+    "en": "Inner peace is a strength.",
     "author": "佛陀 (Buddha)",
-    "interpretation": "平靜能幫助我們克服困難。"
-  },
-  {
-    "date": "05-27",
     "theme_id": 9,
     "theme_name": "平靜與智慧",
-    "quote_zh": "智慧讓人看見真相。",
-    "quote_en": "Wisdom allows us to see the truth.",
+    "explanation": "平靜能幫助我們克服困難。"
+  },
+  "05-27": {
+    "zh": "智慧讓人看見真相。",
+    "en": "Wisdom allows us to see the truth.",
     "author": "亞里斯多德 (Aristotle)",
-    "interpretation": "智慧是洞察世界的眼睛。"
+    "theme_id": 9,
+    "theme_name": "平靜與智慧",
+    "explanation": "智慧是洞察世界的眼睛。"
   },
-  {
-    "date": "05-28",
-    "theme_id": 10,
-    "theme_name": "服務與影響",
-    "quote_zh": "服務是最大的榮耀。",
-    "quote_en": "Service is the greatest honor.",
+  "05-28": {
+    "zh": "服務是最大的榮耀。",
+    "en": "Service is the greatest honor.",
     "author": "特蕾莎修女 (Mother Teresa)",
-    "interpretation": "助人是一種榮耀。"
-  },
-  {
-    "date": "05-29",
     "theme_id": 10,
     "theme_name": "服務與影響",
-    "quote_zh": "一個人能影響整個世界。",
-    "quote_en": "One person can influence the whole world.",
+    "explanation": "助人是一種榮耀。"
+  },
+  "05-29": {
+    "zh": "一個人能影響整個世界。",
+    "en": "One person can influence the whole world.",
     "author": "瑪格麗特·米德 (Margaret Mead)",
-    "interpretation": "一個人的力量也能產生巨大的影響。"
-  },
-  {
-    "date": "05-30",
     "theme_id": 10,
     "theme_name": "服務與影響",
-    "quote_zh": "善行能留下永恆的印記。",
-    "quote_en": "Good deeds leave an eternal mark.",
+    "explanation": "一個人的力量也能產生巨大的影響。"
+  },
+  "05-30": {
+    "zh": "善行能留下永恆的印記。",
+    "en": "Good deeds leave an eternal mark.",
     "author": "伊索 (Aesop)",
-    "interpretation": "善意能跨越時空。"
+    "theme_id": 10,
+    "theme_name": "服務與影響",
+    "explanation": "善意能跨越時空。"
   },
-  {
-    "date": "05-31",
-    "theme_id": 1,
-    "theme_name": "開始與勇氣",
-    "quote_zh": "知識就是力量。",
-    "quote_en": "Knowledge is power.",
+  "05-31": {
+    "zh": "知識就是力量。",
+    "en": "Knowledge is power.",
     "author": "法蘭西斯·培根 (Francis Bacon)",
-    "interpretation": "知識能改變命運，帶來力量。"
-  },
-  {
-    "date": "06-01",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "勇氣就是即使害怕，也依然選擇前進。",
-    "quote_en": "Courage is being scared to death, but saddling up anyway.",
+    "explanation": "知識能改變命運，帶來力量。"
+  },
+  "06-01": {
+    "zh": "勇氣就是即使害怕，也依然選擇前進。",
+    "en": "Courage is being scared to death, but saddling up anyway.",
     "author": "約翰·韋恩 (John Wayne)",
-    "interpretation": "勇氣並非沒有恐懼，而是能克服恐懼。"
-  },
-  {
-    "date": "06-02",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "開始的瞬間，就是改變的開始。",
-    "quote_en": "The moment you start, change begins.",
+    "explanation": "勇氣並非沒有恐懼，而是能克服恐懼。"
+  },
+  "06-02": {
+    "zh": "開始的瞬間，就是改變的開始。",
+    "en": "The moment you start, change begins.",
     "author": "不詳 (Anonymous)",
-    "interpretation": "一旦開始，生命就進入新的篇章。"
-  },
-  {
-    "date": "06-03",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "勇敢是一種習慣。",
-    "quote_en": "Courage is a habit.",
+    "explanation": "一旦開始，生命就進入新的篇章。"
+  },
+  "06-03": {
+    "zh": "勇敢是一種習慣。",
+    "en": "Courage is a habit.",
     "author": "亞里斯多德 (Aristotle)",
-    "interpretation": "習慣性地選擇勇敢，會讓你更強大。"
+    "theme_id": 1,
+    "theme_name": "開始與勇氣",
+    "explanation": "習慣性地選擇勇敢，會讓你更強大。"
   },
-  {
-    "date": "06-04",
-    "theme_id": 2,
-    "theme_name": "愛與關係",
-    "quote_zh": "愛是靈魂的音樂。",
-    "quote_en": "Love is the music of the soul.",
+  "06-04": {
+    "zh": "愛是靈魂的音樂。",
+    "en": "Love is the music of the soul.",
     "author": "不詳 (Anonymous)",
-    "interpretation": "愛能讓生命充滿旋律與節奏。"
-  },
-  {
-    "date": "06-05",
     "theme_id": 2,
     "theme_name": "愛與關係",
-    "quote_zh": "真正的朋友如同星星，你不一定總能看到他們，但你知道他們一直在。",
-    "quote_en": "True friends are like stars; you don’t always see them, but you know they are always there.",
+    "explanation": "愛能讓生命充滿旋律與節奏。"
+  },
+  "06-05": {
+    "zh": "真正的朋友如同星星，你不一定總能看到他們，但你知道他們一直在。",
+    "en": "True friends are like stars; you don’t always see them, but you know they are always there.",
     "author": "不詳 (Anonymous)",
-    "interpretation": "友情不需時刻存在，但能長久陪伴。"
-  },
-  {
-    "date": "06-06",
     "theme_id": 2,
     "theme_name": "愛與關係",
-    "quote_zh": "愛是生命的核心。",
-    "quote_en": "Love is the heart of life.",
+    "explanation": "友情不需時刻存在，但能長久陪伴。"
+  },
+  "06-06": {
+    "zh": "愛是生命的核心。",
+    "en": "Love is the heart of life.",
     "author": "約翰·藍儂 (John Lennon)",
-    "interpretation": "愛讓生命充滿意義。"
+    "theme_id": 2,
+    "theme_name": "愛與關係",
+    "explanation": "愛讓生命充滿意義。"
   },
-  {
-    "date": "06-07",
-    "theme_id": 3,
-    "theme_name": "學習與成長",
-    "quote_zh": "學習是心靈的養分。",
-    "quote_en": "Learning is the nourishment of the soul.",
+  "06-07": {
+    "zh": "學習是心靈的養分。",
+    "en": "Learning is the nourishment of the soul.",
     "author": "柏拉圖 (Plato)",
-    "interpretation": "學習讓靈魂不斷成長。"
-  },
-  {
-    "date": "06-08",
     "theme_id": 3,
     "theme_name": "學習與成長",
-    "quote_zh": "教育的根是苦的，但果實是甜的。",
-    "quote_en": "The roots of education are bitter, but the fruit is sweet.",
+    "explanation": "學習讓靈魂不斷成長。"
+  },
+  "06-08": {
+    "zh": "教育的根是苦的，但果實是甜的。",
+    "en": "The roots of education are bitter, but the fruit is sweet.",
     "author": "亞里斯多德 (Aristotle)",
-    "interpretation": "教育的過程雖艱辛，但成果甜美。"
-  },
-  {
-    "date": "06-09",
     "theme_id": 3,
     "theme_name": "學習與成長",
-    "quote_zh": "教育是點燃心靈的火焰。",
-    "quote_en": "Education is the kindling of a flame, not the filling of a vessel.",
+    "explanation": "教育的過程雖艱辛，但成果甜美。"
+  },
+  "06-09": {
+    "zh": "教育是點燃心靈的火焰。",
+    "en": "Education is the kindling of a flame, not the filling of a vessel.",
     "author": "蘇格拉底 (Socrates)",
-    "interpretation": "教育不是灌輸，而是啟發。"
+    "theme_id": 3,
+    "theme_name": "學習與成長",
+    "explanation": "教育不是灌輸，而是啟發。"
   },
-  {
-    "date": "06-10",
-    "theme_id": 4,
-    "theme_name": "信念與希望",
-    "quote_zh": "教育的根是苦的，但果實是甜的。",
-    "quote_en": "The roots of education are bitter, but the fruit is sweet.",
+  "06-10": {
+    "zh": "教育的根是苦的，但果實是甜的。",
+    "en": "The roots of education are bitter, but the fruit is sweet.",
     "author": "亞里斯多德 (Aristotle)",
-    "interpretation": "教育的過程雖艱辛，但成果甜美。"
-  },
-  {
-    "date": "06-11",
     "theme_id": 4,
     "theme_name": "信念與希望",
-    "quote_zh": "希望讓人堅持下去。",
-    "quote_en": "Hope keeps a person going.",
+    "explanation": "教育的過程雖艱辛，但成果甜美。"
+  },
+  "06-11": {
+    "zh": "希望讓人堅持下去。",
+    "en": "Hope keeps a person going.",
     "author": "托爾斯泰 (Leo Tolstoy)",
-    "interpretation": "希望是支撐生命的重要力量。"
-  },
-  {
-    "date": "06-12",
     "theme_id": 4,
     "theme_name": "信念與希望",
-    "quote_zh": "有信念的人，沒有什麼是不可能的。",
-    "quote_en": "Nothing is impossible to a willing heart.",
+    "explanation": "希望是支撐生命的重要力量。"
+  },
+  "06-12": {
+    "zh": "有信念的人，沒有什麼是不可能的。",
+    "en": "Nothing is impossible to a willing heart.",
     "author": "約翰·海伍德 (John Heywood)",
-    "interpretation": "心有信念，就能無所不能。"
+    "theme_id": 4,
+    "theme_name": "信念與希望",
+    "explanation": "心有信念，就能無所不能。"
   },
-  {
-    "date": "06-13",
-    "theme_id": 5,
-    "theme_name": "行動與堅持",
-    "quote_zh": "行動比言語更有說服力。",
-    "quote_en": "Actions speak louder than words.",
+  "06-13": {
+    "zh": "行動比言語更有說服力。",
+    "en": "Actions speak louder than words.",
     "author": "本傑明·富蘭克林 (Benjamin Franklin)",
-    "interpretation": "行動展現真正的力量。"
-  },
-  {
-    "date": "06-14",
     "theme_id": 5,
     "theme_name": "行動與堅持",
-    "quote_zh": "不要害怕慢，只要害怕停。",
-    "quote_en": "It does not matter how slowly you go as long as you do not stop.",
+    "explanation": "行動展現真正的力量。"
+  },
+  "06-14": {
+    "zh": "不要害怕慢，只要害怕停。",
+    "en": "It does not matter how slowly you go as long as you do not stop.",
     "author": "孔子 (Confucius)",
-    "interpretation": "持續前進比速度更重要。"
-  },
-  {
-    "date": "06-15",
     "theme_id": 5,
     "theme_name": "行動與堅持",
-    "quote_zh": "教育的根是苦的，但果實是甜的。",
-    "quote_en": "The roots of education are bitter, but the fruit is sweet.",
-    "author": "亞里斯多德 (Aristotle)",
-    "interpretation": "教育的過程雖艱辛，但成果甜美。"
+    "explanation": "持續前進比速度更重要。"
   },
-  {
-    "date": "06-16",
+  "06-15": {
+    "zh": "教育的根是苦的，但果實是甜的。",
+    "en": "The roots of education are bitter, but the fruit is sweet.",
+    "author": "亞里斯多德 (Aristotle)",
+    "theme_id": 5,
+    "theme_name": "行動與堅持",
+    "explanation": "教育的過程雖艱辛，但成果甜美。"
+  },
+  "06-16": {
+    "zh": "教育的根是苦的，但果實是甜的。",
+    "en": "The roots of education are bitter, but the fruit is sweet.",
+    "author": "亞里斯多德 (Aristotle)",
     "theme_id": 6,
     "theme_name": "感恩與謙卑",
-    "quote_zh": "教育的根是苦的，但果實是甜的。",
-    "quote_en": "The roots of education are bitter, but the fruit is sweet.",
-    "author": "亞里斯多德 (Aristotle)",
-    "interpretation": "教育的過程雖艱辛，但成果甜美。"
+    "explanation": "教育的過程雖艱辛，但成果甜美。"
   },
-  {
-    "date": "06-17",
-    "theme_id": 6,
-    "theme_name": "感恩與謙卑",
-    "quote_zh": "謙卑是偉大的基石。",
-    "quote_en": "Humility is the foundation of greatness.",
+  "06-17": {
+    "zh": "謙卑是偉大的基石。",
+    "en": "Humility is the foundation of greatness.",
     "author": "馬克·吐溫 (Mark Twain)",
-    "interpretation": "謙卑能帶來真正的成就。"
-  },
-  {
-    "date": "06-18",
     "theme_id": 6,
     "theme_name": "感恩與謙卑",
-    "quote_zh": "凡事感恩，生活更美好。",
-    "quote_en": "In everything, give thanks.",
+    "explanation": "謙卑能帶來真正的成就。"
+  },
+  "06-18": {
+    "zh": "凡事感恩，生活更美好。",
+    "en": "In everything, give thanks.",
     "author": "《聖經》 (The Bible)",
-    "interpretation": "懷著感恩之心，世界會更溫暖。"
+    "theme_id": 6,
+    "theme_name": "感恩與謙卑",
+    "explanation": "懷著感恩之心，世界會更溫暖。"
   },
-  {
-    "date": "06-19",
-    "theme_id": 7,
-    "theme_name": "創造與想像",
-    "quote_zh": "想像力是未來的藍圖。",
-    "quote_en": "Imagination is the blueprint of the future.",
+  "06-19": {
+    "zh": "想像力是未來的藍圖。",
+    "en": "Imagination is the blueprint of the future.",
     "author": "愛因斯坦 (Albert Einstein)",
-    "interpretation": "未來來自於想像力。"
-  },
-  {
-    "date": "06-20",
     "theme_id": 7,
     "theme_name": "創造與想像",
-    "quote_zh": "教育的根是苦的，但果實是甜的。",
-    "quote_en": "The roots of education are bitter, but the fruit is sweet.",
+    "explanation": "未來來自於想像力。"
+  },
+  "06-20": {
+    "zh": "教育的根是苦的，但果實是甜的。",
+    "en": "The roots of education are bitter, but the fruit is sweet.",
     "author": "亞里斯多德 (Aristotle)",
-    "interpretation": "教育的過程雖艱辛，但成果甜美。"
-  },
-  {
-    "date": "06-21",
     "theme_id": 7,
     "theme_name": "創造與想像",
-    "quote_zh": "藝術是靈魂的窗口。",
-    "quote_en": "Art is the window to the soul.",
+    "explanation": "教育的過程雖艱辛，但成果甜美。"
+  },
+  "06-21": {
+    "zh": "藝術是靈魂的窗口。",
+    "en": "Art is the window to the soul.",
     "author": "亨利·華茲華斯·朗費羅 (Henry Wadsworth Longfellow)",
-    "interpretation": "藝術能讓人看見心靈深處。"
+    "theme_id": 7,
+    "theme_name": "創造與想像",
+    "explanation": "藝術能讓人看見心靈深處。"
   },
-  {
-    "date": "06-22",
-    "theme_id": 8,
-    "theme_name": "自由與夢想",
-    "quote_zh": "自由是人生最寶貴的財富。",
-    "quote_en": "Liberty is the most precious possession of man.",
+  "06-22": {
+    "zh": "自由是人生最寶貴的財富。",
+    "en": "Liberty is the most precious possession of man.",
     "author": "西塞羅 (Cicero)",
-    "interpretation": "自由是人生最基本的價值。"
-  },
-  {
-    "date": "06-23",
     "theme_id": 8,
     "theme_name": "自由與夢想",
-    "quote_zh": "夢想讓我們超越現實。",
-    "quote_en": "Dreams make us transcend reality.",
+    "explanation": "自由是人生最基本的價值。"
+  },
+  "06-23": {
+    "zh": "夢想讓我們超越現實。",
+    "en": "Dreams make us transcend reality.",
     "author": "保羅·科爾賀 (Paulo Coelho)",
-    "interpretation": "夢想讓人不受現實束縛。"
-  },
-  {
-    "date": "06-24",
     "theme_id": 8,
     "theme_name": "自由與夢想",
-    "quote_zh": "教育的根是苦的，但果實是甜的。",
-    "quote_en": "The roots of education are bitter, but the fruit is sweet.",
-    "author": "亞里斯多德 (Aristotle)",
-    "interpretation": "教育的過程雖艱辛，但成果甜美。"
+    "explanation": "夢想讓人不受現實束縛。"
   },
-  {
-    "date": "06-25",
+  "06-24": {
+    "zh": "教育的根是苦的，但果實是甜的。",
+    "en": "The roots of education are bitter, but the fruit is sweet.",
+    "author": "亞里斯多德 (Aristotle)",
+    "theme_id": 8,
+    "theme_name": "自由與夢想",
+    "explanation": "教育的過程雖艱辛，但成果甜美。"
+  },
+  "06-25": {
+    "zh": "教育的根是苦的，但果實是甜的。",
+    "en": "The roots of education are bitter, but the fruit is sweet.",
+    "author": "亞里斯多德 (Aristotle)",
     "theme_id": 9,
     "theme_name": "平靜與智慧",
-    "quote_zh": "教育的根是苦的，但果實是甜的。",
-    "quote_en": "The roots of education are bitter, but the fruit is sweet.",
-    "author": "亞里斯多德 (Aristotle)",
-    "interpretation": "教育的過程雖艱辛，但成果甜美。"
+    "explanation": "教育的過程雖艱辛，但成果甜美。"
   },
-  {
-    "date": "06-26",
-    "theme_id": 9,
-    "theme_name": "平靜與智慧",
-    "quote_zh": "真正的平靜來自心靈。",
-    "quote_en": "True peace comes from the mind.",
+  "06-26": {
+    "zh": "真正的平靜來自心靈。",
+    "en": "True peace comes from the mind.",
     "author": "佛陀 (Buddha)",
-    "interpretation": "內心的平靜是最重要的力量。"
-  },
-  {
-    "date": "06-27",
     "theme_id": 9,
     "theme_name": "平靜與智慧",
-    "quote_zh": "平靜的心靈才能看清真相。",
-    "quote_en": "A calm mind can see the truth clearly.",
+    "explanation": "內心的平靜是最重要的力量。"
+  },
+  "06-27": {
+    "zh": "平靜的心靈才能看清真相。",
+    "en": "A calm mind can see the truth clearly.",
     "author": "馬可·奧理略 (Marcus Aurelius)",
-    "interpretation": "冷靜能幫助人洞察事物。"
+    "theme_id": 9,
+    "theme_name": "平靜與智慧",
+    "explanation": "冷靜能幫助人洞察事物。"
   },
-  {
-    "date": "06-28",
-    "theme_id": 10,
-    "theme_name": "服務與影響",
-    "quote_zh": "服務是愛的實踐。",
-    "quote_en": "Service is love in action.",
+  "06-28": {
+    "zh": "服務是愛的實踐。",
+    "en": "Service is love in action.",
     "author": "特蕾莎修女 (Mother Teresa)",
-    "interpretation": "助人是愛的具體表現。"
-  },
-  {
-    "date": "06-29",
     "theme_id": 10,
     "theme_name": "服務與影響",
-    "quote_zh": "一個人能改變世界。",
-    "quote_en": "One person can change the world.",
+    "explanation": "助人是愛的具體表現。"
+  },
+  "06-29": {
+    "zh": "一個人能改變世界。",
+    "en": "One person can change the world.",
     "author": "史蒂夫·喬布斯 (Steve Jobs)",
-    "interpretation": "一個人的堅持能帶來巨大改變。"
-  },
-  {
-    "date": "06-30",
     "theme_id": 10,
     "theme_name": "服務與影響",
-    "quote_zh": "善行是最持久的影響力。",
-    "quote_en": "Good deeds are the most lasting influence.",
+    "explanation": "一個人的堅持能帶來巨大改變。"
+  },
+  "06-30": {
+    "zh": "善行是最持久的影響力。",
+    "en": "Good deeds are the most lasting influence.",
     "author": "伊索 (Aesop)",
-    "interpretation": "善舉能跨越時間，留下印記。"
+    "theme_id": 10,
+    "theme_name": "服務與影響",
+    "explanation": "善舉能跨越時間，留下印記。"
   },
-  {
-    "date": "07-01",
-    "theme_id": 1,
-    "theme_name": "開始與勇氣",
-    "quote_zh": "勇氣是改變的起點。",
-    "quote_en": "Courage is the starting point of change.",
+  "07-01": {
+    "zh": "勇氣是改變的起點。",
+    "en": "Courage is the starting point of change.",
     "author": "不詳 (Anonymous)",
-    "interpretation": "改變的第一步來自於勇敢。"
-  },
-  {
-    "date": "07-02",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "千里之行，始於足下。",
-    "quote_en": "A journey of a thousand miles begins with a single step.",
+    "explanation": "改變的第一步來自於勇敢。"
+  },
+  "07-02": {
+    "zh": "千里之行，始於足下。",
+    "en": "A journey of a thousand miles begins with a single step.",
     "author": "老子 (Lao Tzu)",
-    "interpretation": "再長遠的路也要從第一步開始。"
-  },
-  {
-    "date": "07-03",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "開始永遠比完美更重要。",
-    "quote_en": "Starting is more important than being perfect.",
-    "author": "不詳 (Anonymous)",
-    "interpretation": "完美不是起點，行動才是。"
+    "explanation": "再長遠的路也要從第一步開始。"
   },
-  {
-    "date": "07-04",
-    "theme_id": 2,
-    "theme_name": "愛與關係",
-    "quote_zh": "愛是人類存在的理由。",
-    "quote_en": "Love is the reason for human existence.",
+  "07-03": {
+    "zh": "開始永遠比完美更重要。",
+    "en": "Starting is more important than being perfect.",
+    "author": "不詳 (Anonymous)",
+    "theme_id": 1,
+    "theme_name": "開始與勇氣",
+    "explanation": "完美不是起點，行動才是。"
+  },
+  "07-04": {
+    "zh": "愛是人類存在的理由。",
+    "en": "Love is the reason for human existence.",
     "author": "托爾斯泰 (Leo Tolstoy)",
-    "interpretation": "愛是人最根本的需求與價值。"
-  },
-  {
-    "date": "07-05",
     "theme_id": 2,
     "theme_name": "愛與關係",
-    "quote_zh": "友情是一種靈魂的選擇。",
-    "quote_en": "Friendship is a choice of the soul.",
+    "explanation": "愛是人最根本的需求與價值。"
+  },
+  "07-05": {
+    "zh": "友情是一種靈魂的選擇。",
+    "en": "Friendship is a choice of the soul.",
     "author": "亞里斯多德 (Aristotle)",
-    "interpretation": "友情是靈魂自由的契合。"
-  },
-  {
-    "date": "07-06",
     "theme_id": 2,
     "theme_name": "愛與關係",
-    "quote_zh": "愛是靈魂的食糧。",
-    "quote_en": "Love is the food of the soul.",
+    "explanation": "友情是靈魂自由的契合。"
+  },
+  "07-06": {
+    "zh": "愛是靈魂的食糧。",
+    "en": "Love is the food of the soul.",
     "author": "柏拉圖 (Plato)",
-    "interpretation": "愛讓靈魂得以滋養。"
+    "theme_id": 2,
+    "theme_name": "愛與關係",
+    "explanation": "愛讓靈魂得以滋養。"
   },
-  {
-    "date": "07-07",
-    "theme_id": 3,
-    "theme_name": "學習與成長",
-    "quote_zh": "教育是打開自由之門的鑰匙。",
-    "quote_en": "Education is the key to unlock the golden door of freedom.",
+  "07-07": {
+    "zh": "教育是打開自由之門的鑰匙。",
+    "en": "Education is the key to unlock the golden door of freedom.",
     "author": "喬治·華盛頓·卡佛 (George Washington Carver)",
-    "interpretation": "教育讓人擺脫限制，獲得自由。"
-  },
-  {
-    "date": "07-08",
     "theme_id": 3,
     "theme_name": "學習與成長",
-    "quote_zh": "錯誤是最好的老師。",
-    "quote_en": "Mistakes are the best teachers.",
+    "explanation": "教育讓人擺脫限制，獲得自由。"
+  },
+  "07-08": {
+    "zh": "錯誤是最好的老師。",
+    "en": "Mistakes are the best teachers.",
     "author": "不詳 (Anonymous)",
-    "interpretation": "錯誤能讓我們學到最深刻的教訓。"
-  },
-  {
-    "date": "07-09",
     "theme_id": 3,
     "theme_name": "學習與成長",
-    "quote_zh": "學而不思則罔，思而不學則殆。",
-    "quote_en": "Learning without thought is labor lost; thought without learning is perilous.",
+    "explanation": "錯誤能讓我們學到最深刻的教訓。"
+  },
+  "07-09": {
+    "zh": "學而不思則罔，思而不學則殆。",
+    "en": "Learning without thought is labor lost; thought without learning is perilous.",
     "author": "孔子 (Confucius)",
-    "interpretation": "學習與思考缺一不可。"
+    "theme_id": 3,
+    "theme_name": "學習與成長",
+    "explanation": "學習與思考缺一不可。"
   },
-  {
-    "date": "07-10",
-    "theme_id": 4,
-    "theme_name": "信念與希望",
-    "quote_zh": "教育的目的在於培養能夠思考的人。",
-    "quote_en": "The aim of education is the knowledge not of facts but of values.",
+  "07-10": {
+    "zh": "教育的目的在於培養能夠思考的人。",
+    "en": "The aim of education is the knowledge not of facts but of values.",
     "author": "威廉·S·巴克利 (William S. Burroughs)",
-    "interpretation": "教育的真正價值在於培養判斷力與價值觀。"
-  },
-  {
-    "date": "07-11",
     "theme_id": 4,
     "theme_name": "信念與希望",
-    "quote_zh": "信念能夠移山。",
-    "quote_en": "Faith can move mountains.",
+    "explanation": "教育的真正價值在於培養判斷力與價值觀。"
+  },
+  "07-11": {
+    "zh": "信念能夠移山。",
+    "en": "Faith can move mountains.",
     "author": "《聖經》 (The Bible)",
-    "interpretation": "堅定的信念能突破不可能。"
-  },
-  {
-    "date": "07-12",
     "theme_id": 4,
     "theme_name": "信念與希望",
-    "quote_zh": "即使在最黑暗的夜，也要仰望星辰。",
-    "quote_en": "Even in the darkest night, look up at the stars.",
-    "author": "維克多·雨果 (Victor Hugo)",
-    "interpretation": "困境中仍要懷抱希望。"
+    "explanation": "堅定的信念能突破不可能。"
   },
-  {
-    "date": "07-13",
-    "theme_id": 5,
-    "theme_name": "行動與堅持",
-    "quote_zh": "行動勝於言語。",
-    "quote_en": "Action speaks louder than words.",
+  "07-12": {
+    "zh": "即使在最黑暗的夜，也要仰望星辰。",
+    "en": "Even in the darkest night, look up at the stars.",
+    "author": "維克多·雨果 (Victor Hugo)",
+    "theme_id": 4,
+    "theme_name": "信念與希望",
+    "explanation": "困境中仍要懷抱希望。"
+  },
+  "07-13": {
+    "zh": "行動勝於言語。",
+    "en": "Action speaks louder than words.",
     "author": "本傑明·富蘭克林 (Benjamin Franklin)",
-    "interpretation": "行動才是真正的表現。"
-  },
-  {
-    "date": "07-14",
     "theme_id": 5,
     "theme_name": "行動與堅持",
-    "quote_zh": "成功是每日小努力的總和。",
-    "quote_en": "Success is the sum of small efforts repeated day in and day out.",
+    "explanation": "行動才是真正的表現。"
+  },
+  "07-14": {
+    "zh": "成功是每日小努力的總和。",
+    "en": "Success is the sum of small efforts repeated day in and day out.",
     "author": "羅伯特·科利爾 (Robert Collier)",
-    "interpretation": "成功來自於持續累積。"
-  },
-  {
-    "date": "07-15",
     "theme_id": 5,
     "theme_name": "行動與堅持",
-    "quote_zh": "跌倒七次，站起來八次。",
-    "quote_en": "Fall seven times and stand up eight.",
+    "explanation": "成功來自於持續累積。"
+  },
+  "07-15": {
+    "zh": "跌倒七次，站起來八次。",
+    "en": "Fall seven times and stand up eight.",
     "author": "日本諺語 (Japanese Proverb)",
-    "interpretation": "失敗多少次都要再站起來。"
+    "theme_id": 5,
+    "theme_name": "行動與堅持",
+    "explanation": "失敗多少次都要再站起來。"
   },
-  {
-    "date": "07-16",
-    "theme_id": 6,
-    "theme_name": "感恩與謙卑",
-    "quote_zh": "教育的目的在於培養能夠思考的人。",
-    "quote_en": "The aim of education is the knowledge not of facts but of values.",
+  "07-16": {
+    "zh": "教育的目的在於培養能夠思考的人。",
+    "en": "The aim of education is the knowledge not of facts but of values.",
     "author": "威廉·S·巴克利 (William S. Burroughs)",
-    "interpretation": "教育的真正價值在於培養判斷力與價值觀。"
-  },
-  {
-    "date": "07-17",
     "theme_id": 6,
     "theme_name": "感恩與謙卑",
-    "quote_zh": "謙卑是智慧的開始。",
-    "quote_en": "Humility is the beginning of wisdom.",
+    "explanation": "教育的真正價值在於培養判斷力與價值觀。"
+  },
+  "07-17": {
+    "zh": "謙卑是智慧的開始。",
+    "en": "Humility is the beginning of wisdom.",
     "author": "蘇格拉底 (Socrates)",
-    "interpretation": "謙卑是成長的根基。"
-  },
-  {
-    "date": "07-18",
     "theme_id": 6,
     "theme_name": "感恩與謙卑",
-    "quote_zh": "知恩圖報是最高尚的品德。",
-    "quote_en": "Gratitude is not only the greatest of virtues, but the parent of all others.",
+    "explanation": "謙卑是成長的根基。"
+  },
+  "07-18": {
+    "zh": "知恩圖報是最高尚的品德。",
+    "en": "Gratitude is not only the greatest of virtues, but the parent of all others.",
     "author": "西塞羅 (Cicero)",
-    "interpretation": "感恩是所有美德的源泉。"
+    "theme_id": 6,
+    "theme_name": "感恩與謙卑",
+    "explanation": "感恩是所有美德的源泉。"
   },
-  {
-    "date": "07-19",
-    "theme_id": 7,
-    "theme_name": "創造與想像",
-    "quote_zh": "想像力比知識更重要。",
-    "quote_en": "Imagination is more important than knowledge.",
+  "07-19": {
+    "zh": "想像力比知識更重要。",
+    "en": "Imagination is more important than knowledge.",
     "author": "愛因斯坦 (Albert Einstein)",
-    "interpretation": "想像力是推動世界的動力。"
-  },
-  {
-    "date": "07-20",
     "theme_id": 7,
     "theme_name": "創造與想像",
-    "quote_zh": "創造力是勇氣的另一種形式。",
-    "quote_en": "Creativity is another form of courage.",
+    "explanation": "想像力是推動世界的動力。"
+  },
+  "07-20": {
+    "zh": "創造力是勇氣的另一種形式。",
+    "en": "Creativity is another form of courage.",
     "author": "亨利·馬蒂斯 (Henri Matisse)",
-    "interpretation": "創造需要勇敢的心。"
-  },
-  {
-    "date": "07-21",
     "theme_id": 7,
     "theme_name": "創造與想像",
-    "quote_zh": "藝術讓我們重新看世界。",
-    "quote_en": "Art makes us see the world anew.",
+    "explanation": "創造需要勇敢的心。"
+  },
+  "07-21": {
+    "zh": "藝術讓我們重新看世界。",
+    "en": "Art makes us see the world anew.",
     "author": "馬克·夏卡爾 (Marc Chagall)",
-    "interpretation": "藝術能改變我們的視角。"
+    "theme_id": 7,
+    "theme_name": "創造與想像",
+    "explanation": "藝術能改變我們的視角。"
   },
-  {
-    "date": "07-22",
-    "theme_id": 8,
-    "theme_name": "自由與夢想",
-    "quote_zh": "自由是靈魂的本質。",
-    "quote_en": "Freedom is the essence of the soul.",
+  "07-22": {
+    "zh": "自由是靈魂的本質。",
+    "en": "Freedom is the essence of the soul.",
     "author": "柏拉圖 (Plato)",
-    "interpretation": "自由是靈魂不可或缺的一部分。"
-  },
-  {
-    "date": "07-23",
     "theme_id": 8,
     "theme_name": "自由與夢想",
-    "quote_zh": "教育的目的在於培養能夠思考的人。",
-    "quote_en": "The aim of education is the knowledge not of facts but of values.",
+    "explanation": "自由是靈魂不可或缺的一部分。"
+  },
+  "07-23": {
+    "zh": "教育的目的在於培養能夠思考的人。",
+    "en": "The aim of education is the knowledge not of facts but of values.",
     "author": "威廉·S·巴克利 (William S. Burroughs)",
-    "interpretation": "教育的真正價值在於培養判斷力與價值觀。"
-  },
-  {
-    "date": "07-24",
     "theme_id": 8,
     "theme_name": "自由與夢想",
-    "quote_zh": "敢於夢想，敢於實現。",
-    "quote_en": "Dare to dream, dare to achieve.",
-    "author": "華特·迪士尼 (Walt Disney)",
-    "interpretation": "夢想需要勇氣去實現。"
+    "explanation": "教育的真正價值在於培養判斷力與價值觀。"
   },
-  {
-    "date": "07-25",
-    "theme_id": 9,
-    "theme_name": "平靜與智慧",
-    "quote_zh": "平靜是最大的力量。",
-    "quote_en": "Calmness is the greatest strength.",
+  "07-24": {
+    "zh": "敢於夢想，敢於實現。",
+    "en": "Dare to dream, dare to achieve.",
+    "author": "華特·迪士尼 (Walt Disney)",
+    "theme_id": 8,
+    "theme_name": "自由與夢想",
+    "explanation": "夢想需要勇氣去實現。"
+  },
+  "07-25": {
+    "zh": "平靜是最大的力量。",
+    "en": "Calmness is the greatest strength.",
     "author": "詹姆斯·艾倫 (James Allen)",
-    "interpretation": "內心的平靜能化解一切困境。"
-  },
-  {
-    "date": "07-26",
     "theme_id": 9,
     "theme_name": "平靜與智慧",
-    "quote_zh": "智慧來自於觀察。",
-    "quote_en": "Wisdom comes from observation.",
+    "explanation": "內心的平靜能化解一切困境。"
+  },
+  "07-26": {
+    "zh": "智慧來自於觀察。",
+    "en": "Wisdom comes from observation.",
     "author": "馬可·奧理略 (Marcus Aurelius)",
-    "interpretation": "觀察能培養洞察力。"
-  },
-  {
-    "date": "07-27",
     "theme_id": 9,
     "theme_name": "平靜與智慧",
-    "quote_zh": "真正的智慧是知道自己無知。",
-    "quote_en": "The only true wisdom is in knowing you know nothing.",
+    "explanation": "觀察能培養洞察力。"
+  },
+  "07-27": {
+    "zh": "真正的智慧是知道自己無知。",
+    "en": "The only true wisdom is in knowing you know nothing.",
     "author": "蘇格拉底 (Socrates)",
-    "interpretation": "謙虛是智慧的起點。"
+    "theme_id": 9,
+    "theme_name": "平靜與智慧",
+    "explanation": "謙虛是智慧的起點。"
   },
-  {
-    "date": "07-28",
-    "theme_id": 10,
-    "theme_name": "服務與影響",
-    "quote_zh": "人生最崇高的目標是服務他人。",
-    "quote_en": "The highest goal of life is to serve others.",
+  "07-28": {
+    "zh": "人生最崇高的目標是服務他人。",
+    "en": "The highest goal of life is to serve others.",
     "author": "特蕾莎修女 (Mother Teresa)",
-    "interpretation": "服務是人類最偉大的使命。"
-  },
-  {
-    "date": "07-29",
     "theme_id": 10,
     "theme_name": "服務與影響",
-    "quote_zh": "教育的目的在於培養能夠思考的人。",
-    "quote_en": "The aim of education is the knowledge not of facts but of values.",
+    "explanation": "服務是人類最偉大的使命。"
+  },
+  "07-29": {
+    "zh": "教育的目的在於培養能夠思考的人。",
+    "en": "The aim of education is the knowledge not of facts but of values.",
     "author": "威廉·S·巴克利 (William S. Burroughs)",
-    "interpretation": "教育的真正價值在於培養判斷力與價值觀。"
-  },
-  {
-    "date": "07-30",
     "theme_id": 10,
     "theme_name": "服務與影響",
-    "quote_zh": "真正的影響力來自無私的付出。",
-    "quote_en": "True influence comes from selfless giving.",
+    "explanation": "教育的真正價值在於培養判斷力與價值觀。"
+  },
+  "07-30": {
+    "zh": "真正的影響力來自無私的付出。",
+    "en": "True influence comes from selfless giving.",
     "author": "愛因斯坦 (Albert Einstein)",
-    "interpretation": "影響力的本質在於無私。"
+    "theme_id": 10,
+    "theme_name": "服務與影響",
+    "explanation": "影響力的本質在於無私。"
   },
-  {
-    "date": "07-31",
-    "theme_id": 1,
-    "theme_name": "開始與勇氣",
-    "quote_zh": "開始的勇氣比結果更重要。",
-    "quote_en": "The courage to begin is more important than the outcome.",
+  "07-31": {
+    "zh": "開始的勇氣比結果更重要。",
+    "en": "The courage to begin is more important than the outcome.",
     "author": "邱吉爾 (Winston Churchill)",
-    "interpretation": "開始本身就是一種勝利。"
-  },
-  {
-    "date": "08-01",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "開始需要勇氣，堅持需要毅力。",
-    "quote_en": "To begin requires courage, to persist requires willpower.",
+    "explanation": "開始本身就是一種勝利。"
+  },
+  "08-01": {
+    "zh": "開始需要勇氣，堅持需要毅力。",
+    "en": "To begin requires courage, to persist requires willpower.",
     "author": "不詳 (Anonymous)",
-    "interpretation": "開始不易，但堅持更難。"
-  },
-  {
-    "date": "08-02",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "凡事起頭難，但一旦開始就容易。",
-    "quote_en": "All things are difficult before they are easy.",
+    "explanation": "開始不易，但堅持更難。"
+  },
+  "08-02": {
+    "zh": "凡事起頭難，但一旦開始就容易。",
+    "en": "All things are difficult before they are easy.",
     "author": "托馬斯·富勒 (Thomas Fuller)",
-    "interpretation": "萬事起步最難，但開始後就順利許多。"
-  },
-  {
-    "date": "08-03",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "敢於開始，就是成功的一半。",
-    "quote_en": "Dare to begin, and you’re halfway to success.",
-    "author": "不詳 (Anonymous)",
-    "interpretation": "開始是邁向成功的第一步。"
+    "explanation": "萬事起步最難，但開始後就順利許多。"
   },
-  {
-    "date": "08-04",
-    "theme_id": 2,
-    "theme_name": "愛與關係",
-    "quote_zh": "愛是生命的核心。",
-    "quote_en": "Love is the heart of life.",
+  "08-03": {
+    "zh": "敢於開始，就是成功的一半。",
+    "en": "Dare to begin, and you’re halfway to success.",
+    "author": "不詳 (Anonymous)",
+    "theme_id": 1,
+    "theme_name": "開始與勇氣",
+    "explanation": "開始是邁向成功的第一步。"
+  },
+  "08-04": {
+    "zh": "愛是生命的核心。",
+    "en": "Love is the heart of life.",
     "author": "約翰·藍儂 (John Lennon)",
-    "interpretation": "愛讓生命充滿意義。"
-  },
-  {
-    "date": "08-05",
     "theme_id": 2,
     "theme_name": "愛與關係",
-    "quote_zh": "友情使快樂加倍，痛苦減半。",
-    "quote_en": "Friendship doubles joy and halves sorrow.",
+    "explanation": "愛讓生命充滿意義。"
+  },
+  "08-05": {
+    "zh": "友情使快樂加倍，痛苦減半。",
+    "en": "Friendship doubles joy and halves sorrow.",
     "author": "培根 (Francis Bacon)",
-    "interpretation": "友情讓人生更美好。"
-  },
-  {
-    "date": "08-06",
     "theme_id": 2,
     "theme_name": "愛與關係",
-    "quote_zh": "愛是理解的行動。",
-    "quote_en": "Love is an act of understanding.",
+    "explanation": "友情讓人生更美好。"
+  },
+  "08-06": {
+    "zh": "愛是理解的行動。",
+    "en": "Love is an act of understanding.",
     "author": "不詳 (Anonymous)",
-    "interpretation": "愛的本質在於理解與接納。"
+    "theme_id": 2,
+    "theme_name": "愛與關係",
+    "explanation": "愛的本質在於理解與接納。"
   },
-  {
-    "date": "08-07",
-    "theme_id": 3,
-    "theme_name": "學習與成長",
-    "quote_zh": "知識改變命運。",
-    "quote_en": "Knowledge changes destiny.",
+  "08-07": {
+    "zh": "知識改變命運。",
+    "en": "Knowledge changes destiny.",
     "author": "法蘭西斯·培根 (Francis Bacon)",
-    "interpretation": "知識能為人生開啟新的可能。"
-  },
-  {
-    "date": "08-08",
     "theme_id": 3,
     "theme_name": "學習與成長",
-    "quote_zh": "教育的目標是讓人能獨立思考。",
-    "quote_en": "The aim of education is to enable one to think independently.",
+    "explanation": "知識能為人生開啟新的可能。"
+  },
+  "08-08": {
+    "zh": "教育的目標是讓人能獨立思考。",
+    "en": "The aim of education is to enable one to think independently.",
     "author": "愛默生 (Ralph Waldo Emerson)",
-    "interpretation": "教育不是灌輸，而是啟發。"
-  },
-  {
-    "date": "08-09",
     "theme_id": 3,
     "theme_name": "學習與成長",
-    "quote_zh": "知識就是力量。",
-    "quote_en": "Knowledge is power.",
-    "author": "法蘭西斯·培根 (Francis Bacon)",
-    "interpretation": "知識能改變命運，帶來力量。"
+    "explanation": "教育不是灌輸，而是啟發。"
   },
-  {
-    "date": "08-10",
+  "08-09": {
+    "zh": "知識就是力量。",
+    "en": "Knowledge is power.",
+    "author": "法蘭西斯·培根 (Francis Bacon)",
+    "theme_id": 3,
+    "theme_name": "學習與成長",
+    "explanation": "知識能改變命運，帶來力量。"
+  },
+  "08-10": {
+    "zh": "知識就是力量。",
+    "en": "Knowledge is power.",
+    "author": "法蘭西斯·培根 (Francis Bacon)",
     "theme_id": 4,
     "theme_name": "信念與希望",
-    "quote_zh": "知識就是力量。",
-    "quote_en": "Knowledge is power.",
-    "author": "法蘭西斯·培根 (Francis Bacon)",
-    "interpretation": "知識能改變命運，帶來力量。"
+    "explanation": "知識能改變命運，帶來力量。"
   },
-  {
-    "date": "08-11",
-    "theme_id": 4,
-    "theme_name": "信念與希望",
-    "quote_zh": "希望是靈魂的翅膀。",
-    "quote_en": "Hope is the wings of the soul.",
+  "08-11": {
+    "zh": "希望是靈魂的翅膀。",
+    "en": "Hope is the wings of the soul.",
     "author": "柏拉圖 (Plato)",
-    "interpretation": "希望能帶我們飛越困境。"
-  },
-  {
-    "date": "08-12",
     "theme_id": 4,
     "theme_name": "信念與希望",
-    "quote_zh": "信仰是無形的力量。",
-    "quote_en": "Faith is the invisible strength.",
-    "author": "聖奧古斯丁 (St. Augustine)",
-    "interpretation": "信仰支撐人度過艱難時刻。"
+    "explanation": "希望能帶我們飛越困境。"
   },
-  {
-    "date": "08-13",
-    "theme_id": 5,
-    "theme_name": "行動與堅持",
-    "quote_zh": "行動是成功的基礎。",
-    "quote_en": "Action is the foundation of success.",
+  "08-12": {
+    "zh": "信仰是無形的力量。",
+    "en": "Faith is the invisible strength.",
+    "author": "聖奧古斯丁 (St. Augustine)",
+    "theme_id": 4,
+    "theme_name": "信念與希望",
+    "explanation": "信仰支撐人度過艱難時刻。"
+  },
+  "08-13": {
+    "zh": "行動是成功的基礎。",
+    "en": "Action is the foundation of success.",
     "author": "畢卡索 (Pablo Picasso)",
-    "interpretation": "沒有行動，成功無從談起。"
-  },
-  {
-    "date": "08-14",
     "theme_id": 5,
     "theme_name": "行動與堅持",
-    "quote_zh": "知識就是力量。",
-    "quote_en": "Knowledge is power.",
+    "explanation": "沒有行動，成功無從談起。"
+  },
+  "08-14": {
+    "zh": "知識就是力量。",
+    "en": "Knowledge is power.",
     "author": "法蘭西斯·培根 (Francis Bacon)",
-    "interpretation": "知識能改變命運，帶來力量。"
-  },
-  {
-    "date": "08-15",
     "theme_id": 5,
     "theme_name": "行動與堅持",
-    "quote_zh": "堅持就是勝利。",
-    "quote_en": "Perseverance is victory.",
+    "explanation": "知識能改變命運，帶來力量。"
+  },
+  "08-15": {
+    "zh": "堅持就是勝利。",
+    "en": "Perseverance is victory.",
     "author": "拿破崙·波拿巴 (Napoleon Bonaparte)",
-    "interpretation": "不放棄就是最大的勝利。"
+    "theme_id": 5,
+    "theme_name": "行動與堅持",
+    "explanation": "不放棄就是最大的勝利。"
   },
-  {
-    "date": "08-16",
-    "theme_id": 6,
-    "theme_name": "感恩與謙卑",
-    "quote_zh": "知識就是力量。",
-    "quote_en": "Knowledge is power.",
+  "08-16": {
+    "zh": "知識就是力量。",
+    "en": "Knowledge is power.",
     "author": "法蘭西斯·培根 (Francis Bacon)",
-    "interpretation": "知識能改變命運，帶來力量。"
-  },
-  {
-    "date": "08-17",
     "theme_id": 6,
     "theme_name": "感恩與謙卑",
-    "quote_zh": "謙卑使人偉大。",
-    "quote_en": "Humility makes a person great.",
+    "explanation": "知識能改變命運，帶來力量。"
+  },
+  "08-17": {
+    "zh": "謙卑使人偉大。",
+    "en": "Humility makes a person great.",
     "author": "馬克·吐溫 (Mark Twain)",
-    "interpretation": "謙卑是成就的重要條件。"
-  },
-  {
-    "date": "08-18",
     "theme_id": 6,
     "theme_name": "感恩與謙卑",
-    "quote_zh": "心懷感恩，生活更美好。",
-    "quote_en": "With gratitude, life becomes better.",
+    "explanation": "謙卑是成就的重要條件。"
+  },
+  "08-18": {
+    "zh": "心懷感恩，生活更美好。",
+    "en": "With gratitude, life becomes better.",
     "author": "愛比克泰德 (Epictetus)",
-    "interpretation": "感恩是幸福的源泉。"
+    "theme_id": 6,
+    "theme_name": "感恩與謙卑",
+    "explanation": "感恩是幸福的源泉。"
   },
-  {
-    "date": "08-19",
-    "theme_id": 7,
-    "theme_name": "創造與想像",
-    "quote_zh": "創造力需要勇氣。",
-    "quote_en": "Creativity requires courage.",
+  "08-19": {
+    "zh": "創造力需要勇氣。",
+    "en": "Creativity requires courage.",
     "author": "亨利·馬蒂斯 (Henri Matisse)",
-    "interpretation": "創造就是勇於嘗試。"
-  },
-  {
-    "date": "08-20",
     "theme_id": 7,
     "theme_name": "創造與想像",
-    "quote_zh": "想像力能帶來無限可能。",
-    "quote_en": "Imagination brings infinite possibilities.",
+    "explanation": "創造就是勇於嘗試。"
+  },
+  "08-20": {
+    "zh": "想像力能帶來無限可能。",
+    "en": "Imagination brings infinite possibilities.",
     "author": "愛因斯坦 (Albert Einstein)",
-    "interpretation": "想像力是無窮的力量。"
-  },
-  {
-    "date": "08-21",
     "theme_id": 7,
     "theme_name": "創造與想像",
-    "quote_zh": "知識就是力量。",
-    "quote_en": "Knowledge is power.",
-    "author": "法蘭西斯·培根 (Francis Bacon)",
-    "interpretation": "知識能改變命運，帶來力量。"
+    "explanation": "想像力是無窮的力量。"
   },
-  {
-    "date": "08-22",
+  "08-21": {
+    "zh": "知識就是力量。",
+    "en": "Knowledge is power.",
+    "author": "法蘭西斯·培根 (Francis Bacon)",
+    "theme_id": 7,
+    "theme_name": "創造與想像",
+    "explanation": "知識能改變命運，帶來力量。"
+  },
+  "08-22": {
+    "zh": "知識就是力量。",
+    "en": "Knowledge is power.",
+    "author": "法蘭西斯·培根 (Francis Bacon)",
     "theme_id": 8,
     "theme_name": "自由與夢想",
-    "quote_zh": "知識就是力量。",
-    "quote_en": "Knowledge is power.",
-    "author": "法蘭西斯·培根 (Francis Bacon)",
-    "interpretation": "知識能改變命運，帶來力量。"
+    "explanation": "知識能改變命運，帶來力量。"
   },
-  {
-    "date": "08-23",
-    "theme_id": 8,
-    "theme_name": "自由與夢想",
-    "quote_zh": "夢想讓人活得更有意義。",
-    "quote_en": "Dreams make life more meaningful.",
+  "08-23": {
+    "zh": "夢想讓人活得更有意義。",
+    "en": "Dreams make life more meaningful.",
     "author": "保羅·科爾賀 (Paulo Coelho)",
-    "interpretation": "夢想讓生活更有價值。"
-  },
-  {
-    "date": "08-24",
     "theme_id": 8,
     "theme_name": "自由與夢想",
-    "quote_zh": "未來屬於相信夢想的人。",
-    "quote_en": "The future belongs to those who believe in their dreams.",
+    "explanation": "夢想讓生活更有價值。"
+  },
+  "08-24": {
+    "zh": "未來屬於相信夢想的人。",
+    "en": "The future belongs to those who believe in their dreams.",
     "author": "艾莉諾·羅斯福 (Eleanor Roosevelt)",
-    "interpretation": "夢想能塑造未來。"
+    "theme_id": 8,
+    "theme_name": "自由與夢想",
+    "explanation": "夢想能塑造未來。"
   },
-  {
-    "date": "08-25",
-    "theme_id": 9,
-    "theme_name": "平靜與智慧",
-    "quote_zh": "知識就是力量。",
-    "quote_en": "Knowledge is power.",
+  "08-25": {
+    "zh": "知識就是力量。",
+    "en": "Knowledge is power.",
     "author": "法蘭西斯·培根 (Francis Bacon)",
-    "interpretation": "知識能改變命運，帶來力量。"
-  },
-  {
-    "date": "08-26",
     "theme_id": 9,
     "theme_name": "平靜與智慧",
-    "quote_zh": "平靜是一種智慧。",
-    "quote_en": "Calmness is a kind of wisdom.",
+    "explanation": "知識能改變命運，帶來力量。"
+  },
+  "08-26": {
+    "zh": "平靜是一種智慧。",
+    "en": "Calmness is a kind of wisdom.",
     "author": "馬可·奧理略 (Marcus Aurelius)",
-    "interpretation": "平靜讓人保持清明。"
-  },
-  {
-    "date": "08-27",
     "theme_id": 9,
     "theme_name": "平靜與智慧",
-    "quote_zh": "內心的寧靜是最偉大的力量。",
-    "quote_en": "Inner peace is the greatest strength.",
+    "explanation": "平靜讓人保持清明。"
+  },
+  "08-27": {
+    "zh": "內心的寧靜是最偉大的力量。",
+    "en": "Inner peace is the greatest strength.",
     "author": "佛陀 (Buddha)",
-    "interpretation": "內心的平靜比外在的力量更強大。"
+    "theme_id": 9,
+    "theme_name": "平靜與智慧",
+    "explanation": "內心的平靜比外在的力量更強大。"
   },
-  {
-    "date": "08-28",
-    "theme_id": 10,
-    "theme_name": "服務與影響",
-    "quote_zh": "人生最崇高的使命是服務他人。",
-    "quote_en": "The most noble mission of life is to serve others.",
+  "08-28": {
+    "zh": "人生最崇高的使命是服務他人。",
+    "en": "The most noble mission of life is to serve others.",
     "author": "特蕾莎修女 (Mother Teresa)",
-    "interpretation": "服務他人是最崇高的價值。"
-  },
-  {
-    "date": "08-29",
     "theme_id": 10,
     "theme_name": "服務與影響",
-    "quote_zh": "影響力來自於無私的行動。",
-    "quote_en": "Influence comes from selfless actions.",
+    "explanation": "服務他人是最崇高的價值。"
+  },
+  "08-29": {
+    "zh": "影響力來自於無私的行動。",
+    "en": "Influence comes from selfless actions.",
     "author": "愛因斯坦 (Albert Einstein)",
-    "interpretation": "真正的影響來自於無私奉獻。"
-  },
-  {
-    "date": "08-30",
     "theme_id": 10,
     "theme_name": "服務與影響",
-    "quote_zh": "知識就是力量。",
-    "quote_en": "Knowledge is power.",
+    "explanation": "真正的影響來自於無私奉獻。"
+  },
+  "08-30": {
+    "zh": "知識就是力量。",
+    "en": "Knowledge is power.",
     "author": "法蘭西斯·培根 (Francis Bacon)",
-    "interpretation": "知識能改變命運，帶來力量。"
+    "theme_id": 10,
+    "theme_name": "服務與影響",
+    "explanation": "知識能改變命運，帶來力量。"
   },
-  {
-    "date": "08-31",
-    "theme_id": 1,
-    "theme_name": "開始與勇氣",
-    "quote_zh": "開始的勇氣比等待完美更重要。",
-    "quote_en": "The courage to start is more important than waiting for perfection.",
+  "08-31": {
+    "zh": "開始的勇氣比等待完美更重要。",
+    "en": "The courage to start is more important than waiting for perfection.",
     "author": "邱吉爾 (Winston Churchill)",
-    "interpretation": "行動比等待更能改變命運。"
-  },
-  {
-    "date": "09-01",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "勇氣是改變的第一步。",
-    "quote_en": "Courage is the first step to change.",
+    "explanation": "行動比等待更能改變命運。"
+  },
+  "09-01": {
+    "zh": "勇氣是改變的第一步。",
+    "en": "Courage is the first step to change.",
     "author": "不詳 (Anonymous)",
-    "interpretation": "改變需要從勇敢開始。"
-  },
-  {
-    "date": "09-02",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "開始比等待更有力量。",
-    "quote_en": "Starting is more powerful than waiting.",
+    "explanation": "改變需要從勇敢開始。"
+  },
+  "09-02": {
+    "zh": "開始比等待更有力量。",
+    "en": "Starting is more powerful than waiting.",
     "author": "不詳 (Anonymous)",
-    "interpretation": "行動比等待重要。"
-  },
-  {
-    "date": "09-03",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "勇敢者的道路雖險峻，但充滿希望。",
-    "quote_en": "The path of the brave is steep, but full of hope.",
+    "explanation": "行動比等待重要。"
+  },
+  "09-03": {
+    "zh": "勇敢者的道路雖險峻，但充滿希望。",
+    "en": "The path of the brave is steep, but full of hope.",
     "author": "塞內卡 (Seneca)",
-    "interpretation": "勇氣帶你穿越險阻。"
+    "theme_id": 1,
+    "theme_name": "開始與勇氣",
+    "explanation": "勇氣帶你穿越險阻。"
   },
-  {
-    "date": "09-04",
-    "theme_id": 2,
-    "theme_name": "愛與關係",
-    "quote_zh": "愛是世界上最美的語言。",
-    "quote_en": "Love is the most beautiful language in the world.",
+  "09-04": {
+    "zh": "愛是世界上最美的語言。",
+    "en": "Love is the most beautiful language in the world.",
     "author": "不詳 (Anonymous)",
-    "interpretation": "愛不需要翻譯，它是共同的語言。"
-  },
-  {
-    "date": "09-05",
     "theme_id": 2,
     "theme_name": "愛與關係",
-    "quote_zh": "友誼是靈魂的庇護所。",
-    "quote_en": "Friendship is the shelter of the soul.",
+    "explanation": "愛不需要翻譯，它是共同的語言。"
+  },
+  "09-05": {
+    "zh": "友誼是靈魂的庇護所。",
+    "en": "Friendship is the shelter of the soul.",
     "author": "亞里斯多德 (Aristotle)",
-    "interpretation": "友情能給人心靈的支持。"
-  },
-  {
-    "date": "09-06",
     "theme_id": 2,
     "theme_name": "愛與關係",
-    "quote_zh": "愛是生命的陽光。",
-    "quote_en": "Love is the sunshine of life.",
+    "explanation": "友情能給人心靈的支持。"
+  },
+  "09-06": {
+    "zh": "愛是生命的陽光。",
+    "en": "Love is the sunshine of life.",
     "author": "托爾斯泰 (Leo Tolstoy)",
-    "interpretation": "愛讓生命更加燦爛。"
+    "theme_id": 2,
+    "theme_name": "愛與關係",
+    "explanation": "愛讓生命更加燦爛。"
   },
-  {
-    "date": "09-07",
-    "theme_id": 3,
-    "theme_name": "學習與成長",
-    "quote_zh": "學而不思則罔，思而不學則殆。",
-    "quote_en": "Learning without thought is labor lost; thought without learning is perilous.",
+  "09-07": {
+    "zh": "學而不思則罔，思而不學則殆。",
+    "en": "Learning without thought is labor lost; thought without learning is perilous.",
     "author": "孔子 (Confucius)",
-    "interpretation": "學習與思考要結合。"
-  },
-  {
-    "date": "09-08",
     "theme_id": 3,
     "theme_name": "學習與成長",
-    "quote_zh": "教育是改變世界最有力的武器。",
-    "quote_en": "Education is the most powerful weapon to change the world.",
+    "explanation": "學習與思考要結合。"
+  },
+  "09-08": {
+    "zh": "教育是改變世界最有力的武器。",
+    "en": "Education is the most powerful weapon to change the world.",
     "author": "納爾遜·曼德拉 (Nelson Mandela)",
-    "interpretation": "教育能帶來翻天覆地的改變。"
-  },
-  {
-    "date": "09-09",
     "theme_id": 3,
     "theme_name": "學習與成長",
-    "quote_zh": "知識就是力量。",
-    "quote_en": "Knowledge is power.",
+    "explanation": "教育能帶來翻天覆地的改變。"
+  },
+  "09-09": {
+    "zh": "知識就是力量。",
+    "en": "Knowledge is power.",
     "author": "法蘭西斯·培根 (Francis Bacon)",
-    "interpretation": "知識讓人有能力影響世界。"
+    "theme_id": 3,
+    "theme_name": "學習與成長",
+    "explanation": "知識讓人有能力影響世界。"
   },
-  {
-    "date": "09-10",
-    "theme_id": 4,
-    "theme_name": "信念與希望",
-    "quote_zh": "教育不是灌輸，而是點燃火焰。",
-    "quote_en": "Education is not the filling of a pail, but the lighting of a fire.",
+  "09-10": {
+    "zh": "教育不是灌輸，而是點燃火焰。",
+    "en": "Education is not the filling of a pail, but the lighting of a fire.",
     "author": "葉芝 (W.B. Yeats)",
-    "interpretation": "教育應該激發熱情，而不是死記。"
-  },
-  {
-    "date": "09-11",
     "theme_id": 4,
     "theme_name": "信念與希望",
-    "quote_zh": "教育不是灌輸，而是點燃火焰。",
-    "quote_en": "Education is not the filling of a pail, but the lighting of a fire.",
+    "explanation": "教育應該激發熱情，而不是死記。"
+  },
+  "09-11": {
+    "zh": "教育不是灌輸，而是點燃火焰。",
+    "en": "Education is not the filling of a pail, but the lighting of a fire.",
     "author": "葉芝 (W.B. Yeats)",
-    "interpretation": "教育應該激發熱情，而不是死記。"
-  },
-  {
-    "date": "09-12",
     "theme_id": 4,
     "theme_name": "信念與希望",
-    "quote_zh": "希望是靈魂的支柱。",
-    "quote_en": "Hope is the pillar of the soul.",
+    "explanation": "教育應該激發熱情，而不是死記。"
+  },
+  "09-12": {
+    "zh": "希望是靈魂的支柱。",
+    "en": "Hope is the pillar of the soul.",
     "author": "普魯塔克 (Plutarch)",
-    "interpretation": "希望支撐著人生。"
+    "theme_id": 4,
+    "theme_name": "信念與希望",
+    "explanation": "希望支撐著人生。"
   },
-  {
-    "date": "09-13",
-    "theme_id": 5,
-    "theme_name": "行動與堅持",
-    "quote_zh": "教育不是灌輸，而是點燃火焰。",
-    "quote_en": "Education is not the filling of a pail, but the lighting of a fire.",
+  "09-13": {
+    "zh": "教育不是灌輸，而是點燃火焰。",
+    "en": "Education is not the filling of a pail, but the lighting of a fire.",
     "author": "葉芝 (W.B. Yeats)",
-    "interpretation": "教育應該激發熱情，而不是死記。"
-  },
-  {
-    "date": "09-14",
     "theme_id": 5,
     "theme_name": "行動與堅持",
-    "quote_zh": "成功是每日小努力的總和。",
-    "quote_en": "Success is the sum of small daily efforts.",
+    "explanation": "教育應該激發熱情，而不是死記。"
+  },
+  "09-14": {
+    "zh": "成功是每日小努力的總和。",
+    "en": "Success is the sum of small daily efforts.",
     "author": "羅伯特·科利爾 (Robert Collier)",
-    "interpretation": "日積月累才能成就成功。"
-  },
-  {
-    "date": "09-15",
     "theme_id": 5,
     "theme_name": "行動與堅持",
-    "quote_zh": "堅持不懈，才能走得更遠。",
-    "quote_en": "Perseverance makes you go further.",
+    "explanation": "日積月累才能成就成功。"
+  },
+  "09-15": {
+    "zh": "堅持不懈，才能走得更遠。",
+    "en": "Perseverance makes you go further.",
     "author": "愛迪生 (Thomas Edison)",
-    "interpretation": "堅持是長久成功的秘訣。"
+    "theme_id": 5,
+    "theme_name": "行動與堅持",
+    "explanation": "堅持是長久成功的秘訣。"
   },
-  {
-    "date": "09-16",
-    "theme_id": 6,
-    "theme_name": "感恩與謙卑",
-    "quote_zh": "教育不是灌輸，而是點燃火焰。",
-    "quote_en": "Education is not the filling of a pail, but the lighting of a fire.",
+  "09-16": {
+    "zh": "教育不是灌輸，而是點燃火焰。",
+    "en": "Education is not the filling of a pail, but the lighting of a fire.",
     "author": "葉芝 (W.B. Yeats)",
-    "interpretation": "教育應該激發熱情，而不是死記。"
-  },
-  {
-    "date": "09-17",
     "theme_id": 6,
     "theme_name": "感恩與謙卑",
-    "quote_zh": "謙卑是智慧的開始。",
-    "quote_en": "Humility is the beginning of wisdom.",
+    "explanation": "教育應該激發熱情，而不是死記。"
+  },
+  "09-17": {
+    "zh": "謙卑是智慧的開始。",
+    "en": "Humility is the beginning of wisdom.",
     "author": "蘇格拉底 (Socrates)",
-    "interpretation": "謙卑讓人能學習更多。"
-  },
-  {
-    "date": "09-18",
     "theme_id": 6,
     "theme_name": "感恩與謙卑",
-    "quote_zh": "感謝讓人看見更多美好。",
-    "quote_en": "Gratitude lets us see more beauty.",
+    "explanation": "謙卑讓人能學習更多。"
+  },
+  "09-18": {
+    "zh": "感謝讓人看見更多美好。",
+    "en": "Gratitude lets us see more beauty.",
     "author": "馬可·奧理略 (Marcus Aurelius)",
-    "interpretation": "感恩的心能看見不同的世界。"
+    "theme_id": 6,
+    "theme_name": "感恩與謙卑",
+    "explanation": "感恩的心能看見不同的世界。"
   },
-  {
-    "date": "09-19",
-    "theme_id": 7,
-    "theme_name": "創造與想像",
-    "quote_zh": "想像力是未來的翅膀。",
-    "quote_en": "Imagination is the wings of the future.",
+  "09-19": {
+    "zh": "想像力是未來的翅膀。",
+    "en": "Imagination is the wings of the future.",
     "author": "愛因斯坦 (Albert Einstein)",
-    "interpretation": "想像力能帶你飛越現實。"
-  },
-  {
-    "date": "09-20",
     "theme_id": 7,
     "theme_name": "創造與想像",
-    "quote_zh": "創意是勇敢的火花。",
-    "quote_en": "Creativity is the spark of bravery.",
+    "explanation": "想像力能帶你飛越現實。"
+  },
+  "09-20": {
+    "zh": "創意是勇敢的火花。",
+    "en": "Creativity is the spark of bravery.",
     "author": "亨利·馬蒂斯 (Henri Matisse)",
-    "interpretation": "創造力來自勇敢的嘗試。"
-  },
-  {
-    "date": "09-21",
     "theme_id": 7,
     "theme_name": "創造與想像",
-    "quote_zh": "藝術讓心靈自由。",
-    "quote_en": "Art sets the soul free.",
+    "explanation": "創造力來自勇敢的嘗試。"
+  },
+  "09-21": {
+    "zh": "藝術讓心靈自由。",
+    "en": "Art sets the soul free.",
     "author": "馬克·夏卡爾 (Marc Chagall)",
-    "interpretation": "藝術讓人突破侷限。"
+    "theme_id": 7,
+    "theme_name": "創造與想像",
+    "explanation": "藝術讓人突破侷限。"
   },
-  {
-    "date": "09-22",
-    "theme_id": 8,
-    "theme_name": "自由與夢想",
-    "quote_zh": "自由是靈魂的本質。",
-    "quote_en": "Freedom is the essence of the soul.",
+  "09-22": {
+    "zh": "自由是靈魂的本質。",
+    "en": "Freedom is the essence of the soul.",
     "author": "柏拉圖 (Plato)",
-    "interpretation": "自由是靈魂的核心。"
-  },
-  {
-    "date": "09-23",
     "theme_id": 8,
     "theme_name": "自由與夢想",
-    "quote_zh": "教育不是灌輸，而是點燃火焰。",
-    "quote_en": "Education is not the filling of a pail, but the lighting of a fire.",
+    "explanation": "自由是靈魂的核心。"
+  },
+  "09-23": {
+    "zh": "教育不是灌輸，而是點燃火焰。",
+    "en": "Education is not the filling of a pail, but the lighting of a fire.",
     "author": "葉芝 (W.B. Yeats)",
-    "interpretation": "教育應該激發熱情，而不是死記。"
-  },
-  {
-    "date": "09-24",
     "theme_id": 8,
     "theme_name": "自由與夢想",
-    "quote_zh": "敢於夢想，敢於實現。",
-    "quote_en": "Dare to dream, dare to achieve.",
+    "explanation": "教育應該激發熱情，而不是死記。"
+  },
+  "09-24": {
+    "zh": "敢於夢想，敢於實現。",
+    "en": "Dare to dream, dare to achieve.",
     "author": "華特·迪士尼 (Walt Disney)",
-    "interpretation": "夢想需要勇敢追求。"
+    "theme_id": 8,
+    "theme_name": "自由與夢想",
+    "explanation": "夢想需要勇敢追求。"
   },
-  {
-    "date": "09-25",
-    "theme_id": 9,
-    "theme_name": "平靜與智慧",
-    "quote_zh": "教育不是灌輸，而是點燃火焰。",
-    "quote_en": "Education is not the filling of a pail, but the lighting of a fire.",
+  "09-25": {
+    "zh": "教育不是灌輸，而是點燃火焰。",
+    "en": "Education is not the filling of a pail, but the lighting of a fire.",
     "author": "葉芝 (W.B. Yeats)",
-    "interpretation": "教育應該激發熱情，而不是死記。"
-  },
-  {
-    "date": "09-26",
     "theme_id": 9,
     "theme_name": "平靜與智慧",
-    "quote_zh": "真正的平靜來自內心。",
-    "quote_en": "True peace comes from within.",
+    "explanation": "教育應該激發熱情，而不是死記。"
+  },
+  "09-26": {
+    "zh": "真正的平靜來自內心。",
+    "en": "True peace comes from within.",
     "author": "佛陀 (Buddha)",
-    "interpretation": "平靜是內心的選擇。"
-  },
-  {
-    "date": "09-27",
     "theme_id": 9,
     "theme_name": "平靜與智慧",
-    "quote_zh": "平靜是一種力量。",
-    "quote_en": "Calmness is a kind of power.",
+    "explanation": "平靜是內心的選擇。"
+  },
+  "09-27": {
+    "zh": "平靜是一種力量。",
+    "en": "Calmness is a kind of power.",
     "author": "馬可·奧理略 (Marcus Aurelius)",
-    "interpretation": "平靜能給人堅定的力量。"
+    "theme_id": 9,
+    "theme_name": "平靜與智慧",
+    "explanation": "平靜能給人堅定的力量。"
   },
-  {
-    "date": "09-28",
-    "theme_id": 10,
-    "theme_name": "服務與影響",
-    "quote_zh": "服務是愛的表現。",
-    "quote_en": "Service is the expression of love.",
+  "09-28": {
+    "zh": "服務是愛的表現。",
+    "en": "Service is the expression of love.",
     "author": "特蕾莎修女 (Mother Teresa)",
-    "interpretation": "助人就是愛的實踐。"
-  },
-  {
-    "date": "09-29",
     "theme_id": 10,
     "theme_name": "服務與影響",
-    "quote_zh": "教育不是灌輸，而是點燃火焰。",
-    "quote_en": "Education is not the filling of a pail, but the lighting of a fire.",
+    "explanation": "助人就是愛的實踐。"
+  },
+  "09-29": {
+    "zh": "教育不是灌輸，而是點燃火焰。",
+    "en": "Education is not the filling of a pail, but the lighting of a fire.",
     "author": "葉芝 (W.B. Yeats)",
-    "interpretation": "教育應該激發熱情，而不是死記。"
-  },
-  {
-    "date": "09-30",
     "theme_id": 10,
     "theme_name": "服務與影響",
-    "quote_zh": "真正的影響力來自於無私的奉獻。",
-    "quote_en": "True influence comes from selfless dedication.",
-    "author": "愛因斯坦 (Albert Einstein)",
-    "interpretation": "無私的付出才能留下深遠影響。"
+    "explanation": "教育應該激發熱情，而不是死記。"
   },
-  {
-    "date": "10-01",
-    "theme_id": 1,
-    "theme_name": "開始與勇氣",
-    "quote_zh": "開始永遠不嫌晚。",
-    "quote_en": "It is never too late to start.",
+  "09-30": {
+    "zh": "真正的影響力來自於無私的奉獻。",
+    "en": "True influence comes from selfless dedication.",
+    "author": "愛因斯坦 (Albert Einstein)",
+    "theme_id": 10,
+    "theme_name": "服務與影響",
+    "explanation": "無私的付出才能留下深遠影響。"
+  },
+  "10-01": {
+    "zh": "開始永遠不嫌晚。",
+    "en": "It is never too late to start.",
     "author": "喬治·艾略特 (George Eliot)",
-    "interpretation": "無論何時開始，都不算晚。"
-  },
-  {
-    "date": "10-02",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "勇氣就是行動的力量。",
-    "quote_en": "Courage is the power to act.",
+    "explanation": "無論何時開始，都不算晚。"
+  },
+  "10-02": {
+    "zh": "勇氣就是行動的力量。",
+    "en": "Courage is the power to act.",
     "author": "不詳 (Anonymous)",
-    "interpretation": "勇氣讓我們能踏出第一步。"
-  },
-  {
-    "date": "10-03",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "每個新的開始都來自於另一個開始的結束。",
-    "quote_en": "Every new beginning comes from some other beginning’s end.",
+    "explanation": "勇氣讓我們能踏出第一步。"
+  },
+  "10-03": {
+    "zh": "每個新的開始都來自於另一個開始的結束。",
+    "en": "Every new beginning comes from some other beginning’s end.",
     "author": "塞內卡 (Seneca)",
-    "interpretation": "結束同時也是新的起點。"
+    "theme_id": 1,
+    "theme_name": "開始與勇氣",
+    "explanation": "結束同時也是新的起點。"
   },
-  {
-    "date": "10-04",
-    "theme_id": 2,
-    "theme_name": "愛與關係",
-    "quote_zh": "愛是宇宙中最偉大的力量。",
-    "quote_en": "Love is the greatest power in the universe.",
+  "10-04": {
+    "zh": "愛是宇宙中最偉大的力量。",
+    "en": "Love is the greatest power in the universe.",
     "author": "馬丁·路德·金 (Martin Luther King Jr.)",
-    "interpretation": "愛能戰勝仇恨，帶來和平。"
-  },
-  {
-    "date": "10-05",
     "theme_id": 2,
     "theme_name": "愛與關係",
-    "quote_zh": "真正的朋友在逆境中顯現。",
-    "quote_en": "A friend in need is a friend indeed.",
+    "explanation": "愛能戰勝仇恨，帶來和平。"
+  },
+  "10-05": {
+    "zh": "真正的朋友在逆境中顯現。",
+    "en": "A friend in need is a friend indeed.",
     "author": "拉丁諺語 (Latin Proverb)",
-    "interpretation": "困難時刻才能見真情。"
-  },
-  {
-    "date": "10-06",
     "theme_id": 2,
     "theme_name": "愛與關係",
-    "quote_zh": "愛是理解與接納。",
-    "quote_en": "Love is understanding and acceptance.",
-    "author": "不詳 (Anonymous)",
-    "interpretation": "愛的核心在於理解。"
+    "explanation": "困難時刻才能見真情。"
   },
-  {
-    "date": "10-07",
-    "theme_id": 3,
-    "theme_name": "學習與成長",
-    "quote_zh": "學習是靈魂的糧食。",
-    "quote_en": "Learning is the food of the soul.",
+  "10-06": {
+    "zh": "愛是理解與接納。",
+    "en": "Love is understanding and acceptance.",
+    "author": "不詳 (Anonymous)",
+    "theme_id": 2,
+    "theme_name": "愛與關係",
+    "explanation": "愛的核心在於理解。"
+  },
+  "10-07": {
+    "zh": "學習是靈魂的糧食。",
+    "en": "Learning is the food of the soul.",
     "author": "柏拉圖 (Plato)",
-    "interpretation": "學習滋養心靈。"
-  },
-  {
-    "date": "10-08",
     "theme_id": 3,
     "theme_name": "學習與成長",
-    "quote_zh": "知識是力量。",
-    "quote_en": "Knowledge is power.",
+    "explanation": "學習滋養心靈。"
+  },
+  "10-08": {
+    "zh": "知識是力量。",
+    "en": "Knowledge is power.",
     "author": "法蘭西斯·培根 (Francis Bacon)",
-    "interpretation": "知識讓人有能力。"
-  },
-  {
-    "date": "10-09",
     "theme_id": 3,
     "theme_name": "學習與成長",
-    "quote_zh": "教育是自由的基石。",
-    "quote_en": "Education is the foundation of freedom.",
-    "author": "不詳 (Anonymous)",
-    "interpretation": "教育帶來真正的自由。"
+    "explanation": "知識讓人有能力。"
   },
-  {
-    "date": "10-10",
-    "theme_id": 4,
-    "theme_name": "信念與希望",
-    "quote_zh": "希望是靈魂的呼吸。",
-    "quote_en": "Hope is the breath of the soul.",
+  "10-09": {
+    "zh": "教育是自由的基石。",
+    "en": "Education is the foundation of freedom.",
+    "author": "不詳 (Anonymous)",
+    "theme_id": 3,
+    "theme_name": "學習與成長",
+    "explanation": "教育帶來真正的自由。"
+  },
+  "10-10": {
+    "zh": "希望是靈魂的呼吸。",
+    "en": "Hope is the breath of the soul.",
     "author": "但丁 (Dante Alighieri)",
-    "interpretation": "希望讓生命延續。"
-  },
-  {
-    "date": "10-11",
     "theme_id": 4,
     "theme_name": "信念與希望",
-    "quote_zh": "教育的目標是點燃靈魂。",
-    "quote_en": "The aim of education is to kindle the soul.",
-    "author": "柏拉圖 (Plato)",
-    "interpretation": "教育的真諦是激發靈魂的熱情。"
+    "explanation": "希望讓生命延續。"
   },
-  {
-    "date": "10-12",
+  "10-11": {
+    "zh": "教育的目標是點燃靈魂。",
+    "en": "The aim of education is to kindle the soul.",
+    "author": "柏拉圖 (Plato)",
     "theme_id": 4,
     "theme_name": "信念與希望",
-    "quote_zh": "教育的目標是點燃靈魂。",
-    "quote_en": "The aim of education is to kindle the soul.",
-    "author": "柏拉圖 (Plato)",
-    "interpretation": "教育的真諦是激發靈魂的熱情。"
+    "explanation": "教育的真諦是激發靈魂的熱情。"
   },
-  {
-    "date": "10-13",
+  "10-12": {
+    "zh": "教育的目標是點燃靈魂。",
+    "en": "The aim of education is to kindle the soul.",
+    "author": "柏拉圖 (Plato)",
+    "theme_id": 4,
+    "theme_name": "信念與希望",
+    "explanation": "教育的真諦是激發靈魂的熱情。"
+  },
+  "10-13": {
+    "zh": "教育的目標是點燃靈魂。",
+    "en": "The aim of education is to kindle the soul.",
+    "author": "柏拉圖 (Plato)",
     "theme_id": 5,
     "theme_name": "行動與堅持",
-    "quote_zh": "教育的目標是點燃靈魂。",
-    "quote_en": "The aim of education is to kindle the soul.",
-    "author": "柏拉圖 (Plato)",
-    "interpretation": "教育的真諦是激發靈魂的熱情。"
+    "explanation": "教育的真諦是激發靈魂的熱情。"
   },
-  {
-    "date": "10-14",
+  "10-14": {
+    "zh": "教育的目標是點燃靈魂。",
+    "en": "The aim of education is to kindle the soul.",
+    "author": "柏拉圖 (Plato)",
     "theme_id": 5,
     "theme_name": "行動與堅持",
-    "quote_zh": "教育的目標是點燃靈魂。",
-    "quote_en": "The aim of education is to kindle the soul.",
-    "author": "柏拉圖 (Plato)",
-    "interpretation": "教育的真諦是激發靈魂的熱情。"
+    "explanation": "教育的真諦是激發靈魂的熱情。"
   },
-  {
-    "date": "10-15",
+  "10-15": {
+    "zh": "教育的目標是點燃靈魂。",
+    "en": "The aim of education is to kindle the soul.",
+    "author": "柏拉圖 (Plato)",
     "theme_id": 5,
     "theme_name": "行動與堅持",
-    "quote_zh": "教育的目標是點燃靈魂。",
-    "quote_en": "The aim of education is to kindle the soul.",
-    "author": "柏拉圖 (Plato)",
-    "interpretation": "教育的真諦是激發靈魂的熱情。"
+    "explanation": "教育的真諦是激發靈魂的熱情。"
   },
-  {
-    "date": "10-16",
-    "theme_id": 6,
-    "theme_name": "感恩與謙卑",
-    "quote_zh": "謙卑是偉大的根基。",
-    "quote_en": "Humility is the foundation of greatness.",
+  "10-16": {
+    "zh": "謙卑是偉大的根基。",
+    "en": "Humility is the foundation of greatness.",
     "author": "馬克·吐溫 (Mark Twain)",
-    "interpretation": "謙卑能帶來真正的偉大。"
-  },
-  {
-    "date": "10-17",
     "theme_id": 6,
     "theme_name": "感恩與謙卑",
-    "quote_zh": "教育的目標是點燃靈魂。",
-    "quote_en": "The aim of education is to kindle the soul.",
+    "explanation": "謙卑能帶來真正的偉大。"
+  },
+  "10-17": {
+    "zh": "教育的目標是點燃靈魂。",
+    "en": "The aim of education is to kindle the soul.",
     "author": "柏拉圖 (Plato)",
-    "interpretation": "教育的真諦是激發靈魂的熱情。"
-  },
-  {
-    "date": "10-18",
     "theme_id": 6,
     "theme_name": "感恩與謙卑",
-    "quote_zh": "心懷謙卑，人生才會進步。",
-    "quote_en": "With humility, life progresses.",
+    "explanation": "教育的真諦是激發靈魂的熱情。"
+  },
+  "10-18": {
+    "zh": "心懷謙卑，人生才會進步。",
+    "en": "With humility, life progresses.",
     "author": "蘇格拉底 (Socrates)",
-    "interpretation": "謙遜讓人不斷學習。"
+    "theme_id": 6,
+    "theme_name": "感恩與謙卑",
+    "explanation": "謙遜讓人不斷學習。"
   },
-  {
-    "date": "10-19",
-    "theme_id": 7,
-    "theme_name": "創造與想像",
-    "quote_zh": "想像力比知識更重要。",
-    "quote_en": "Imagination is more important than knowledge.",
+  "10-19": {
+    "zh": "想像力比知識更重要。",
+    "en": "Imagination is more important than knowledge.",
     "author": "愛因斯坦 (Albert Einstein)",
-    "interpretation": "想像力能開創未來。"
-  },
-  {
-    "date": "10-20",
     "theme_id": 7,
     "theme_name": "創造與想像",
-    "quote_zh": "創意是改變世界的火花。",
-    "quote_en": "Creativity is the spark that changes the world.",
+    "explanation": "想像力能開創未來。"
+  },
+  "10-20": {
+    "zh": "創意是改變世界的火花。",
+    "en": "Creativity is the spark that changes the world.",
     "author": "史蒂夫·喬布斯 (Steve Jobs)",
-    "interpretation": "創新能顛覆現實。"
-  },
-  {
-    "date": "10-21",
     "theme_id": 7,
     "theme_name": "創造與想像",
-    "quote_zh": "教育的目標是點燃靈魂。",
-    "quote_en": "The aim of education is to kindle the soul.",
+    "explanation": "創新能顛覆現實。"
+  },
+  "10-21": {
+    "zh": "教育的目標是點燃靈魂。",
+    "en": "The aim of education is to kindle the soul.",
     "author": "柏拉圖 (Plato)",
-    "interpretation": "教育的真諦是激發靈魂的熱情。"
+    "theme_id": 7,
+    "theme_name": "創造與想像",
+    "explanation": "教育的真諦是激發靈魂的熱情。"
   },
-  {
-    "date": "10-22",
-    "theme_id": 8,
-    "theme_name": "自由與夢想",
-    "quote_zh": "自由是人類最寶貴的財富。",
-    "quote_en": "Freedom is the most precious wealth of mankind.",
+  "10-22": {
+    "zh": "自由是人類最寶貴的財富。",
+    "en": "Freedom is the most precious wealth of mankind.",
     "author": "西塞羅 (Cicero)",
-    "interpretation": "自由是人生最重要的資產。"
-  },
-  {
-    "date": "10-23",
     "theme_id": 8,
     "theme_name": "自由與夢想",
-    "quote_zh": "夢想讓我們保持年輕。",
-    "quote_en": "Dreams keep us young.",
+    "explanation": "自由是人生最重要的資產。"
+  },
+  "10-23": {
+    "zh": "夢想讓我們保持年輕。",
+    "en": "Dreams keep us young.",
     "author": "亨利·戴維·梭羅 (Henry David Thoreau)",
-    "interpretation": "夢想能保持活力。"
-  },
-  {
-    "date": "10-24",
     "theme_id": 8,
     "theme_name": "自由與夢想",
-    "quote_zh": "敢於夢想的人，能改變世界。",
-    "quote_en": "Those who dare to dream can change the world.",
+    "explanation": "夢想能保持活力。"
+  },
+  "10-24": {
+    "zh": "敢於夢想的人，能改變世界。",
+    "en": "Those who dare to dream can change the world.",
     "author": "華特·迪士尼 (Walt Disney)",
-    "interpretation": "夢想能推動世界進步。"
+    "theme_id": 8,
+    "theme_name": "自由與夢想",
+    "explanation": "夢想能推動世界進步。"
   },
-  {
-    "date": "10-25",
-    "theme_id": 9,
-    "theme_name": "平靜與智慧",
-    "quote_zh": "智慧來自於反思。",
-    "quote_en": "Wisdom comes from reflection.",
+  "10-25": {
+    "zh": "智慧來自於反思。",
+    "en": "Wisdom comes from reflection.",
     "author": "佛陀 (Buddha)",
-    "interpretation": "反思能帶來智慧。"
-  },
-  {
-    "date": "10-26",
     "theme_id": 9,
     "theme_name": "平靜與智慧",
-    "quote_zh": "平靜是一種力量。",
-    "quote_en": "Calmness is a kind of strength.",
+    "explanation": "反思能帶來智慧。"
+  },
+  "10-26": {
+    "zh": "平靜是一種力量。",
+    "en": "Calmness is a kind of strength.",
     "author": "馬可·奧理略 (Marcus Aurelius)",
-    "interpretation": "平靜能幫助人面對挑戰。"
-  },
-  {
-    "date": "10-27",
     "theme_id": 9,
     "theme_name": "平靜與智慧",
-    "quote_zh": "真正的智慧是知道自己無知。",
-    "quote_en": "The only true wisdom is knowing you know nothing.",
+    "explanation": "平靜能幫助人面對挑戰。"
+  },
+  "10-27": {
+    "zh": "真正的智慧是知道自己無知。",
+    "en": "The only true wisdom is knowing you know nothing.",
     "author": "蘇格拉底 (Socrates)",
-    "interpretation": "謙遜是智慧的起點。"
+    "theme_id": 9,
+    "theme_name": "平靜與智慧",
+    "explanation": "謙遜是智慧的起點。"
   },
-  {
-    "date": "10-28",
-    "theme_id": 10,
-    "theme_name": "服務與影響",
-    "quote_zh": "服務他人是最崇高的使命。",
-    "quote_en": "To serve others is the highest mission.",
+  "10-28": {
+    "zh": "服務他人是最崇高的使命。",
+    "en": "To serve others is the highest mission.",
     "author": "特蕾莎修女 (Mother Teresa)",
-    "interpretation": "助人是最偉大的奉獻。"
-  },
-  {
-    "date": "10-29",
     "theme_id": 10,
     "theme_name": "服務與影響",
-    "quote_zh": "教育的目標是點燃靈魂。",
-    "quote_en": "The aim of education is to kindle the soul.",
+    "explanation": "助人是最偉大的奉獻。"
+  },
+  "10-29": {
+    "zh": "教育的目標是點燃靈魂。",
+    "en": "The aim of education is to kindle the soul.",
     "author": "柏拉圖 (Plato)",
-    "interpretation": "教育的真諦是激發靈魂的熱情。"
-  },
-  {
-    "date": "10-30",
     "theme_id": 10,
     "theme_name": "服務與影響",
-    "quote_zh": "真正的價值在於貢獻。",
-    "quote_en": "True value lies in contribution.",
+    "explanation": "教育的真諦是激發靈魂的熱情。"
+  },
+  "10-30": {
+    "zh": "真正的價值在於貢獻。",
+    "en": "True value lies in contribution.",
     "author": "愛因斯坦 (Albert Einstein)",
-    "interpretation": "貢獻才是真正的價值所在。"
+    "theme_id": 10,
+    "theme_name": "服務與影響",
+    "explanation": "貢獻才是真正的價值所在。"
   },
-  {
-    "date": "10-31",
-    "theme_id": 1,
-    "theme_name": "開始與勇氣",
-    "quote_zh": "開始比完美更重要。",
-    "quote_en": "Starting is more important than being perfect.",
+  "10-31": {
+    "zh": "開始比完美更重要。",
+    "en": "Starting is more important than being perfect.",
     "author": "邱吉爾 (Winston Churchill)",
-    "interpretation": "開始比等待完美更關鍵。"
-  },
-  {
-    "date": "11-01",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "勇氣是成功的起點。",
-    "quote_en": "Courage is the starting point of success.",
+    "explanation": "開始比等待完美更關鍵。"
+  },
+  "11-01": {
+    "zh": "勇氣是成功的起點。",
+    "en": "Courage is the starting point of success.",
     "author": "不詳 (Anonymous)",
-    "interpretation": "一切從勇敢開始。"
-  },
-  {
-    "date": "11-02",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "開始永遠比等待更好。",
-    "quote_en": "Starting is always better than waiting.",
+    "explanation": "一切從勇敢開始。"
+  },
+  "11-02": {
+    "zh": "開始永遠比等待更好。",
+    "en": "Starting is always better than waiting.",
     "author": "不詳 (Anonymous)",
-    "interpretation": "行動勝過猶豫。"
-  },
-  {
-    "date": "11-03",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "勇敢不是沒有恐懼，而是戰勝恐懼。",
-    "quote_en": "Courage is not the absence of fear, but the triumph over it.",
+    "explanation": "行動勝過猶豫。"
+  },
+  "11-03": {
+    "zh": "勇敢不是沒有恐懼，而是戰勝恐懼。",
+    "en": "Courage is not the absence of fear, but the triumph over it.",
     "author": "納爾遜·曼德拉 (Nelson Mandela)",
-    "interpretation": "真正的勇氣是面對恐懼並超越它。"
+    "theme_id": 1,
+    "theme_name": "開始與勇氣",
+    "explanation": "真正的勇氣是面對恐懼並超越它。"
   },
-  {
-    "date": "11-04",
-    "theme_id": 2,
-    "theme_name": "愛與關係",
-    "quote_zh": "愛是理解的藝術。",
-    "quote_en": "Love is the art of understanding.",
+  "11-04": {
+    "zh": "愛是理解的藝術。",
+    "en": "Love is the art of understanding.",
     "author": "不詳 (Anonymous)",
-    "interpretation": "愛的核心是理解與接納。"
-  },
-  {
-    "date": "11-05",
     "theme_id": 2,
     "theme_name": "愛與關係",
-    "quote_zh": "友情是人生最大的財富之一。",
-    "quote_en": "Friendship is one of life’s greatest treasures.",
+    "explanation": "愛的核心是理解與接納。"
+  },
+  "11-05": {
+    "zh": "友情是人生最大的財富之一。",
+    "en": "Friendship is one of life’s greatest treasures.",
     "author": "西塞羅 (Cicero)",
-    "interpretation": "友情是無價的財富。"
-  },
-  {
-    "date": "11-06",
     "theme_id": 2,
     "theme_name": "愛與關係",
-    "quote_zh": "愛是無私的奉獻。",
-    "quote_en": "Love is selfless giving.",
+    "explanation": "友情是無價的財富。"
+  },
+  "11-06": {
+    "zh": "愛是無私的奉獻。",
+    "en": "Love is selfless giving.",
     "author": "甘地 (Mahatma Gandhi)",
-    "interpretation": "愛是付出而不是索取。"
+    "theme_id": 2,
+    "theme_name": "愛與關係",
+    "explanation": "愛是付出而不是索取。"
   },
-  {
-    "date": "11-07",
-    "theme_id": 3,
-    "theme_name": "學習與成長",
-    "quote_zh": "知識就是力量。",
-    "quote_en": "Knowledge is power.",
+  "11-07": {
+    "zh": "知識就是力量。",
+    "en": "Knowledge is power.",
     "author": "法蘭西斯·培根 (Francis Bacon)",
-    "interpretation": "知識能改變命運。"
-  },
-  {
-    "date": "11-08",
     "theme_id": 3,
     "theme_name": "學習與成長",
-    "quote_zh": "教育是靈魂的雕刻。",
-    "quote_en": "Education is the sculpture of the soul.",
+    "explanation": "知識能改變命運。"
+  },
+  "11-08": {
+    "zh": "教育是靈魂的雕刻。",
+    "en": "Education is the sculpture of the soul.",
     "author": "柏拉圖 (Plato)",
-    "interpretation": "教育塑造人的靈魂。"
-  },
-  {
-    "date": "11-09",
     "theme_id": 3,
     "theme_name": "學習與成長",
-    "quote_zh": "教育是點燃靈魂的火焰。",
-    "quote_en": "Education is the kindling of a flame, not the filling of a vessel.",
-    "author": "蘇格拉底 (Socrates)",
-    "interpretation": "教育應該激發靈魂的熱情，而不是填鴨式灌輸。"
+    "explanation": "教育塑造人的靈魂。"
   },
-  {
-    "date": "11-10",
+  "11-09": {
+    "zh": "教育是點燃靈魂的火焰。",
+    "en": "Education is the kindling of a flame, not the filling of a vessel.",
+    "author": "蘇格拉底 (Socrates)",
+    "theme_id": 3,
+    "theme_name": "學習與成長",
+    "explanation": "教育應該激發靈魂的熱情，而不是填鴨式灌輸。"
+  },
+  "11-10": {
+    "zh": "教育是點燃靈魂的火焰。",
+    "en": "Education is the kindling of a flame, not the filling of a vessel.",
+    "author": "蘇格拉底 (Socrates)",
     "theme_id": 4,
     "theme_name": "信念與希望",
-    "quote_zh": "教育是點燃靈魂的火焰。",
-    "quote_en": "Education is the kindling of a flame, not the filling of a vessel.",
-    "author": "蘇格拉底 (Socrates)",
-    "interpretation": "教育應該激發靈魂的熱情，而不是填鴨式灌輸。"
+    "explanation": "教育應該激發靈魂的熱情，而不是填鴨式灌輸。"
   },
-  {
-    "date": "11-11",
-    "theme_id": 4,
-    "theme_name": "信念與希望",
-    "quote_zh": "信仰讓人超越自我。",
-    "quote_en": "Faith makes people transcend themselves.",
+  "11-11": {
+    "zh": "信仰讓人超越自我。",
+    "en": "Faith makes people transcend themselves.",
     "author": "聖奧古斯丁 (St. Augustine)",
-    "interpretation": "信仰能讓人更堅強。"
-  },
-  {
-    "date": "11-12",
     "theme_id": 4,
     "theme_name": "信念與希望",
-    "quote_zh": "希望是未來的燈塔。",
-    "quote_en": "Hope is the lighthouse of the future.",
+    "explanation": "信仰能讓人更堅強。"
+  },
+  "11-12": {
+    "zh": "希望是未來的燈塔。",
+    "en": "Hope is the lighthouse of the future.",
     "author": "維克多·雨果 (Victor Hugo)",
-    "interpretation": "希望能指引我們前進。"
+    "theme_id": 4,
+    "theme_name": "信念與希望",
+    "explanation": "希望能指引我們前進。"
   },
-  {
-    "date": "11-13",
-    "theme_id": 5,
-    "theme_name": "行動與堅持",
-    "quote_zh": "教育是點燃靈魂的火焰。",
-    "quote_en": "Education is the kindling of a flame, not the filling of a vessel.",
+  "11-13": {
+    "zh": "教育是點燃靈魂的火焰。",
+    "en": "Education is the kindling of a flame, not the filling of a vessel.",
     "author": "蘇格拉底 (Socrates)",
-    "interpretation": "教育應該激發靈魂的熱情，而不是填鴨式灌輸。"
-  },
-  {
-    "date": "11-14",
     "theme_id": 5,
     "theme_name": "行動與堅持",
-    "quote_zh": "教育是點燃靈魂的火焰。",
-    "quote_en": "Education is the kindling of a flame, not the filling of a vessel.",
+    "explanation": "教育應該激發靈魂的熱情，而不是填鴨式灌輸。"
+  },
+  "11-14": {
+    "zh": "教育是點燃靈魂的火焰。",
+    "en": "Education is the kindling of a flame, not the filling of a vessel.",
     "author": "蘇格拉底 (Socrates)",
-    "interpretation": "教育應該激發靈魂的熱情，而不是填鴨式灌輸。"
-  },
-  {
-    "date": "11-15",
     "theme_id": 5,
     "theme_name": "行動與堅持",
-    "quote_zh": "成功是努力與時間的結晶。",
-    "quote_en": "Success is the result of effort and time.",
+    "explanation": "教育應該激發靈魂的熱情，而不是填鴨式灌輸。"
+  },
+  "11-15": {
+    "zh": "成功是努力與時間的結晶。",
+    "en": "Success is the result of effort and time.",
     "author": "愛迪生 (Thomas Edison)",
-    "interpretation": "成功需要長期努力。"
+    "theme_id": 5,
+    "theme_name": "行動與堅持",
+    "explanation": "成功需要長期努力。"
   },
-  {
-    "date": "11-16",
-    "theme_id": 6,
-    "theme_name": "感恩與謙卑",
-    "quote_zh": "謙卑讓人更智慧。",
-    "quote_en": "Humility makes people wiser.",
+  "11-16": {
+    "zh": "謙卑讓人更智慧。",
+    "en": "Humility makes people wiser.",
     "author": "蘇格拉底 (Socrates)",
-    "interpretation": "謙卑是智慧的基石。"
-  },
-  {
-    "date": "11-17",
     "theme_id": 6,
     "theme_name": "感恩與謙卑",
-    "quote_zh": "感恩讓生命更豐富。",
-    "quote_en": "Gratitude enriches life.",
+    "explanation": "謙卑是智慧的基石。"
+  },
+  "11-17": {
+    "zh": "感恩讓生命更豐富。",
+    "en": "Gratitude enriches life.",
     "author": "馬可·奧理略 (Marcus Aurelius)",
-    "interpretation": "感恩讓人生更有意義。"
-  },
-  {
-    "date": "11-18",
     "theme_id": 6,
     "theme_name": "感恩與謙卑",
-    "quote_zh": "教育是點燃靈魂的火焰。",
-    "quote_en": "Education is the kindling of a flame, not the filling of a vessel.",
-    "author": "蘇格拉底 (Socrates)",
-    "interpretation": "教育應該激發靈魂的熱情，而不是填鴨式灌輸。"
+    "explanation": "感恩讓人生更有意義。"
   },
-  {
-    "date": "11-19",
-    "theme_id": 7,
-    "theme_name": "創造與想像",
-    "quote_zh": "創造力是改變世界的鑰匙。",
-    "quote_en": "Creativity is the key to changing the world.",
+  "11-18": {
+    "zh": "教育是點燃靈魂的火焰。",
+    "en": "Education is the kindling of a flame, not the filling of a vessel.",
+    "author": "蘇格拉底 (Socrates)",
+    "theme_id": 6,
+    "theme_name": "感恩與謙卑",
+    "explanation": "教育應該激發靈魂的熱情，而不是填鴨式灌輸。"
+  },
+  "11-19": {
+    "zh": "創造力是改變世界的鑰匙。",
+    "en": "Creativity is the key to changing the world.",
     "author": "史蒂夫·喬布斯 (Steve Jobs)",
-    "interpretation": "創新能推動進步。"
-  },
-  {
-    "date": "11-20",
     "theme_id": 7,
     "theme_name": "創造與想像",
-    "quote_zh": "想像力比知識更重要。",
-    "quote_en": "Imagination is more important than knowledge.",
+    "explanation": "創新能推動進步。"
+  },
+  "11-20": {
+    "zh": "想像力比知識更重要。",
+    "en": "Imagination is more important than knowledge.",
     "author": "愛因斯坦 (Albert Einstein)",
-    "interpretation": "想像力能開創未來。"
-  },
-  {
-    "date": "11-21",
     "theme_id": 7,
     "theme_name": "創造與想像",
-    "quote_zh": "教育是點燃靈魂的火焰。",
-    "quote_en": "Education is the kindling of a flame, not the filling of a vessel.",
-    "author": "蘇格拉底 (Socrates)",
-    "interpretation": "教育應該激發靈魂的熱情，而不是填鴨式灌輸。"
+    "explanation": "想像力能開創未來。"
   },
-  {
-    "date": "11-22",
-    "theme_id": 8,
-    "theme_name": "自由與夢想",
-    "quote_zh": "自由是靈魂的本質。",
-    "quote_en": "Freedom is the essence of the soul.",
+  "11-21": {
+    "zh": "教育是點燃靈魂的火焰。",
+    "en": "Education is the kindling of a flame, not the filling of a vessel.",
+    "author": "蘇格拉底 (Socrates)",
+    "theme_id": 7,
+    "theme_name": "創造與想像",
+    "explanation": "教育應該激發靈魂的熱情，而不是填鴨式灌輸。"
+  },
+  "11-22": {
+    "zh": "自由是靈魂的本質。",
+    "en": "Freedom is the essence of the soul.",
     "author": "柏拉圖 (Plato)",
-    "interpretation": "自由是人類的核心。"
-  },
-  {
-    "date": "11-23",
     "theme_id": 8,
     "theme_name": "自由與夢想",
-    "quote_zh": "教育是點燃靈魂的火焰。",
-    "quote_en": "Education is the kindling of a flame, not the filling of a vessel.",
+    "explanation": "自由是人類的核心。"
+  },
+  "11-23": {
+    "zh": "教育是點燃靈魂的火焰。",
+    "en": "Education is the kindling of a flame, not the filling of a vessel.",
     "author": "蘇格拉底 (Socrates)",
-    "interpretation": "教育應該激發靈魂的熱情，而不是填鴨式灌輸。"
-  },
-  {
-    "date": "11-24",
     "theme_id": 8,
     "theme_name": "自由與夢想",
-    "quote_zh": "追隨夢想，勇敢前行。",
-    "quote_en": "Follow your dreams, move forward bravely.",
+    "explanation": "教育應該激發靈魂的熱情，而不是填鴨式灌輸。"
+  },
+  "11-24": {
+    "zh": "追隨夢想，勇敢前行。",
+    "en": "Follow your dreams, move forward bravely.",
     "author": "華特·迪士尼 (Walt Disney)",
-    "interpretation": "勇敢追夢才能實現自我。"
+    "theme_id": 8,
+    "theme_name": "自由與夢想",
+    "explanation": "勇敢追夢才能實現自我。"
   },
-  {
-    "date": "11-25",
-    "theme_id": 9,
-    "theme_name": "平靜與智慧",
-    "quote_zh": "教育是點燃靈魂的火焰。",
-    "quote_en": "Education is the kindling of a flame, not the filling of a vessel.",
+  "11-25": {
+    "zh": "教育是點燃靈魂的火焰。",
+    "en": "Education is the kindling of a flame, not the filling of a vessel.",
     "author": "蘇格拉底 (Socrates)",
-    "interpretation": "教育應該激發靈魂的熱情，而不是填鴨式灌輸。"
-  },
-  {
-    "date": "11-26",
     "theme_id": 9,
     "theme_name": "平靜與智慧",
-    "quote_zh": "平靜是一種選擇。",
-    "quote_en": "Calmness is a choice.",
+    "explanation": "教育應該激發靈魂的熱情，而不是填鴨式灌輸。"
+  },
+  "11-26": {
+    "zh": "平靜是一種選擇。",
+    "en": "Calmness is a choice.",
     "author": "佛陀 (Buddha)",
-    "interpretation": "平靜來自內心的決定。"
-  },
-  {
-    "date": "11-27",
     "theme_id": 9,
     "theme_name": "平靜與智慧",
-    "quote_zh": "真正的智慧是知道自己無知。",
-    "quote_en": "True wisdom is knowing you know nothing.",
-    "author": "蘇格拉底 (Socrates)",
-    "interpretation": "承認無知才能追求真知。"
+    "explanation": "平靜來自內心的決定。"
   },
-  {
-    "date": "11-28",
-    "theme_id": 10,
-    "theme_name": "服務與影響",
-    "quote_zh": "服務是人生的使命。",
-    "quote_en": "Service is life’s mission.",
+  "11-27": {
+    "zh": "真正的智慧是知道自己無知。",
+    "en": "True wisdom is knowing you know nothing.",
+    "author": "蘇格拉底 (Socrates)",
+    "theme_id": 9,
+    "theme_name": "平靜與智慧",
+    "explanation": "承認無知才能追求真知。"
+  },
+  "11-28": {
+    "zh": "服務是人生的使命。",
+    "en": "Service is life’s mission.",
     "author": "特蕾莎修女 (Mother Teresa)",
-    "interpretation": "服務他人是最偉大的責任。"
-  },
-  {
-    "date": "11-29",
     "theme_id": 10,
     "theme_name": "服務與影響",
-    "quote_zh": "教育是點燃靈魂的火焰。",
-    "quote_en": "Education is the kindling of a flame, not the filling of a vessel.",
+    "explanation": "服務他人是最偉大的責任。"
+  },
+  "11-29": {
+    "zh": "教育是點燃靈魂的火焰。",
+    "en": "Education is the kindling of a flame, not the filling of a vessel.",
     "author": "蘇格拉底 (Socrates)",
-    "interpretation": "教育應該激發靈魂的熱情，而不是填鴨式灌輸。"
-  },
-  {
-    "date": "11-30",
     "theme_id": 10,
     "theme_name": "服務與影響",
-    "quote_zh": "真正的影響來自於行動。",
-    "quote_en": "True influence comes from action.",
+    "explanation": "教育應該激發靈魂的熱情，而不是填鴨式灌輸。"
+  },
+  "11-30": {
+    "zh": "真正的影響來自於行動。",
+    "en": "True influence comes from action.",
     "author": "愛因斯坦 (Albert Einstein)",
-    "interpretation": "影響力來自於具體的行動。"
+    "theme_id": 10,
+    "theme_name": "服務與影響",
+    "explanation": "影響力來自於具體的行動。"
   },
-  {
-    "date": "12-01",
-    "theme_id": 1,
-    "theme_name": "開始與勇氣",
-    "quote_zh": "勇氣讓你開始新的旅程。",
-    "quote_en": "Courage lets you start a new journey.",
+  "12-01": {
+    "zh": "勇氣讓你開始新的旅程。",
+    "en": "Courage lets you start a new journey.",
     "author": "不詳 (Anonymous)",
-    "interpretation": "新開始需要勇氣。"
-  },
-  {
-    "date": "12-02",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "開始是成功的一半。",
-    "quote_en": "Well begun is half done.",
+    "explanation": "新開始需要勇氣。"
+  },
+  "12-02": {
+    "zh": "開始是成功的一半。",
+    "en": "Well begun is half done.",
     "author": "亞里斯多德 (Aristotle)",
-    "interpretation": "好的開始等於成功的一半。"
-  },
-  {
-    "date": "12-03",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "不要害怕邁出第一步。",
-    "quote_en": "Do not be afraid to take the first step.",
+    "explanation": "好的開始等於成功的一半。"
+  },
+  "12-03": {
+    "zh": "不要害怕邁出第一步。",
+    "en": "Do not be afraid to take the first step.",
     "author": "馬丁·路德·金 (Martin Luther King Jr.)",
-    "interpretation": "勇敢前進才能改變命運。"
-  },
-  {
-    "date": "12-04",
-    "theme_id": 2,
-    "theme_name": "愛與關係",
-    "quote_zh": "愛是最深的理解。",
-    "quote_en": "Love is the deepest understanding.",
-    "author": "不詳 (Anonymous)",
-    "interpretation": "愛就是彼此理解。"
-  },
-  {
-    "date": "12-05",
-    "theme_id": 2,
-    "theme_name": "愛與關係",
-    "quote_zh": "愛是耐心與善良。",
-    "quote_en": "Love is patient and kind.",
-    "author": "聖保羅 (St. Paul)",
-    "interpretation": "愛體現在耐心與善良。"
-  },
-  {
-    "date": "12-06",
-    "theme_id": 2,
-    "theme_name": "愛與關係",
-    "quote_zh": "友情是人生最美的裝飾。",
-    "quote_en": "Friendship is the most beautiful ornament of life.",
-    "author": "西塞羅 (Cicero)",
-    "interpretation": "友情讓生命更豐富。"
-  },
-  {
-    "date": "12-07",
-    "theme_id": 3,
-    "theme_name": "學習與成長",
-    "quote_zh": "學習是心靈的養分。",
-    "quote_en": "Learning is nourishment for the soul.",
-    "author": "柏拉圖 (Plato)",
-    "interpretation": "學習滋養心靈。"
-  },
-  {
-    "date": "12-08",
-    "theme_id": 3,
-    "theme_name": "學習與成長",
-    "quote_zh": "教育是打開自由大門的鑰匙。",
-    "quote_en": "Education is the key to unlock the golden door of freedom.",
-    "author": "喬治·華盛頓·卡佛 (George Washington Carver)",
-    "interpretation": "教育帶來自由。"
-  },
-  {
-    "date": "12-09",
-    "theme_id": 3,
-    "theme_name": "學習與成長",
-    "quote_zh": "不斷學習，才能不斷成長。",
-    "quote_en": "Keep learning to keep growing.",
-    "author": "不詳 (Anonymous)",
-    "interpretation": "成長需要學習。"
-  },
-  {
-    "date": "12-10",
-    "theme_id": 4,
-    "theme_name": "信念與希望",
-    "quote_zh": "教育的目標是啟發，而不是灌輸。",
-    "quote_en": "The goal of education is to inspire, not to indoctrinate.",
-    "author": "愛默生 (Ralph Waldo Emerson)",
-    "interpretation": "教育的真諦是啟發靈魂。"
-  },
-  {
-    "date": "12-11",
-    "theme_id": 4,
-    "theme_name": "信念與希望",
-    "quote_zh": "信念讓人勇敢面對挑戰。",
-    "quote_en": "Faith makes people brave to face challenges.",
-    "author": "聖奧古斯丁 (St. Augustine)",
-    "interpretation": "信念是勇氣的來源。"
-  },
-  {
-    "date": "12-12",
-    "theme_id": 4,
-    "theme_name": "信念與希望",
-    "quote_zh": "希望是靈魂的支柱。",
-    "quote_en": "Hope is the pillar of the soul.",
-    "author": "普魯塔克 (Plutarch)",
-    "interpretation": "希望支撐人生。"
-  },
-  {
-    "date": "12-13",
-    "theme_id": 5,
-    "theme_name": "行動與堅持",
-    "quote_zh": "教育的目標是啟發，而不是灌輸。",
-    "quote_en": "The goal of education is to inspire, not to indoctrinate.",
-    "author": "愛默生 (Ralph Waldo Emerson)",
-    "interpretation": "教育的真諦是啟發靈魂。"
-  },
-  {
-    "date": "12-14",
-    "theme_id": 5,
-    "theme_name": "行動與堅持",
-    "quote_zh": "堅持是成功的秘密。",
-    "quote_en": "Perseverance is the secret of success.",
-    "author": "愛迪生 (Thomas Edison)",
-    "interpretation": "成功來自於不放棄。"
-  },
-  {
-    "date": "12-15",
-    "theme_id": 5,
-    "theme_name": "行動與堅持",
-    "quote_zh": "成功源於持之以恆。",
-    "quote_en": "Success comes from perseverance.",
-    "author": "邱吉爾 (Winston Churchill)",
-    "interpretation": "持續努力才能成功。"
-  },
-  {
-    "date": "12-16",
-    "theme_id": 6,
-    "theme_name": "感恩與謙卑",
-    "quote_zh": "感恩讓人知足常樂。",
-    "quote_en": "Gratitude makes one content.",
-    "author": "馬可·奧理略 (Marcus Aurelius)",
-    "interpretation": "感恩讓人快樂。"
-  },
-  {
-    "date": "12-17",
-    "theme_id": 6,
-    "theme_name": "感恩與謙卑",
-    "quote_zh": "謙卑使人偉大。",
-    "quote_en": "Humility makes people great.",
-    "author": "馬克·吐溫 (Mark Twain)",
-    "interpretation": "謙遜讓人成長。"
-  },
-  {
-    "date": "12-18",
-    "theme_id": 6,
-    "theme_name": "感恩與謙卑",
-    "quote_zh": "教育的目標是啟發，而不是灌輸。",
-    "quote_en": "The goal of education is to inspire, not to indoctrinate.",
-    "author": "愛默生 (Ralph Waldo Emerson)",
-    "interpretation": "教育的真諦是啟發靈魂。"
-  },
-  {
-    "date": "12-19",
-    "theme_id": 7,
-    "theme_name": "創造與想像",
-    "quote_zh": "想像力是未來的引擎。",
-    "quote_en": "Imagination is the engine of the future.",
-    "author": "愛因斯坦 (Albert Einstein)",
-    "interpretation": "想像力驅動未來。"
-  },
-  {
-    "date": "12-20",
-    "theme_id": 7,
-    "theme_name": "創造與想像",
-    "quote_zh": "創造力來自勇於挑戰。",
-    "quote_en": "Creativity comes from daring to challenge.",
-    "author": "亨利·馬蒂斯 (Henri Matisse)",
-    "interpretation": "創意來自勇氣。"
-  },
-  {
-    "date": "12-21",
-    "theme_id": 7,
-    "theme_name": "創造與想像",
-    "quote_zh": "教育的目標是啟發，而不是灌輸。",
-    "quote_en": "The goal of education is to inspire, not to indoctrinate.",
-    "author": "愛默生 (Ralph Waldo Emerson)",
-    "interpretation": "教育的真諦是啟發靈魂。"
-  },
-  {
-    "date": "12-22",
-    "theme_id": 8,
-    "theme_name": "自由與夢想",
-    "quote_zh": "自由是靈魂的呼吸。",
-    "quote_en": "Freedom is the breath of the soul.",
-    "author": "柏拉圖 (Plato)",
-    "interpretation": "自由是生命的根本。"
-  },
-  {
-    "date": "12-23",
-    "theme_id": 8,
-    "theme_name": "自由與夢想",
-    "quote_zh": "夢想是人生的導航。",
-    "quote_en": "Dreams are the compass of life.",
-    "author": "保羅·科爾賀 (Paulo Coelho)",
-    "interpretation": "夢想能指引方向。"
-  },
-  {
-    "date": "12-24",
-    "theme_id": 8,
-    "theme_name": "自由與夢想",
-    "quote_zh": "未來屬於相信夢想的人。",
-    "quote_en": "The future belongs to those who believe in their dreams.",
-    "author": "艾莉諾·羅斯福 (Eleanor Roosevelt)",
-    "interpretation": "夢想能成就未來。"
-  },
-  {
-    "date": "12-25",
-    "theme_id": 9,
-    "theme_name": "平靜與智慧",
-    "quote_zh": "平靜是一種力量。",
-    "quote_en": "Calmness is a strength.",
-    "author": "馬可·奧理略 (Marcus Aurelius)",
-    "interpretation": "平靜能帶來力量。"
-  },
-  {
-    "date": "12-26",
-    "theme_id": 9,
-    "theme_name": "平靜與智慧",
-    "quote_zh": "教育的目標是啟發，而不是灌輸。",
-    "quote_en": "The goal of education is to inspire, not to indoctrinate.",
-    "author": "愛默生 (Ralph Waldo Emerson)",
-    "interpretation": "教育的真諦是啟發靈魂。"
-  },
-  {
-    "date": "12-27",
-    "theme_id": 9,
-    "theme_name": "平靜與智慧",
-    "quote_zh": "內心的平靜是最大的力量。",
-    "quote_en": "Inner peace is the greatest strength.",
-    "author": "佛陀 (Buddha)",
-    "interpretation": "平靜比外在的力量更重要。"
-  },
-  {
-    "date": "12-28",
-    "theme_id": 10,
-    "theme_name": "服務與影響",
-    "quote_zh": "服務他人是最高尚的使命。",
-    "quote_en": "Serving others is the most noble mission.",
-    "author": "特蕾莎修女 (Mother Teresa)",
-    "interpretation": "助人是最高的價值。"
-  },
-  {
-    "date": "12-29",
-    "theme_id": 10,
-    "theme_name": "服務與影響",
-    "quote_zh": "教育的目標是啟發，而不是灌輸。",
-    "quote_en": "The goal of education is to inspire, not to indoctrinate.",
-    "author": "愛默生 (Ralph Waldo Emerson)",
-    "interpretation": "教育的真諦是啟發靈魂。"
-  },
-  {
-    "date": "12-30",
-    "theme_id": 10,
-    "theme_name": "服務與影響",
-    "quote_zh": "真正的影響力來自於奉獻。",
-    "quote_en": "True influence comes from dedication.",
-    "author": "愛因斯坦 (Albert Einstein)",
-    "interpretation": "奉獻才有真正的影響力。"
-  },
-  {
-    "date": "12-31",
     "theme_id": 1,
     "theme_name": "開始與勇氣",
-    "quote_zh": "開始的勇氣比完美更重要。",
-    "quote_en": "The courage to begin is more important than perfection.",
+    "explanation": "勇敢前進才能改變命運。"
+  },
+  "12-04": {
+    "zh": "愛是最深的理解。",
+    "en": "Love is the deepest understanding.",
+    "author": "不詳 (Anonymous)",
+    "theme_id": 2,
+    "theme_name": "愛與關係",
+    "explanation": "愛就是彼此理解。"
+  },
+  "12-05": {
+    "zh": "愛是耐心與善良。",
+    "en": "Love is patient and kind.",
+    "author": "聖保羅 (St. Paul)",
+    "theme_id": 2,
+    "theme_name": "愛與關係",
+    "explanation": "愛體現在耐心與善良。"
+  },
+  "12-06": {
+    "zh": "友情是人生最美的裝飾。",
+    "en": "Friendship is the most beautiful ornament of life.",
+    "author": "西塞羅 (Cicero)",
+    "theme_id": 2,
+    "theme_name": "愛與關係",
+    "explanation": "友情讓生命更豐富。"
+  },
+  "12-07": {
+    "zh": "學習是心靈的養分。",
+    "en": "Learning is nourishment for the soul.",
+    "author": "柏拉圖 (Plato)",
+    "theme_id": 3,
+    "theme_name": "學習與成長",
+    "explanation": "學習滋養心靈。"
+  },
+  "12-08": {
+    "zh": "教育是打開自由大門的鑰匙。",
+    "en": "Education is the key to unlock the golden door of freedom.",
+    "author": "喬治·華盛頓·卡佛 (George Washington Carver)",
+    "theme_id": 3,
+    "theme_name": "學習與成長",
+    "explanation": "教育帶來自由。"
+  },
+  "12-09": {
+    "zh": "不斷學習，才能不斷成長。",
+    "en": "Keep learning to keep growing.",
+    "author": "不詳 (Anonymous)",
+    "theme_id": 3,
+    "theme_name": "學習與成長",
+    "explanation": "成長需要學習。"
+  },
+  "12-10": {
+    "zh": "教育的目標是啟發，而不是灌輸。",
+    "en": "The goal of education is to inspire, not to indoctrinate.",
+    "author": "愛默生 (Ralph Waldo Emerson)",
+    "theme_id": 4,
+    "theme_name": "信念與希望",
+    "explanation": "教育的真諦是啟發靈魂。"
+  },
+  "12-11": {
+    "zh": "信念讓人勇敢面對挑戰。",
+    "en": "Faith makes people brave to face challenges.",
+    "author": "聖奧古斯丁 (St. Augustine)",
+    "theme_id": 4,
+    "theme_name": "信念與希望",
+    "explanation": "信念是勇氣的來源。"
+  },
+  "12-12": {
+    "zh": "希望是靈魂的支柱。",
+    "en": "Hope is the pillar of the soul.",
+    "author": "普魯塔克 (Plutarch)",
+    "theme_id": 4,
+    "theme_name": "信念與希望",
+    "explanation": "希望支撐人生。"
+  },
+  "12-13": {
+    "zh": "教育的目標是啟發，而不是灌輸。",
+    "en": "The goal of education is to inspire, not to indoctrinate.",
+    "author": "愛默生 (Ralph Waldo Emerson)",
+    "theme_id": 5,
+    "theme_name": "行動與堅持",
+    "explanation": "教育的真諦是啟發靈魂。"
+  },
+  "12-14": {
+    "zh": "堅持是成功的秘密。",
+    "en": "Perseverance is the secret of success.",
+    "author": "愛迪生 (Thomas Edison)",
+    "theme_id": 5,
+    "theme_name": "行動與堅持",
+    "explanation": "成功來自於不放棄。"
+  },
+  "12-15": {
+    "zh": "成功源於持之以恆。",
+    "en": "Success comes from perseverance.",
     "author": "邱吉爾 (Winston Churchill)",
-    "interpretation": "不要等完美，立刻開始。"
+    "theme_id": 5,
+    "theme_name": "行動與堅持",
+    "explanation": "持續努力才能成功。"
+  },
+  "12-16": {
+    "zh": "感恩讓人知足常樂。",
+    "en": "Gratitude makes one content.",
+    "author": "馬可·奧理略 (Marcus Aurelius)",
+    "theme_id": 6,
+    "theme_name": "感恩與謙卑",
+    "explanation": "感恩讓人快樂。"
+  },
+  "12-17": {
+    "zh": "謙卑使人偉大。",
+    "en": "Humility makes people great.",
+    "author": "馬克·吐溫 (Mark Twain)",
+    "theme_id": 6,
+    "theme_name": "感恩與謙卑",
+    "explanation": "謙遜讓人成長。"
+  },
+  "12-18": {
+    "zh": "教育的目標是啟發，而不是灌輸。",
+    "en": "The goal of education is to inspire, not to indoctrinate.",
+    "author": "愛默生 (Ralph Waldo Emerson)",
+    "theme_id": 6,
+    "theme_name": "感恩與謙卑",
+    "explanation": "教育的真諦是啟發靈魂。"
+  },
+  "12-19": {
+    "zh": "想像力是未來的引擎。",
+    "en": "Imagination is the engine of the future.",
+    "author": "愛因斯坦 (Albert Einstein)",
+    "theme_id": 7,
+    "theme_name": "創造與想像",
+    "explanation": "想像力驅動未來。"
+  },
+  "12-20": {
+    "zh": "創造力來自勇於挑戰。",
+    "en": "Creativity comes from daring to challenge.",
+    "author": "亨利·馬蒂斯 (Henri Matisse)",
+    "theme_id": 7,
+    "theme_name": "創造與想像",
+    "explanation": "創意來自勇氣。"
+  },
+  "12-21": {
+    "zh": "教育的目標是啟發，而不是灌輸。",
+    "en": "The goal of education is to inspire, not to indoctrinate.",
+    "author": "愛默生 (Ralph Waldo Emerson)",
+    "theme_id": 7,
+    "theme_name": "創造與想像",
+    "explanation": "教育的真諦是啟發靈魂。"
+  },
+  "12-22": {
+    "zh": "自由是靈魂的呼吸。",
+    "en": "Freedom is the breath of the soul.",
+    "author": "柏拉圖 (Plato)",
+    "theme_id": 8,
+    "theme_name": "自由與夢想",
+    "explanation": "自由是生命的根本。"
+  },
+  "12-23": {
+    "zh": "夢想是人生的導航。",
+    "en": "Dreams are the compass of life.",
+    "author": "保羅·科爾賀 (Paulo Coelho)",
+    "theme_id": 8,
+    "theme_name": "自由與夢想",
+    "explanation": "夢想能指引方向。"
+  },
+  "12-24": {
+    "zh": "未來屬於相信夢想的人。",
+    "en": "The future belongs to those who believe in their dreams.",
+    "author": "艾莉諾·羅斯福 (Eleanor Roosevelt)",
+    "theme_id": 8,
+    "theme_name": "自由與夢想",
+    "explanation": "夢想能成就未來。"
+  },
+  "12-25": {
+    "zh": "平靜是一種力量。",
+    "en": "Calmness is a strength.",
+    "author": "馬可·奧理略 (Marcus Aurelius)",
+    "theme_id": 9,
+    "theme_name": "平靜與智慧",
+    "explanation": "平靜能帶來力量。"
+  },
+  "12-26": {
+    "zh": "教育的目標是啟發，而不是灌輸。",
+    "en": "The goal of education is to inspire, not to indoctrinate.",
+    "author": "愛默生 (Ralph Waldo Emerson)",
+    "theme_id": 9,
+    "theme_name": "平靜與智慧",
+    "explanation": "教育的真諦是啟發靈魂。"
+  },
+  "12-27": {
+    "zh": "內心的平靜是最大的力量。",
+    "en": "Inner peace is the greatest strength.",
+    "author": "佛陀 (Buddha)",
+    "theme_id": 9,
+    "theme_name": "平靜與智慧",
+    "explanation": "平靜比外在的力量更重要。"
+  },
+  "12-28": {
+    "zh": "服務他人是最高尚的使命。",
+    "en": "Serving others is the most noble mission.",
+    "author": "特蕾莎修女 (Mother Teresa)",
+    "theme_id": 10,
+    "theme_name": "服務與影響",
+    "explanation": "助人是最高的價值。"
+  },
+  "12-29": {
+    "zh": "教育的目標是啟發，而不是灌輸。",
+    "en": "The goal of education is to inspire, not to indoctrinate.",
+    "author": "愛默生 (Ralph Waldo Emerson)",
+    "theme_id": 10,
+    "theme_name": "服務與影響",
+    "explanation": "教育的真諦是啟發靈魂。"
+  },
+  "12-30": {
+    "zh": "真正的影響力來自於奉獻。",
+    "en": "True influence comes from dedication.",
+    "author": "愛因斯坦 (Albert Einstein)",
+    "theme_id": 10,
+    "theme_name": "服務與影響",
+    "explanation": "奉獻才有真正的影響力。"
+  },
+  "12-31": {
+    "zh": "開始的勇氣比完美更重要。",
+    "en": "The courage to begin is more important than perfection.",
+    "author": "邱吉爾 (Winston Churchill)",
+    "theme_id": 1,
+    "theme_name": "開始與勇氣",
+    "explanation": "不要等完美，立刻開始。"
   }
-]
+}
