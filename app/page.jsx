@@ -5,7 +5,6 @@ import React, { useState, useEffect } from "react";
 export default function HomePage() {
   const [proverb, setProverb] = useState(null);
   const [error, setError] = useState(null);
-  const [debug, setDebug] = useState(null);
 
   useEffect(() => {
     async function fetchProverb() {
@@ -13,41 +12,44 @@ export default function HomePage() {
       const d = params.get("d");
 
       if (!d) {
-        setError("❌ 缺少 Token，請重新感應 NFC 標籤");
+        setError("⚠️ 重新感應 NFC TAG");
         return;
       }
 
       // 拆解 token
       const uid = d.slice(0, 14);
-      const tp = d.slice(14, 16);
       const ts = d.slice(16, 24);
       const rlc = d.slice(24);
+
+      // 📌 LocalStorage 檢查：同 UID 的 TS 必須比上一次大
+      const lastTsKey = `last_ts_${uid}`;
+      const lastTs = localStorage.getItem(lastTsKey);
+
+      if (lastTs && parseInt(ts, 16) <= parseInt(lastTs, 16)) {
+        setError("⚠️ 重新感應 NFC TAG");
+        return;
+      }
 
       try {
         const res = await fetch(`/api/proverb?uid=${uid}&ts=${ts}`);
         const data = await res.json();
 
-        setDebug({
-          UID: uid,
-          TP: tp,
-          TS: ts,
-          "Token RLC": rlc,
-          "API RLC": data.signature || "無",
-        });
-
         if (data.error) {
-          setError(data.error);
+          setError("⚠️ 重新感應 NFC TAG");
           return;
         }
 
         if (data.signature.toLowerCase() !== rlc.toLowerCase()) {
-          setError("⚠️ RLC 驗證失敗，請重新感應");
+          setError("⚠️ 重新感應 NFC TAG");
           return;
         }
 
+        // ✅ 驗證成功 → 更新 LocalStorage
+        localStorage.setItem(lastTsKey, ts);
+
         setProverb(data.proverb);
       } catch (err) {
-        setError("❌ 無法連線伺服器");
+        setError("⚠️ 重新感應 NFC TAG");
       }
     }
 
@@ -79,6 +81,11 @@ export default function HomePage() {
           <p style={{ fontSize: "1.3rem", lineHeight: "1.6" }}>
             「{proverb.zh}」
           </p>
+          {proverb.en && (
+            <p style={{ fontSize: "1rem", marginTop: "0.5rem", color: "#333" }}>
+              {proverb.en}
+            </p>
+          )}
           {proverb.author && (
             <footer style={{ marginTop: "1rem", fontWeight: "bold" }}>
               — {proverb.author}
@@ -86,29 +93,10 @@ export default function HomePage() {
           )}
           {proverb.explanation && (
             <p style={{ marginTop: "0.5rem", fontSize: "0.9rem", color: "#555" }}>
-              {proverb.explanation}
+              👉 {proverb.explanation}
             </p>
           )}
         </blockquote>
-      )}
-
-      {debug && (
-        <div
-          style={{
-            marginTop: "2rem",
-            padding: "1rem",
-            textAlign: "left",
-            fontSize: "0.85rem",
-            background: "#f0f0f0",
-            borderRadius: "8px",
-            color: "#444",
-            whiteSpace: "pre-wrap",
-          }}
-        >
-          {Object.entries(debug)
-            .map(([k, v]) => `${k}: ${v}`)
-            .join("\n")}
-        </div>
       )}
     </div>
   );
