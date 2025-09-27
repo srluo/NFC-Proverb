@@ -36,7 +36,7 @@ export async function GET(request) {
     let rlc = "";
     let verified = true; // 預設通過
 
-    if (ts !== "00000000") {
+    if (ts !== "00001111") {
       // ✅ 一般模式才做 RLC 驗證
       rlc = sign({ uid: uid.toUpperCase(), ts: ts.toUpperCase() });
 
@@ -49,7 +49,7 @@ export async function GET(request) {
 
     // 📌 判斷日期 key
     let key;
-    if (ts === "00000000") {
+    if (ts === "00001111") {
       const keys = Object.keys(proverbs);
       const randomIndex = Math.floor(Math.random() * keys.length);
       key = keys[randomIndex];
