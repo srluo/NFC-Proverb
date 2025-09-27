@@ -1,33 +1,51 @@
-import React from "react";
+"use client";
+
+import React, { useState, useEffect } from "react";
 
 export default function HomePage() {
-  const [data, setData] = React.useState({ loading: true });
+  const [proverb, setProverb] = useState(null);
+  const [loading, setLoading] = useState(true);
 
-  React.useEffect(() => {
-    const url = new URL(window.location.href);
-    const uid = url.searchParams.get("uid") || url.pathname.slice(1, 15);
-    const token = url.searchParams.get("token") || url.pathname.slice(15);
-    fetch(`/api/proverb?uid=${uid}&token=${token}`)
-      .then(r => r.json())
-      .then(res => {
-        if (res.error) setData({ loading: false, error: res.error });
-        else setData({ loading: false, proverb: res.proverb, date: res.date });
-      })
-      .catch(e => setData({ loading: false, error: String(e) }));
+  useEffect(() => {
+    async function fetchProverb() {
+      try {
+        const res = await fetch("/api/proverb");
+        const data = await res.json();
+        setProverb(data.proverb);
+      } catch (err) {
+        console.error("取得箴言失敗:", err);
+      } finally {
+        setLoading(false);
+      }
+    }
+    fetchProverb();
   }, []);
 
-  if (data.loading) return <main style={{ padding: 24 }}>載入中…</main>;
-  if (data.error) return <main style={{ padding: 24, color: "crimson" }}>錯誤：{data.error}</main>;
-
-  const { zh, en, author, theme_name } = data.proverb || {};
   return (
-    <main style={{ padding: 24, textAlign: "center" }}>
-      <img src="/logo.png" alt="logo" style={{ width: 80, margin: "0 auto" }} />
-      <h1>📖 今日箴言</h1>
-      <div style={{ marginTop: 8, color: "#666" }}>{data.date}｜{theme_name}</div>
-      <div style={{ marginTop: 24, fontSize: 22 }}>{zh}</div>
-      <div style={{ marginTop: 12, fontSize: 16, color: "#555" }}>{en}</div>
-      <div style={{ marginTop: 12, color: "#888" }}>— {author}</div>
-    </main>
+    <div
+      style={{
+        padding: "2rem",
+        textAlign: "center",
+        maxWidth: "600px",
+        margin: "0 auto",
+      }}
+    >
+      <h1 style={{ marginBottom: "1.5rem" }}>今日箴言</h1>
+      {loading ? (
+        <p>載入中...</p>
+      ) : proverb ? (
+        <blockquote style={{ fontStyle: "italic", lineHeight: "1.6" }}>
+          <p style={{ fontSize: "1.25rem", marginBottom: "1rem" }}>
+            「{proverb.text}」
+          </p>
+          <footer style={{ marginBottom: "0.5rem" }}>— {proverb.author}</footer>
+          <p style={{ fontSize: "0.9rem", color: "#555" }}>
+            {proverb.explanation}
+          </p>
+        </blockquote>
+      ) : (
+        <p>今天沒有找到箴言。</p>
+      )}
+    </div>
   );
 }
