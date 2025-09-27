@@ -16,7 +16,6 @@ function todayKeyTaipei() {
 export async function GET(request) {
   const { searchParams } = new URL(request.url);
 
-  // 既支援 uid/ts，也支援 d=整串Token
   let uid = searchParams.get("uid");
   let ts  = searchParams.get("ts");
   let tokenRlc = null;
@@ -26,8 +25,7 @@ export async function GET(request) {
     uid = d.slice(0, 14);
     const tp = d.slice(14, 16); // 例如 "DW"
     ts  = d.slice(16, 24);
-    tokenRlc = d.slice(24);     // Token 內的 RLC
-    // if (tp !== "DW") return new Response(JSON.stringify({ error: "TP 無效" }), { status: 403 });
+    tokenRlc = d.slice(24);
   }
 
   if (!uid || !ts) {
@@ -35,22 +33,27 @@ export async function GET(request) {
   }
 
   try {
-    const rlc = sign({ uid: uid.toUpperCase(), ts: ts.toUpperCase() });
+    let rlc = "";
+    let verified = true; // 預設通過
 
-    // 若 URL 帶了 tokenRlc，則比對；不符就回固定訊息
-    if (tokenRlc && rlc.toLowerCase() !== tokenRlc.toLowerCase()) {
-      return new Response(JSON.stringify({ error: "RLC 驗證失敗，請重新感應" }), { status: 403 });
+    if (ts !== "00001111") {
+      // ✅ 一般模式才做 RLC 驗證
+      rlc = sign({ uid: uid.toUpperCase(), ts: ts.toUpperCase() });
+
+      if (tokenRlc && rlc.toLowerCase() !== tokenRlc.toLowerCase()) {
+        return new Response(JSON.stringify({ error: "RLC 驗證失敗，請重新感應" }), { status: 403 });
+      }
+
+      verified = !tokenRlc || rlc.toLowerCase() === tokenRlc.toLowerCase();
     }
 
     // 📌 判斷日期 key
     let key;
     if (ts === "00001111") {
-      // 隨機抽取
       const keys = Object.keys(proverbs);
       const randomIndex = Math.floor(Math.random() * keys.length);
       key = keys[randomIndex];
     } else {
-      // 正常模式：取今日日期
       key = todayKeyTaipei();
     }
 
@@ -67,14 +70,12 @@ export async function GET(request) {
         date: key,
         proverb,
         signature: rlc,
-        verified: !tokenRlc || rlc.toLowerCase() === tokenRlc.toLowerCase(),
+        verified,
+        mode: ts === "00001111" ? "random" : "daily", // 📌 新增 mode 提示
       }),
       { status: 200, headers: { "Content-Type": "application/json" } }
     );
   } catch (error) {
-    return new Response(
-      JSON.stringify({ error: "server-error", detail: String(error) }),
-      { status: 500 }
-    );
+    return new Response(JSON.stringify({ error: "server-error", detail: String(error) }), { status: 500 });
   }
 }
