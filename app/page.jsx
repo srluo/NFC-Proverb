@@ -16,12 +16,10 @@ export default function HomePage() {
         return;
       }
 
-      // 拆解 token
       const uid = d.slice(0, 14);
       const ts = d.slice(16, 24);
       const rlc = d.slice(24);
 
-      // 📌 LocalStorage 檢查：同 UID 的 TS 必須比上一次大
       const lastTsKey = `last_ts_${uid}`;
       const lastTs = localStorage.getItem(lastTsKey);
 
@@ -44,11 +42,9 @@ export default function HomePage() {
           return;
         }
 
-        // ✅ 驗證成功 → 更新 LocalStorage
         localStorage.setItem(lastTsKey, ts);
-
         setProverb(data.proverb);
-      } catch (err) {
+      } catch {
         setError("⚠️ 重新感應 NFC TAG");
       }
     }
@@ -59,23 +55,34 @@ export default function HomePage() {
   return (
     <div
       style={{
+        minHeight: "100vh",
+        background: "url('/bg.jpg') no-repeat center center fixed",
+        backgroundSize: "cover",
         padding: "2rem",
         textAlign: "center",
-        maxWidth: "600px",
-        margin: "0 auto",
       }}
     >
-      <h1 style={{ marginBottom: "1.5rem" }}>📖 今日箴言</h1>
+      {/* LOGO */}
+      <img
+        src="/logo.png"
+        alt="Logo"
+        style={{ width: "120px", margin: "0 auto 1rem", display: "block" }}
+      />
 
-      {error && <p style={{ color: "red" }}>{error}</p>}
+      <h1 style={{ marginBottom: "1.5rem", color: "#4a2f00" }}>📖 今日箴言</h1>
+
+      {error && <p style={{ color: "red", fontSize: "1.2rem" }}>{error}</p>}
 
       {proverb && (
         <blockquote
           style={{
-            background: "#fff",
+            background: "rgba(255,255,255,0.9)",
             borderRadius: "12px",
             padding: "1.5rem",
-            boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
+            boxShadow: "0 6px 15px rgba(0,0,0,0.2)",
+            maxWidth: "700px",
+            margin: "0 auto",
+            transition: "transform 0.2s ease, box-shadow 0.2s ease",
           }}
         >
           <p style={{ fontSize: "1.3rem", lineHeight: "1.6" }}>
@@ -92,7 +99,14 @@ export default function HomePage() {
             </footer>
           )}
           {proverb.explanation && (
-            <p style={{ marginTop: "0.5rem", fontSize: "0.9rem", color: "#555" }}>
+            <p
+              style={{
+                marginTop: "0.5rem",
+                fontSize: "0.9rem",
+                color: "#555",
+                fontStyle: "italic",
+              }}
+            >
               👉 {proverb.explanation}
             </p>
           )}
