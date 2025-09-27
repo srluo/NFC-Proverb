@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <title>📖 今日箴言</title>
+  <style>
+    body {
+      min-height: 100vh;
+      background: url("bg.jpg") no-repeat center center fixed;
+      background-size: cover;
+      padding: 2rem;
+      text-align: center;
+      font-family: "Microsoft JhengHei", sans-serif;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+      max-width: 700px;
+      margin: 1rem auto;
+    }
+    h1 {
+      margin-bottom: 1.5rem;
+      color: #4a2f00;
+    }
+    .error {
+      color: red;
+      font-size: 1.2rem;
+    }
+    .debug {
+      margin-top: 1.5rem;
+      font-size: 0.9rem;
+      color: #999;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <img src="logo.png" alt="Logo" style="width:120px;margin:0 auto 1rem;display:block;">
+  <h1 id="title">📖 今日箴言</h1>
+  <div id="app"></div>
+  <div id="debug"></div>
+
+  <script>
+    (async function() {
+      const params = new URLSearchParams(window.location.search);
+      const d = params.get("d");
+      const app = document.getElementById("app");
+      const debug = document.getElementById("debug");
+
+      if (!d) {
+        app.innerHTML = `<p class="error">⚠️ 重新感應 NFC TAG</p>`;
+        return;
+      }
+
+      const uid = d.slice(0, 14);
+      const ts  = d.slice(16, 24);
+      const rlc = d.slice(24);
+
+      try {
+        const res = await fetch(`/api/proverb?uid=${uid}&ts=${ts}`);
+        const data = await res.json();
+
+        if (data.error) {
+          app.innerHTML = `<p class="error">⚠️ 重新感應 NFC TAG</p>`;
+          return;
+        }
+
+        // 📌 一般模式要比對 RLC
+        if (ts !== "00000000" && data.signature.toLowerCase() !== rlc.toLowerCase()) {
+          app.innerHTML = `<p class="error">⚠️ 重新感應 NFC TAG</p>`;
+          return;
+        }
+
+        // 顯示標題提示
+        if (data.mode === "random") {
+          document.getElementById("title").innerHTML = "📖 今日箴言 <span style='font-size:1rem;color:#666'>(隨機抽取)</span>";
+          debug.innerHTML = `⚡ Debug：隨機模式抽到第 ${data.randomIndex} 筆 (${data.date})`;
+        }
+
+        // 顯示箴言內容
+        const p = data.proverb;
+        app.innerHTML = `
+          <div class="card">
+            <p style="font-size:1.3rem;line-height:1.6">「${p.zh}」</p>
+            ${p.en ? `<p style="font-size:1rem;margin-top:0.5rem;color:#333">${p.en}</p>` : ""}
+            ${p.author ? `<footer style="margin-top:1rem;font-weight:bold">— ${p.author}</footer>` : ""}
+            ${p.explanation ? `<p style="margin-top:0.5rem;font-size:0.9rem;color:#555;font-style:italic">👉 ${p.explanation}</p>` : ""}
+          </div>
+        `;
+      } catch (err) {
+        app.innerHTML = `<p class="error">⚠️ 重新感應 NFC TAG</p>`;
+      }
+    })();
+  </script>
+</body>
+</html>
