@@ -46,6 +46,7 @@ export async function GET(request) {
           signature: "RANDOMMODE",
           verified: true,
           mode: "random",
+          randomIndex, // 👉 附加隨機索引，方便調試
         }),
         { status: 200, headers: { "Content-Type": "application/json" } }
       );
