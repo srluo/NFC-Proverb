@@ -5,6 +5,7 @@ import React, { useState, useEffect } from "react";
 export default function HomePage() {
   const [proverb, setProverb] = useState(null);
   const [error, setError] = useState(null);
+  const [mode, setMode] = useState("daily");
 
   useEffect(() => {
     async function fetchProverb() {
@@ -20,14 +21,6 @@ export default function HomePage() {
       const ts = d.slice(16, 24);
       const rlc = d.slice(24);
 
-      const lastTsKey = `last_ts_${uid}`;
-      const lastTs = localStorage.getItem(lastTsKey);
-
-      if (lastTs && parseInt(ts, 16) <= parseInt(lastTs, 16)) {
-        setError("⚠️ 重新感應 NFC TAG");
-        return;
-      }
-
       try {
         const res = await fetch(`/api/proverb?uid=${uid}&ts=${ts}`);
         const data = await res.json();
@@ -37,12 +30,15 @@ export default function HomePage() {
           return;
         }
 
-        if (data.signature.toLowerCase() !== rlc.toLowerCase()) {
+        // 📌 檢查模式
+        setMode(data.mode || "daily");
+
+        // 📌 一般模式要檢查 RLC，隨機模式不用
+        if (ts !== "00000000" && data.signature.toLowerCase() !== rlc.toLowerCase()) {
           setError("⚠️ 重新感應 NFC TAG");
           return;
         }
 
-        localStorage.setItem(lastTsKey, ts);
         setProverb(data.proverb);
       } catch {
         setError("⚠️ 重新感應 NFC TAG");
@@ -62,14 +58,15 @@ export default function HomePage() {
         textAlign: "center",
       }}
     >
-      {/* LOGO */}
       <img
         src="/logo.png"
         alt="Logo"
         style={{ width: "120px", margin: "0 auto 1rem", display: "block" }}
       />
 
-      <h1 style={{ marginBottom: "1.5rem", color: "#4a2f00" }}>📖 今日箴言</h1>
+      <h1 style={{ marginBottom: "1.5rem", color: "#4a2f00" }}>
+        📖 今日箴言 {mode === "random" && <span style={{ fontSize: "1rem", color: "#666" }}>（隨機抽取）</span>}
+      </h1>
 
       {error && <p style={{ color: "red", fontSize: "1.2rem" }}>{error}</p>}
 
@@ -82,7 +79,6 @@ export default function HomePage() {
             boxShadow: "0 6px 15px rgba(0,0,0,0.2)",
             maxWidth: "700px",
             margin: "0 auto",
-            transition: "transform 0.2s ease, box-shadow 0.2s ease",
           }}
         >
           <p style={{ fontSize: "1.3rem", lineHeight: "1.6" }}>
