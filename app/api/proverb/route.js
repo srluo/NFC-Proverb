@@ -27,7 +27,6 @@ export async function GET(request) {
     const tp = d.slice(14, 16); // 例如 "DW"
     ts  = d.slice(16, 24);
     tokenRlc = d.slice(24);     // Token 內的 RLC
-    // 也可檢查 tp 是否 DW（若要嚴格）
     // if (tp !== "DW") return new Response(JSON.stringify({ error: "TP 無效" }), { status: 403 });
   }
 
@@ -43,7 +42,18 @@ export async function GET(request) {
       return new Response(JSON.stringify({ error: "RLC 驗證失敗，請重新感應" }), { status: 403 });
     }
 
-    const key = todayKeyTaipei();
+    // 📌 判斷日期 key
+    let key;
+    if (ts === "00001111") {
+      // 隨機抽取
+      const keys = Object.keys(proverbs);
+      const randomIndex = Math.floor(Math.random() * keys.length);
+      key = keys[randomIndex];
+    } else {
+      // 正常模式：取今日日期
+      key = todayKeyTaipei();
+    }
+
     const proverb = proverbs[key] || {
       zh: "沒有找到今日箴言。",
       en: "",
@@ -62,6 +72,9 @@ export async function GET(request) {
       { status: 200, headers: { "Content-Type": "application/json" } }
     );
   } catch (error) {
-    return new Response(JSON.stringify({ error: "server-error", detail: String(error) }), { status: 500 });
+    return new Response(
+      JSON.stringify({ error: "server-error", detail: String(error) }),
+      { status: 500 }
+    );
   }
 }
