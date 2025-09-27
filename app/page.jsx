@@ -107,3 +107,29 @@ export default function HomePage() {
               style={{
                 marginTop: "0.5rem",
                 fontSize: "0.9rem",
+                color: "#555",
+                fontStyle: "italic",
+              }}
+            >
+              👉 {proverb.explanation}
+            </p>
+          )}
+        </blockquote>
+      )}
+
+      {/* 📌 Debug 區塊：只有隨機模式才顯示 */}
+      {mode === "random" && randomInfo && (
+        <div
+          style={{
+            marginTop: "1.5rem",
+            fontSize: "0.9rem",
+            color: "#999",
+            fontStyle: "italic",
+          }}
+        >
+          ⚡ Debug：{randomInfo}
+        </div>
+      )}
+    </div>
+  );
+}
