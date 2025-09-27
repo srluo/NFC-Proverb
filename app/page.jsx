@@ -69,7 +69,7 @@ export default function HomePage() {
         style={{ width: "120px", margin: "0 auto 1rem", display: "block" }}
       />
 
-      <h1 style={{ marginBottom: "1.5rem", color: "#4a2f00" }}>
+      <h1 style={{ marginBottom: "1.4rem", color: "#4a2f00" }}>
         📖 今日箴言{" "}
         {mode === "random" && (
           <span style={{ fontSize: "1rem", color: "#666" }}>（隨機抽取）</span>
@@ -93,12 +93,12 @@ export default function HomePage() {
             「{proverb.zh}」
           </p>
           {proverb.en && (
-            <p style={{ fontSize: "1.2rem", marginTop: "0.5rem", color: "#333" }}>
+            <p style={{ fontSize: "1.2rem", marginTop: "0.5rem", lineHeight: "1.8", color: "#333" }}>
               {proverb.en}
             </p>
           )}
           {proverb.author && (
-            <footer style={{ marginTop: "1.2rem", fontWeight: "bold" }}>
+            <footer style={{ marginTop: "1.2rem", lineHeight: "1.5", fontWeight: "bold" }}>
               — {proverb.author}
             </footer>
           )}
@@ -106,7 +106,7 @@ export default function HomePage() {
             <p
               style={{
                 marginTop: "0.5rem",
-                fontSize: "0.9rem",
+                fontSize: "1.2rem",
                 color: "#555",
                 fontStyle: "italic",
               }}
