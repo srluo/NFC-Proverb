@@ -89,16 +89,16 @@ export default function HomePage() {
             margin: "0 auto",
           }}
         >
-          <p style={{ fontSize: "1.3rem", lineHeight: "1.6" }}>
+          <p style={{ fontSize: "1.4rem", lineHeight: "1.8" }}>
             「{proverb.zh}」
           </p>
           {proverb.en && (
-            <p style={{ fontSize: "1rem", marginTop: "0.5rem", color: "#333" }}>
+            <p style={{ fontSize: "1.2rem", marginTop: "0.5rem", color: "#333" }}>
               {proverb.en}
             </p>
           )}
           {proverb.author && (
-            <footer style={{ marginTop: "1rem", fontWeight: "bold" }}>
+            <footer style={{ marginTop: "1.2rem", fontWeight: "bold" }}>
               — {proverb.author}
             </footer>
           )}
