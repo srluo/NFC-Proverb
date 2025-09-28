@@ -34,7 +34,7 @@ export default function HomePage() {
   const [error, setError] = useState(null);
   const [mode, setMode] = useState("daily");
   const [randomInfo, setRandomInfo] = useState(null);
-  // 預設先用今天月份的樣式，等 API 回來後再依 data.date 更新
+
   const [season, setSeason] = useState(() => {
     const m = new Date().getMonth() + 1;
     return getSeasonStyleByMonth(m);
@@ -46,6 +46,14 @@ export default function HomePage() {
       const d = params.get("d");
 
       if (!d) {
+        setProverb(null);
+        setError("⚠️ 重新感應 NFC TAG");
+        return;
+      }
+
+      // ✅ 本地檢查是否已經使用過
+      const usedTokens = JSON.parse(localStorage.getItem("usedTokens") || "[]");
+      if (usedTokens.includes(d)) {
         setProverb(null);
         setError("⚠️ 重新感應 NFC TAG");
         return;
@@ -74,6 +82,9 @@ export default function HomePage() {
           return;
         }
 
+        // ✅ 使用成功 → 記錄 token 到 LocalStorage
+        localStorage.setItem("usedTokens", JSON.stringify([...usedTokens, d]));
+
         // 隨機模式 → 顯示 debug
         if (data.mode === "random" && typeof data.randomIndex !== "undefined") {
           setRandomInfo(`隨機模式抽到第 ${data.randomIndex} 筆 (${data.date})`);
@@ -81,7 +92,7 @@ export default function HomePage() {
           setRandomInfo(null);
         }
 
-        // ✅ 依回傳的 date (MM-DD) 動態切換季節樣式
+        // 依回傳的 date (MM-DD) 動態切換季節樣式
         setSeason(getSeasonStyleByDateKey(data.date));
 
         setProverb(data.proverb);
@@ -180,7 +191,6 @@ export default function HomePage() {
         </blockquote>
       )}
 
-      {/* Debug：只在隨機模式顯示 */}
       {mode === "random" && randomInfo && (
         <div
           style={{
