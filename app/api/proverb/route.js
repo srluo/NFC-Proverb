@@ -27,7 +27,7 @@ export async function GET(request) {
     ts = d.slice(16, 24);
     tokenRlc = d.slice(24);
 
-    // ✅ 嚴格檢查 TP
+    // ✅ 嚴格檢查 TP checked
     if (tp !== "DW") {
       return new Response(JSON.stringify({ error: "NFC TAG無效，請重新感應" }), {
         status: 403,
