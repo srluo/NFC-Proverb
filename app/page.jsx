@@ -6,18 +6,18 @@ import React, { useState, useEffect } from "react";
 function getSeasonStyleByMonth(month) {
   if ([3, 4, 5].includes(month)) {
     // 春
-    return { bg: "/bg-spring.jpg", mainColor: "#3a2a1a", accent: "#b33", subtitle: "#333" };
+    return { bg: "/bg-spring.jpg", mainColor: "#3a2a1a", accent: "#61773c", subtitle: "#333" };
   }
   if ([6, 7, 8].includes(month)) {
     // 夏
-    return { bg: "/bg-summer.jpg", mainColor: "#1a2a4a", accent: "#cfa645", subtitle: "#2f3f5f" };
+    return { bg: "/bg-summer.jpg", mainColor: "#1a2a4a", accent: "#2e6d84", subtitle: "#2f3f5f" };
   }
   if ([9, 10, 11].includes(month)) {
     // 秋
-    return { bg: "/bg-autumn.jpg", mainColor: "#4a1f0f", accent: "#a45a2a", subtitle: "#5a2f1a" };
+    return { bg: "/bg-autumn.jpg", mainColor: "#4a1f0f", accent: "#2e6d84", subtitle: "#5a2f1a" };
   }
   // 冬 (12,1,2)
-  return { bg: "/bg-winter.jpg", mainColor: "#1f2f3f", accent: "#d9d9d9", subtitle: "#444" };
+  return { bg: "/bg-winter.jpg", mainColor: "#1f2f3f", accent: "#5a6b6e", subtitle: "#444" };
 }
 
 // 由 "MM-DD" 推得月份；若異常則回今天月份
