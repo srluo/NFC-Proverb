@@ -19,39 +19,54 @@ export async function GET(request) {
   let uid = searchParams.get("uid");
   let ts = searchParams.get("ts");
   let tokenRlc = null;
+  let tp = null;
 
   const d = searchParams.get("d");
   if (d) {
     uid = d.slice(0, 14);
-    const tp = d.slice(14, 16); // 例如 "DW"
+    tp = d.slice(14, 16); // 例如 "DW"
     ts = d.slice(16, 24);
     tokenRlc = d.slice(24);
+  }
 
-    // ✅ 嚴格檢查 TP checked
-    if (tp !== "DW") {
-      return new Response(JSON.stringify({ error: "NFC TAG無效，請重新感應" }), {
-        status: 403,
-        headers: { "Content-Type": "application/json" },
-      });
-    }
+  // ✅ 嚴格檢查 TP
+  if (tp && tp !== "DW") {
+    return new Response(
+      JSON.stringify({ error: "NFC TAG 無效，請重新感應" }),
+      { status: 403, headers: { "Content-Type": "application/json" } }
+    );
   }
 
   if (!uid || !ts) {
-    return new Response(JSON.stringify({ error: "缺少必要參數 uid 或 ts" }), { status: 400 });
+    return new Response(
+      JSON.stringify({ error: "缺少必要參數 uid 或 ts" }),
+      { status: 400 }
+    );
   }
 
   try {
     const rlc = sign({ uid: uid.toUpperCase(), ts: ts.toUpperCase() });
 
-    // 隨機模式 (TS=00000000) 跳過 RLC 驗證
+    // ✅ 隨機模式 (TS=00000000) → 跳過 RLC 驗證
     if (ts !== "00000000" && tokenRlc && rlc.toLowerCase() !== tokenRlc.toLowerCase()) {
-      return new Response(JSON.stringify({ error: "RLC 驗證失敗，請重新感應" }), {
-        status: 403,
-        headers: { "Content-Type": "application/json" },
-      });
+      return new Response(
+        JSON.stringify({ error: "RLC 驗證失敗，請重新感應" }),
+        { status: 403, headers: { "Content-Type": "application/json" } }
+      );
     }
 
-    const key = todayKeyTaipei();
+    // ✅ 選日期：TS=00000000 → 隨機抽；否則今日
+    let key;
+    let randomIndex;
+    const allKeys = Object.keys(proverbs);
+
+    if (ts === "00000000") {
+      randomIndex = Math.floor(Math.random() * allKeys.length);
+      key = allKeys[randomIndex];
+    } else {
+      key = todayKeyTaipei();
+    }
+
     const proverb = proverbs[key] || {
       zh: "沒有找到今日箴言。",
       en: "",
@@ -67,10 +82,14 @@ export async function GET(request) {
         signature: rlc,
         verified: ts === "00000000" || rlc.toLowerCase() === tokenRlc?.toLowerCase(),
         mode: ts === "00000000" ? "random" : "daily",
+        randomIndex: randomIndex, // 方便 debug
       }),
       { status: 200, headers: { "Content-Type": "application/json" } }
     );
   } catch (error) {
-    return new Response(JSON.stringify({ error: "server-error", detail: String(error) }), { status: 500 });
+    return new Response(
+      JSON.stringify({ error: "server-error", detail: String(error) }),
+      { status: 500 }
+    );
   }
 }
