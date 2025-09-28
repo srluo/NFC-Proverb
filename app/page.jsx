@@ -79,7 +79,7 @@ export default function HomePage() {
         setProverb(data.proverb);
         setError(null);
 
-        // 📌 更新 LocalStorage Token 狀態
+        // 📌 更新 LocalStorage Token 狀態  
         const tokens = {};
         for (let i = 0; i < localStorage.length; i++) {
           const key = localStorage.key(i);
