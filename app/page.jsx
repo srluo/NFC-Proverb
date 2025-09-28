@@ -14,7 +14,7 @@ function getSeasonStyleByMonth(month) {
   }
   if ([9, 10, 11].includes(month)) {
     // 秋
-    return { bg: "/bg-autumn.jpg", mainColor: "#4a1f0f", accent: "#2e6d84", subtitle: "#5a2f1a" };
+    return { bg: "/bg-autumn.jpg", mainColor: "#4a1f0f", accent: "#814d12", subtitle: "#5a2f1a" };
   }
   // 冬 (12,1,2)
   return { bg: "/bg-winter.jpg", mainColor: "#1f2f3f", accent: "#5a6b6e", subtitle: "#444" };
