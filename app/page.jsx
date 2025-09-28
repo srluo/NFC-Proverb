@@ -5,22 +5,17 @@ import React, { useState, useEffect } from "react";
 // 依月份回傳對應的背景與文字色
 function getSeasonStyleByMonth(month) {
   if ([3, 4, 5].includes(month)) {
-    // 春
     return { bg: "/bg-spring.jpg", mainColor: "#3a2a1a", accent: "#61773c", subtitle: "#333" };
   }
   if ([6, 7, 8].includes(month)) {
-    // 夏
     return { bg: "/bg-summer.jpg", mainColor: "#1a2a4a", accent: "#2e6d84", subtitle: "#2f3f5f" };
   }
   if ([9, 10, 11].includes(month)) {
-    // 秋
     return { bg: "/bg-autumn.jpg", mainColor: "#4a1f0f", accent: "#814d12", subtitle: "#5a2f1a" };
   }
-  // 冬 (12,1,2)
   return { bg: "/bg-winter.jpg", mainColor: "#1f2f3f", accent: "#5a6b6e", subtitle: "#444" };
 }
 
-// 由 "MM-DD" 推得月份；若異常則回今天月份
 function getSeasonStyleByDateKey(dateKey) {
   let month = new Date().getMonth() + 1;
   if (typeof dateKey === "string" && /^\d{2}-\d{2}$/.test(dateKey)) {
@@ -34,10 +29,7 @@ export default function HomePage() {
   const [error, setError] = useState(null);
   const [mode, setMode] = useState("daily");
   const [randomInfo, setRandomInfo] = useState(null);
-  const [season, setSeason] = useState(() => {
-    const m = new Date().getMonth() + 1;
-    return getSeasonStyleByMonth(m);
-  });
+  const [season, setSeason] = useState(() => getSeasonStyleByMonth(new Date().getMonth() + 1));
 
   useEffect(() => {
     async function fetchProverb() {
@@ -46,7 +38,7 @@ export default function HomePage() {
 
       if (!d) {
         setProverb(null);
-        setError("⚠️ 重新感應 NFC TAG");
+        setError("⚠️ 重新感應 NFC TAG (0)");
         return;
       }
 
@@ -54,56 +46,36 @@ export default function HomePage() {
       const ts = d.slice(16, 24);
       const rlc = d.slice(24);
 
-      // ✅ 僅當 TS ≠ 00000000 時才檢查 LocalStorage
-      if (ts !== "00000000") {
-        const usedTokens = JSON.parse(localStorage.getItem("usedTokens") || "[]");
-        if (usedTokens.includes(d)) {
-          setProverb(null);
-          setError("⚠️ 重新感應 NFC TAG");
-          return;
-        }
-      }
-
       try {
         const res = await fetch(`/api/proverb?uid=${uid}&ts=${ts}`);
         const data = await res.json();
 
         if (data.error) {
           setProverb(null);
-          setError("⚠️ 重新感應 NFC TAG");
+          setError("⚠️ 重新感應 NFC TAG (D)");
           return;
         }
 
         setMode(data.mode || "daily");
 
-        // ✅ 僅當 TS ≠ 00000000 時才檢查 RLC
         if (ts !== "00000000" && data.signature.toLowerCase() !== rlc.toLowerCase()) {
           setProverb(null);
-          setError("⚠️ 重新感應 NFC TAG");
+          setError("⚠️ 重新感應 NFC TAG (RLC)" );
           return;
         }
 
-        // ✅ 隨機模式 → 顯示 debug
         if (data.mode === "random" && typeof data.randomIndex !== "undefined") {
           setRandomInfo(`隨機模式抽到第 ${data.randomIndex} 筆 (${data.date})`);
         } else {
           setRandomInfo(null);
         }
 
-        // ✅ 更新季節背景
         setSeason(getSeasonStyleByDateKey(data.date));
-
         setProverb(data.proverb);
         setError(null);
-
-        // ✅ 僅當 TS ≠ 00000000 時才寫入 LocalStorage
-        if (ts !== "00000000") {
-          const usedTokens = JSON.parse(localStorage.getItem("usedTokens") || "[]");
-          localStorage.setItem("usedTokens", JSON.stringify([...usedTokens, d]));
-        }
       } catch {
         setProverb(null);
-        setError("⚠️ 重新感應 NFC TAG");
+        setError("⚠️ 重新感應 NFC TAG (E)");
       }
     }
 
@@ -196,7 +168,7 @@ export default function HomePage() {
       )}
 
       {/* Debug：只在隨機模式顯示 */}
-      {mode === "random" && randomInfo && (
+      {mode === "random" && (
         <div
           style={{
             marginTop: "1.2rem",
@@ -206,6 +178,24 @@ export default function HomePage() {
           }}
         >
           ⚡ Debug：{randomInfo}
+
+          {/* ✅ 清除 LocalStorage 按鈕 */}
+          <button
+            onClick={() => {
+              localStorage.clear();
+              alert("LocalStorage 已清除！");
+            }}
+            style={{
+              marginTop: "0.8rem",
+              padding: "0.5rem 1rem",
+              borderRadius: "6px",
+              border: "1px solid #ccc",
+              background: "#fefefe",
+              cursor: "pointer",
+            }}
+          >
+            清除 LocalStorage
+          </button>
         </div>
       )}
     </div>
