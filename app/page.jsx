@@ -42,7 +42,7 @@ export default function HomePage() {
 
       if (!d) {
         setProverb(null);
-        setError("⚠️ 重新感應 NFC TAG");
+        setError("⚠️ 重新感應 NFC TAG (0)");
         return;
       }
 
@@ -56,7 +56,7 @@ export default function HomePage() {
 
         if (data.error) {
           setProverb(null);
-          setError("⚠️ 重新感應 NFC TAG");
+          setError("⚠️ 重新感應 NFC TAG (d)");
           return;
         }
 
@@ -64,7 +64,7 @@ export default function HomePage() {
 
         if (ts !== "00000000" && data.signature.toLowerCase() !== rlc.toLowerCase()) {
           setProverb(null);
-          setError("⚠️ 重新感應 NFC TAG");
+          setError("⚠️ 重新感應 NFC TAG (RLC)");
           return;
         }
 
@@ -90,7 +90,7 @@ export default function HomePage() {
         setTokenStorage(tokens);
       } catch {
         setProverb(null);
-        setError("⚠️ 重新感應 NFC TAG");
+        setError("⚠️ 重新感應 NFC TAG (E)");
       }
     }
 
