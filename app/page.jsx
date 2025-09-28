@@ -66,7 +66,7 @@ export default function HomePage() {
       <img
         src="/logo.png"
         alt="Logo"
-        style={{ width: "120px", margin: "0 auto 1rem", display: "block" }}
+        style={{ width: "120px", margin: "30px auto 20px", display: "block" }}
       />
 
       <h2 style={{ marginBottom: "1.6rem", color: "#4a2f00" }}>
@@ -83,7 +83,7 @@ export default function HomePage() {
           style={{
             background: "rgba(255,255,255,0.9)",
             borderRadius: "12px",
-            padding: "1.5rem",
+            padding: "20px",
             boxShadow: "0 6px 15px rgba(0,0,0,0.2)",
             maxWidth: "700px",
             margin: "0 auto",
@@ -93,7 +93,7 @@ export default function HomePage() {
             「{proverb.zh}」
           </p>
           {proverb.en && (
-            <p style={{ fontSize: "1.2rem", marginTop: "1.0rem", color: "#333" }}>
+            <p style={{ fontSize: "1.2rem", marginTop: "0.5rem", color: "#333" }}>
               {proverb.en}
             </p>
           )}
@@ -105,8 +105,8 @@ export default function HomePage() {
           {proverb.explanation && (
             <p
               style={{
-                marginTop: "0.8rem",
-                fontSize: "1.0rem",
+                marginTop: "1.6rem",
+                fontSize: "0.9rem",
                 color: "#555",
                 fontStyle: "italic",
               }}
@@ -121,7 +121,7 @@ export default function HomePage() {
       {mode === "random" && randomInfo && (
         <div
           style={{
-            marginTop: "1.5rem",
+            marginTop: "1.2rem",
             fontSize: "0.9rem",
             color: "#999",
             fontStyle: "italic",
