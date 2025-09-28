@@ -54,7 +54,7 @@ export default function HomePage() {
       const ts = d.slice(16, 24);
       const rlc = d.slice(24);
 
-      // ✅ 只針對 TS ≠ 00000000 才檢查 LocalStorage
+      // ✅ 僅當 TS ≠ 00000000 時才檢查 LocalStorage
       if (ts !== "00000000") {
         const usedTokens = JSON.parse(localStorage.getItem("usedTokens") || "[]");
         if (usedTokens.includes(d)) {
@@ -76,7 +76,7 @@ export default function HomePage() {
 
         setMode(data.mode || "daily");
 
-        // ✅ 一般模式要檢查 RLC
+        // ✅ 僅當 TS ≠ 00000000 時才檢查 RLC
         if (ts !== "00000000" && data.signature.toLowerCase() !== rlc.toLowerCase()) {
           setProverb(null);
           setError("⚠️ 重新感應 NFC TAG");
@@ -90,13 +90,13 @@ export default function HomePage() {
           setRandomInfo(null);
         }
 
-        // ✅ 依回傳的 date (MM-DD) 動態切換季節樣式
+        // ✅ 更新季節背景
         setSeason(getSeasonStyleByDateKey(data.date));
 
         setProverb(data.proverb);
         setError(null);
 
-        // ✅ 使用成功 → 記錄到 LocalStorage（僅限 TS ≠ 00000000）
+        // ✅ 僅當 TS ≠ 00000000 時才寫入 LocalStorage
         if (ts !== "00000000") {
           const usedTokens = JSON.parse(localStorage.getItem("usedTokens") || "[]");
           localStorage.setItem("usedTokens", JSON.stringify([...usedTokens, d]));
