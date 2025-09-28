@@ -47,21 +47,18 @@ export default function HomePage() {
       }
 
       const uid = d.slice(0, 14);
-      const tp = d.slice(14, 16);   // ✅ 提取 TP
       const ts = d.slice(16, 24);
       const rlc = d.slice(24);
-
       const tokenKey = `token-${uid}-${ts}`;
 
-      // 📌 先檢查 Token 是否已用過
-      if (localStorage.getItem(tokenKey)) {
+      // ✅ 只有非隨機模式才檢查 Token 是否已用過
+      if (ts !== "00000000" && localStorage.getItem(tokenKey)) {
         setProverb(null);
         setError("⚠️ Token 已使用過，請重新感應");
         return;
       }
 
       try {
-        // ✅ 把完整 d 傳給後端，讓後端檢查 TP 與 RLC
         const res = await fetch(`/api/proverb?d=${d}`);
         const data = await res.json();
 
@@ -73,6 +70,7 @@ export default function HomePage() {
 
         setMode(data.mode || "daily");
 
+        // ✅ RLC 驗證 (隨機模式跳過)
         if (ts !== "00000000" && data.signature.toLowerCase() !== rlc.toLowerCase()) {
           setProverb(null);
           setError("⚠️ 重新感應 NFC TAG (RLC)");
@@ -86,12 +84,13 @@ export default function HomePage() {
         }
 
         setSeason(getSeasonStyleByDateKey(data.date));
-
         setProverb(data.proverb);
         setError(null);
 
-        // 📌 成功使用 → 標記 Token 已用過
-        localStorage.setItem(tokenKey, "used");
+        // ✅ 只有非隨機模式才記錄 Token
+        if (ts !== "00000000") {
+          localStorage.setItem(tokenKey, "used");
+        }
 
         // 📌 更新 LocalStorage Token 狀態
         const tokens = {};
@@ -190,6 +189,7 @@ export default function HomePage() {
         </blockquote>
       )}
 
+      {/* Debug：只在隨機模式顯示 */}
       {mode === "random" && randomInfo && (
         <div
           style={{
