@@ -10,22 +10,30 @@ function todayKeyTaipei() {
   }).formatToParts(new Date());
   const mm = parts.find(p => p.type === "month").value;
   const dd = parts.find(p => p.type === "day").value;
-  return `${mm}-${dd}`; // e.g. "09-27"
+  return `${mm}-${dd}`;
 }
 
 export async function GET(request) {
   const { searchParams } = new URL(request.url);
 
   let uid = searchParams.get("uid");
-  let ts  = searchParams.get("ts");
+  let ts = searchParams.get("ts");
   let tokenRlc = null;
 
   const d = searchParams.get("d");
   if (d) {
     uid = d.slice(0, 14);
     const tp = d.slice(14, 16); // 例如 "DW"
-    ts  = d.slice(16, 24);
+    ts = d.slice(16, 24);
     tokenRlc = d.slice(24);
+
+    // ✅ 嚴格檢查 TP
+    if (tp !== "DW") {
+      return new Response(JSON.stringify({ error: "NFC TAG無效，請重新感應" }), {
+        status: 403,
+        headers: { "Content-Type": "application/json" },
+      });
+    }
   }
 
   if (!uid || !ts) {
@@ -33,30 +41,14 @@ export async function GET(request) {
   }
 
   try {
-    // 📌 特殊模式：TS=00000000 → 隨機抽取，跳過 RLC
-    if (ts === "00000000") {
-      const keys = Object.keys(proverbs);
-      const randomIndex = Math.floor(Math.random() * keys.length);
-      const key = keys[randomIndex];
-
-      return new Response(
-        JSON.stringify({
-          date: key,
-          proverb: proverbs[key],
-          signature: "RANDOMMODE",
-          verified: true,
-          mode: "random",
-          randomIndex, // 👉 附加隨機索引，方便調試
-        }),
-        { status: 200, headers: { "Content-Type": "application/json" } }
-      );
-    }
-
-    // 📌 一般模式
     const rlc = sign({ uid: uid.toUpperCase(), ts: ts.toUpperCase() });
 
-    if (tokenRlc && rlc.toLowerCase() !== tokenRlc.toLowerCase()) {
-      return new Response(JSON.stringify({ error: "RLC 驗證失敗，請重新感應" }), { status: 403 });
+    // 隨機模式 (TS=00000000) 跳過 RLC 驗證
+    if (ts !== "00000000" && tokenRlc && rlc.toLowerCase() !== tokenRlc.toLowerCase()) {
+      return new Response(JSON.stringify({ error: "RLC 驗證失敗，請重新感應" }), {
+        status: 403,
+        headers: { "Content-Type": "application/json" },
+      });
     }
 
     const key = todayKeyTaipei();
@@ -73,8 +65,8 @@ export async function GET(request) {
         date: key,
         proverb,
         signature: rlc,
-        verified: !tokenRlc || rlc.toLowerCase() === tokenRlc.toLowerCase(),
-        mode: "daily",
+        verified: ts === "00000000" || rlc.toLowerCase() === tokenRlc?.toLowerCase(),
+        mode: ts === "00000000" ? "random" : "daily",
       }),
       { status: 200, headers: { "Content-Type": "application/json" } }
     );
