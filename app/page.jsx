@@ -91,9 +91,6 @@ export default function HomePage() {
         >
           <p style={{ fontSize: "1.4rem", lineHeight: "1.8" }}>
             「{proverb.zh}」
-            <br> </br>
-            <img src="/dividing-lines-1.png"
-            />
           </p>
           {proverb.en && (
             <p style={{ fontSize: "1.2rem", marginTop: "1.0rem", color: "#333" }}>
