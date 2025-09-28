@@ -49,6 +49,14 @@ export default function HomePage() {
       const uid = d.slice(0, 14);
       const ts = d.slice(16, 24);
       const rlc = d.slice(24);
+      const tokenKey = `token-${uid}-${ts}`;
+
+      // 📌 先檢查 Token 是否已用過
+      if (localStorage.getItem(tokenKey)) {
+        setProverb(null);
+        setError("⚠️ Token 已使用過，請重新感應");
+        return;
+      }
 
       try {
         const res = await fetch(`/api/proverb?uid=${uid}&ts=${ts}`);
@@ -79,7 +87,10 @@ export default function HomePage() {
         setProverb(data.proverb);
         setError(null);
 
-        // 📌 更新 LocalStorage Token 狀態  
+        // 📌 成功使用 → 標記 Token 已用過
+        localStorage.setItem(tokenKey, "used");
+
+        // 📌 更新 LocalStorage Token 狀態
         const tokens = {};
         for (let i = 0; i < localStorage.length; i++) {
           const key = localStorage.key(i);
