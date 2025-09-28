@@ -196,3 +196,18 @@ export default function HomePage() {
       )}
 
       {/* Debug：只在隨機模式顯示 */}
+      {mode === "random" && randomInfo && (
+        <div
+          style={{
+            marginTop: "1.2rem",
+            fontSize: "0.9rem",
+            color: "#999",
+            fontStyle: "italic",
+          }}
+        >
+          ⚡ Debug：{randomInfo}
+        </div>
+      )}
+    </div>
+  );
+}
