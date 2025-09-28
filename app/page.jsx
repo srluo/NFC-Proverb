@@ -47,8 +47,10 @@ export default function HomePage() {
       }
 
       const uid = d.slice(0, 14);
+      const tp = d.slice(14, 16);   // ✅ 提取 TP
       const ts = d.slice(16, 24);
       const rlc = d.slice(24);
+
       const tokenKey = `token-${uid}-${ts}`;
 
       // 📌 先檢查 Token 是否已用過
@@ -59,7 +61,8 @@ export default function HomePage() {
       }
 
       try {
-        const res = await fetch(`/api/proverb?uid=${uid}&ts=${ts}`);
+        // ✅ 把完整 d 傳給後端，讓後端檢查 TP 與 RLC
+        const res = await fetch(`/api/proverb?d=${d}`);
         const data = await res.json();
 
         if (data.error) {
