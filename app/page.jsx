@@ -93,9 +93,27 @@ export default function HomePage() {
             「{proverb.zh}」
           </p>
           {proverb.en && (
-            <p style={{ fontSize: "1.2rem", marginTop: "0.5rem", color: "#333" }}>
-              {proverb.en}
-            </p>
+              <>
+              <img
+                src="/dividing-lines-1.png"
+                alt="divider"
+                style={{
+                  width: "60%",
+                  margin: "1.2rem auto",
+                  display: "block",
+                  opacity: 0.7,
+                }}
+              />
+              <p
+                style={{
+                  fontSize: "1.2rem",
+                  marginTop: "0.5rem",
+                  color: "#333",
+                }}
+              >
+                {proverb.en}
+              </p>
+            </>
           )}
           {proverb.author && (
             <footer style={{ marginTop: "1.6rem", fontWeight: "bold" }}>
