@@ -2,11 +2,43 @@
 
 import React, { useState, useEffect } from "react";
 
+// 依月份回傳對應的背景與文字色
+function getSeasonStyleByMonth(month) {
+  if ([3, 4, 5].includes(month)) {
+    // 春
+    return { bg: "/bg-spring.jpg", mainColor: "#3a2a1a", accent: "#b33", subtitle: "#333" };
+  }
+  if ([6, 7, 8].includes(month)) {
+    // 夏
+    return { bg: "/bg-summer.jpg", mainColor: "#1a2a4a", accent: "#cfa645", subtitle: "#2f3f5f" };
+  }
+  if ([9, 10, 11].includes(month)) {
+    // 秋
+    return { bg: "/bg-autumn.jpg", mainColor: "#4a1f0f", accent: "#a45a2a", subtitle: "#5a2f1a" };
+  }
+  // 冬 (12,1,2)
+  return { bg: "/bg-winter.jpg", mainColor: "#1f2f3f", accent: "#d9d9d9", subtitle: "#444" };
+}
+
+// 由 "MM-DD" 推得月份；若異常則回今天月份
+function getSeasonStyleByDateKey(dateKey) {
+  let month = new Date().getMonth() + 1;
+  if (typeof dateKey === "string" && /^\d{2}-\d{2}$/.test(dateKey)) {
+    month = parseInt(dateKey.slice(0, 2), 10);
+  }
+  return getSeasonStyleByMonth(month);
+}
+
 export default function HomePage() {
   const [proverb, setProverb] = useState(null);
   const [error, setError] = useState(null);
   const [mode, setMode] = useState("daily");
   const [randomInfo, setRandomInfo] = useState(null);
+  // 預設先用今天月份的樣式，等 API 回來後再依 data.date 更新
+  const [season, setSeason] = useState(() => {
+    const m = new Date().getMonth() + 1;
+    return getSeasonStyleByMonth(m);
+  });
 
   useEffect(() => {
     async function fetchProverb() {
@@ -14,6 +46,7 @@ export default function HomePage() {
       const d = params.get("d");
 
       if (!d) {
+        setProverb(null);
         setError("⚠️ 重新感應 NFC TAG");
         return;
       }
@@ -34,17 +67,22 @@ export default function HomePage() {
 
         setMode(data.mode || "daily");
 
-        // 📌 一般模式要檢查 RLC，隨機模式不用
+        // 一般模式要檢查 RLC，隨機模式不用
         if (ts !== "00000000" && data.signature.toLowerCase() !== rlc.toLowerCase()) {
           setProverb(null);
           setError("⚠️ 重新感應 NFC TAG");
           return;
         }
 
-        // 📌 隨機模式 → 顯示 debug 區塊
+        // 隨機模式 → 顯示 debug
         if (data.mode === "random" && typeof data.randomIndex !== "undefined") {
           setRandomInfo(`隨機模式抽到第 ${data.randomIndex} 筆 (${data.date})`);
+        } else {
+          setRandomInfo(null);
         }
+
+        // ✅ 依回傳的 date (MM-DD) 動態切換季節樣式
+        setSeason(getSeasonStyleByDateKey(data.date));
 
         setProverb(data.proverb);
         setError(null);
@@ -61,7 +99,7 @@ export default function HomePage() {
     <div
       style={{
         minHeight: "100vh",
-        background: "url('/bg.jpg') no-repeat center center fixed",
+        background: `url('${season.bg}') no-repeat center center fixed`,
         backgroundSize: "cover",
         padding: "2rem",
         textAlign: "center",
@@ -73,10 +111,10 @@ export default function HomePage() {
         style={{ width: "120px", margin: "30px auto 20px", display: "block" }}
       />
 
-      <h2 style={{ marginBottom: "1.6rem", color: "#4a2f00" }}>
+      <h2 style={{ marginBottom: "1.6rem", color: season.accent }}>
         📖 今日箴言{" "}
         {mode === "random" && (
-          <span style={{ fontSize: "1rem", color: "#666" }}>（隨機抽取）</span>
+          <span style={{ fontSize: "1rem", color: season.subtitle }}>（隨機抽取）</span>
         )}
       </h2>
 
@@ -85,7 +123,7 @@ export default function HomePage() {
       {proverb && (
         <blockquote
           style={{
-            background: "rgba(255,255,255,0.9)",
+            background: "rgba(255,255,255,0.45)",
             borderRadius: "12px",
             padding: "20px",
             boxShadow: "0 6px 15px rgba(0,0,0,0.2)",
@@ -93,7 +131,7 @@ export default function HomePage() {
             margin: "0 auto",
           }}
         >
-          <p style={{ fontSize: "1.4rem", lineHeight: "1.8" }}>
+          <p style={{ fontSize: "1.4rem", lineHeight: "1.8", color: season.mainColor }}>
             「{proverb.zh}」
           </p>
 
@@ -103,17 +141,18 @@ export default function HomePage() {
                 src="/dividing-lines-1.png"
                 alt="divider"
                 style={{
-                  width: "60%",
-                  margin: "1.2rem auto",
+                  width: "50%",
+                  margin: "1.5rem auto",
                   display: "block",
-                  opacity: 0.7,
+                  opacity: 0.5,
+                  filter: "drop-shadow(0 1px 1px rgba(0,0,0,0.2))",
                 }}
               />
               <p
                 style={{
                   fontSize: "1.2rem",
                   marginTop: "0.5rem",
-                  color: "#333",
+                  color: season.subtitle,
                 }}
               >
                 {proverb.en}
@@ -122,7 +161,7 @@ export default function HomePage() {
           )}
 
           {proverb.author && (
-            <footer style={{ marginTop: "1.6rem", fontWeight: "bold" }}>
+            <footer style={{ marginTop: "1.6rem", fontWeight: "bold", color: season.mainColor }}>
               — {proverb.author}
             </footer>
           )}
@@ -131,7 +170,7 @@ export default function HomePage() {
               style={{
                 marginTop: "1.6rem",
                 fontSize: "0.9rem",
-                color: "#555",
+                color: season.subtitle,
                 fontStyle: "italic",
               }}
             >
@@ -141,7 +180,7 @@ export default function HomePage() {
         </blockquote>
       )}
 
-      {/* 📌 Debug 區塊：只有隨機模式才顯示 */}
+      {/* Debug：只在隨機模式顯示 */}
       {mode === "random" && randomInfo && (
         <div
           style={{
