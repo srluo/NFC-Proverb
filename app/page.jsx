@@ -27,6 +27,7 @@ export default function HomePage() {
         const data = await res.json();
 
         if (data.error) {
+          setProverb(null);
           setError("⚠️ 重新感應 NFC TAG");
           return;
         }
@@ -35,6 +36,7 @@ export default function HomePage() {
 
         // 📌 一般模式要檢查 RLC，隨機模式不用
         if (ts !== "00000000" && data.signature.toLowerCase() !== rlc.toLowerCase()) {
+          setProverb(null);
           setError("⚠️ 重新感應 NFC TAG");
           return;
         }
@@ -45,7 +47,9 @@ export default function HomePage() {
         }
 
         setProverb(data.proverb);
+        setError(null);
       } catch {
+        setProverb(null);
         setError("⚠️ 重新感應 NFC TAG");
       }
     }
@@ -92,8 +96,9 @@ export default function HomePage() {
           <p style={{ fontSize: "1.4rem", lineHeight: "1.8" }}>
             「{proverb.zh}」
           </p>
+
           {proverb.en && (
-              <>
+            <>
               <img
                 src="/dividing-lines-1.png"
                 alt="divider"
@@ -115,6 +120,7 @@ export default function HomePage() {
               </p>
             </>
           )}
+
           {proverb.author && (
             <footer style={{ marginTop: "1.6rem", fontWeight: "bold" }}>
               — {proverb.author}
