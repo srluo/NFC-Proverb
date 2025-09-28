@@ -48,10 +48,9 @@ export default function HomePage() {
 
       const uid = d.slice(0, 14);
       const ts = d.slice(16, 24);
-      const rlc = d.slice(24);
       const tokenKey = `token-${uid}-${ts}`;
 
-      // ✅ 只有非隨機模式才檢查 Token 是否已用過
+      // ✅ 非隨機模式 → 先檢查 Token 是否已用過
       if (ts !== "00000000" && localStorage.getItem(tokenKey)) {
         setProverb(null);
         setError("⚠️ Token 已使用過，請重新感應");
@@ -64,18 +63,11 @@ export default function HomePage() {
 
         if (data.error) {
           setProverb(null);
-          setError("⚠️ 重新感應 NFC TAG (d)");
+          setError(`⚠️ ${data.error}`);
           return;
         }
 
         setMode(data.mode || "daily");
-
-        // ✅ RLC 驗證 (隨機模式跳過)
-        if (ts !== "00000000" && data.signature.toLowerCase() !== rlc.toLowerCase()) {
-          setProverb(null);
-          setError("⚠️ 重新感應 NFC TAG (RLC)");
-          return;
-        }
 
         if (data.mode === "random" && typeof data.randomIndex !== "undefined") {
           setRandomInfo(`隨機模式抽到第 ${data.randomIndex} 筆 (${data.date})`);
@@ -87,12 +79,12 @@ export default function HomePage() {
         setProverb(data.proverb);
         setError(null);
 
-        // ✅ 只有非隨機模式才記錄 Token
+        // ✅ 非隨機模式才標記 Token 已用過
         if (ts !== "00000000") {
           localStorage.setItem(tokenKey, "used");
         }
 
-        // 📌 更新 LocalStorage Token 狀態
+        // 📌 更新 LocalStorage 狀態檢視
         const tokens = {};
         for (let i = 0; i < localStorage.length; i++) {
           const key = localStorage.key(i);
@@ -189,7 +181,6 @@ export default function HomePage() {
         </blockquote>
       )}
 
-      {/* Debug：只在隨機模式顯示 */}
       {mode === "random" && randomInfo && (
         <div
           style={{
